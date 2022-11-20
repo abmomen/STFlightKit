@@ -20,6 +20,30 @@
 		CC908DD8292368CD009E0481 /* FlightDetailsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC908DD6292368CD009E0481 /* FlightDetailsRequest.swift */; };
 		CC908DF429236A42009E0481 /* STCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC908DF329236A42009E0481 /* STCoreKit.framework */; };
 		CC908DF529236A42009E0481 /* STCoreKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC908DF329236A42009E0481 /* STCoreKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CC988964292A28C0003434CB /* FlightSearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC988963292A28C0003434CB /* FlightSearchRequest.swift */; };
+		CC988970292A2D53003434CB /* FlightAnalaytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC98896F292A2D53003434CB /* FlightAnalaytics.swift */; };
+		CC988978292A30BB003434CB /* FlightFilterData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC988977292A30BB003434CB /* FlightFilterData.swift */; };
+		CC98897B292A30DB003434CB /* FlightPriceRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC98897A292A30DB003434CB /* FlightPriceRange.swift */; };
+		CC988980292A3212003434CB /* FlightFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC98897F292A3212003434CB /* FlightFilter.swift */; };
+		CC988983292A32DE003434CB /* Airline.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC988982292A32DE003434CB /* Airline.swift */; };
+		CC988985292A335E003434CB /* FlightSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC988984292A335E003434CB /* FlightSearchResponse.swift */; };
+		CC988987292A33B0003434CB /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC988986292A33B0003434CB /* Flight.swift */; };
+		CC988989292A33EA003434CB /* FlightBasic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC988988292A33EA003434CB /* FlightBasic.swift */; };
+		CC98898B292A3417003434CB /* FlightSearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC98898A292A3417003434CB /* FlightSearchModel.swift */; };
+		CC98898D292A344F003434CB /* FlightLeg.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC98898C292A344F003434CB /* FlightLeg.swift */; };
+		CC988990292A34E8003434CB /* SSRCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC98898F292A34E8003434CB /* SSRCodes.swift */; };
+		CC988992292A350D003434CB /* FlightRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC988991292A350D003434CB /* FlightRule.swift */; };
+		CC988994292A352B003434CB /* Baggage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC988993292A352B003434CB /* Baggage.swift */; };
+		CC988996292A3553003434CB /* PassengerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC988995292A3553003434CB /* PassengerInfo.swift */; };
+		CC988998292A357F003434CB /* FlightTraveller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC988997292A357F003434CB /* FlightTraveller.swift */; };
+		CC98899A292A359F003434CB /* Traveller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC988999292A359F003434CB /* Traveller.swift */; };
+		CC98899C292A35DE003434CB /* RevalidatePrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC98899B292A35DE003434CB /* RevalidatePrice.swift */; };
+		CC98899E292A3601003434CB /* FlightPriceIndicatorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC98899D292A3601003434CB /* FlightPriceIndicatorModels.swift */; };
+		CC9889A1292A3630003434CB /* FlightPromotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9889A0292A3630003434CB /* FlightPromotions.swift */; };
+		CC9889A4292A365D003434CB /* FlightBookingHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9889A3292A365D003434CB /* FlightBookingHistory.swift */; };
+		CC9889A6292A367C003434CB /* FlightBookigData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9889A5292A367C003434CB /* FlightBookigData.swift */; };
+		CC9889B9292A3CC7003434CB /* FlightPassengerInfoValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9889B8292A3CC7003434CB /* FlightPassengerInfoValidator.swift */; };
+		CC9889D0292A4266003434CB /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9889CF292A4266003434CB /* DateExtension.swift */; };
 		CC9A6AC0292380780075264F /* FlightSortingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9A6ABF292380780075264F /* FlightSortingOptions.swift */; };
 		CCB01EEF292275A400986950 /* STFlightKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = CCB01EEE292275A400986950 /* STFlightKit.docc */; };
 		CCB01EF0292275A400986950 /* STFlightKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB01EED292275A400986950 /* STFlightKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,6 +80,30 @@
 		CC908DD5292368CD009E0481 /* FlightDetailsResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightDetailsResponse.swift; sourceTree = "<group>"; };
 		CC908DD6292368CD009E0481 /* FlightDetailsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightDetailsRequest.swift; sourceTree = "<group>"; };
 		CC908DF329236A42009E0481 /* STCoreKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = STCoreKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC988963292A28C0003434CB /* FlightSearchRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchRequest.swift; sourceTree = "<group>"; };
+		CC98896F292A2D53003434CB /* FlightAnalaytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightAnalaytics.swift; sourceTree = "<group>"; };
+		CC988977292A30BB003434CB /* FlightFilterData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightFilterData.swift; sourceTree = "<group>"; };
+		CC98897A292A30DB003434CB /* FlightPriceRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPriceRange.swift; sourceTree = "<group>"; };
+		CC98897F292A3212003434CB /* FlightFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightFilter.swift; sourceTree = "<group>"; };
+		CC988982292A32DE003434CB /* Airline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airline.swift; sourceTree = "<group>"; };
+		CC988984292A335E003434CB /* FlightSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchResponse.swift; sourceTree = "<group>"; };
+		CC988986292A33B0003434CB /* Flight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		CC988988292A33EA003434CB /* FlightBasic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightBasic.swift; sourceTree = "<group>"; };
+		CC98898A292A3417003434CB /* FlightSearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchModel.swift; sourceTree = "<group>"; };
+		CC98898C292A344F003434CB /* FlightLeg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightLeg.swift; sourceTree = "<group>"; };
+		CC98898F292A34E8003434CB /* SSRCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSRCodes.swift; sourceTree = "<group>"; };
+		CC988991292A350D003434CB /* FlightRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRule.swift; sourceTree = "<group>"; };
+		CC988993292A352B003434CB /* Baggage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baggage.swift; sourceTree = "<group>"; };
+		CC988995292A3553003434CB /* PassengerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassengerInfo.swift; sourceTree = "<group>"; };
+		CC988997292A357F003434CB /* FlightTraveller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightTraveller.swift; sourceTree = "<group>"; };
+		CC988999292A359F003434CB /* Traveller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Traveller.swift; sourceTree = "<group>"; };
+		CC98899B292A35DE003434CB /* RevalidatePrice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevalidatePrice.swift; sourceTree = "<group>"; };
+		CC98899D292A3601003434CB /* FlightPriceIndicatorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPriceIndicatorModels.swift; sourceTree = "<group>"; };
+		CC9889A0292A3630003434CB /* FlightPromotions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPromotions.swift; sourceTree = "<group>"; };
+		CC9889A3292A365D003434CB /* FlightBookingHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightBookingHistory.swift; sourceTree = "<group>"; };
+		CC9889A5292A367C003434CB /* FlightBookigData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightBookigData.swift; sourceTree = "<group>"; };
+		CC9889B8292A3CC7003434CB /* FlightPassengerInfoValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPassengerInfoValidator.swift; sourceTree = "<group>"; };
+		CC9889CF292A4266003434CB /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		CC9A6ABF292380780075264F /* FlightSortingOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSortingOptions.swift; sourceTree = "<group>"; };
 		CCB01EEA292275A400986950 /* STFlightKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STFlightKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB01EED292275A400986950 /* STFlightKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STFlightKit.h; sourceTree = "<group>"; };
@@ -103,11 +151,17 @@
 		CC908DB8292360CC009E0481 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				CCC573162929FE91007DDF9C /* Flight */,
-				CC9A6ABE292380660075264F /* Search */,
-				CC908DD4292368CD009E0481 /* Details */,
+				CC9889B7292A3CB4003434CB /* Validators */,
+				CC9889A2292A364A003434CB /* Booking History */,
+				CC98899F292A361D003434CB /* Promotions */,
 				CC908DCD292366F2009E0481 /* Covid */,
+				CC908DD4292368CD009E0481 /* Details */,
+				CC988976292A30AD003434CB /* Filter */,
+				CCC573162929FE91007DDF9C /* Flight */,
 				CC908DB92923611D009E0481 /* Insurance */,
+				CC98898E292A34C0003434CB /* Passenger */,
+				CC988979292A30D4003434CB /* Pricing */,
+				CC9A6ABE292380660075264F /* Search */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -150,10 +204,95 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CC98896E292A2D44003434CB /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				CC98896F292A2D53003434CB /* FlightAnalaytics.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		CC988976292A30AD003434CB /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				CC988977292A30BB003434CB /* FlightFilterData.swift */,
+				CC98897F292A3212003434CB /* FlightFilter.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		CC988979292A30D4003434CB /* Pricing */ = {
+			isa = PBXGroup;
+			children = (
+				CC98897A292A30DB003434CB /* FlightPriceRange.swift */,
+				CC98899B292A35DE003434CB /* RevalidatePrice.swift */,
+				CC98899D292A3601003434CB /* FlightPriceIndicatorModels.swift */,
+			);
+			path = Pricing;
+			sourceTree = "<group>";
+		};
+		CC98898E292A34C0003434CB /* Passenger */ = {
+			isa = PBXGroup;
+			children = (
+				CC98898F292A34E8003434CB /* SSRCodes.swift */,
+				CC988991292A350D003434CB /* FlightRule.swift */,
+				CC988993292A352B003434CB /* Baggage.swift */,
+				CC988995292A3553003434CB /* PassengerInfo.swift */,
+				CC988997292A357F003434CB /* FlightTraveller.swift */,
+				CC988999292A359F003434CB /* Traveller.swift */,
+			);
+			path = Passenger;
+			sourceTree = "<group>";
+		};
+		CC98899F292A361D003434CB /* Promotions */ = {
+			isa = PBXGroup;
+			children = (
+				CC9889A0292A3630003434CB /* FlightPromotions.swift */,
+			);
+			path = Promotions;
+			sourceTree = "<group>";
+		};
+		CC9889A2292A364A003434CB /* Booking History */ = {
+			isa = PBXGroup;
+			children = (
+				CC9889A3292A365D003434CB /* FlightBookingHistory.swift */,
+				CC9889A5292A367C003434CB /* FlightBookigData.swift */,
+			);
+			path = "Booking History";
+			sourceTree = "<group>";
+		};
+		CC9889B7292A3CB4003434CB /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				CC9889B8292A3CC7003434CB /* FlightPassengerInfoValidator.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
+		CC9889CD292A4248003434CB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CC9889CE292A425A003434CB /* Date */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CC9889CE292A425A003434CB /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				CC9889CF292A4266003434CB /* DateExtension.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
 		CC9A6ABE292380660075264F /* Search */ = {
 			isa = PBXGroup;
 			children = (
 				CC9A6ABF292380780075264F /* FlightSortingOptions.swift */,
+				CC988963292A28C0003434CB /* FlightSearchRequest.swift */,
+				CC988984292A335E003434CB /* FlightSearchResponse.swift */,
+				CC98898A292A3417003434CB /* FlightSearchModel.swift */,
+				CC98898C292A344F003434CB /* FlightLeg.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -179,27 +318,24 @@
 		CCB01EEC292275A400986950 /* STFlightKit */ = {
 			isa = PBXGroup;
 			children = (
-				CCC56C092929EB13007DDF9C /* APIClients */,
+				CC98896E292A2D44003434CB /* Analytics */,
+				CC9889CD292A4248003434CB /* Extension */,
 				CC908DB8292360CC009E0481 /* Models */,
 				CC908DB329236036009E0481 /* Resources */,
-				CCB01EED292275A400986950 /* STFlightKit.h */,
 				CCB01EEE292275A400986950 /* STFlightKit.docc */,
+				CCB01EED292275A400986950 /* STFlightKit.h */,
 			);
 			path = STFlightKit;
-			sourceTree = "<group>";
-		};
-		CCC56C092929EB13007DDF9C /* APIClients */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = APIClients;
 			sourceTree = "<group>";
 		};
 		CCC573162929FE91007DDF9C /* Flight */ = {
 			isa = PBXGroup;
 			children = (
-				CCC573172929FEB7007DDF9C /* FlightRouteType.swift */,
+				CC988982292A32DE003434CB /* Airline.swift */,
+				CC988986292A33B0003434CB /* Flight.swift */,
+				CC988988292A33EA003434CB /* FlightBasic.swift */,
 				CCC57319292A00F3007DDF9C /* FlightClass.swift */,
+				CCC573172929FEB7007DDF9C /* FlightRouteType.swift */,
 			);
 			path = Flight;
 			sourceTree = "<group>";
@@ -330,18 +466,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC9889B9292A3CC7003434CB /* FlightPassengerInfoValidator.swift in Sources */,
+				CC988970292A2D53003434CB /* FlightAnalaytics.swift in Sources */,
 				CCC5731A292A00F3007DDF9C /* FlightClass.swift in Sources */,
+				CC988992292A350D003434CB /* FlightRule.swift in Sources */,
 				CC908DBD2923612C009E0481 /* TravelInsuranceOptionsRowType.swift in Sources */,
+				CC9889A4292A365D003434CB /* FlightBookingHistory.swift in Sources */,
+				CC98898B292A3417003434CB /* FlightSearchModel.swift in Sources */,
 				CC9A6AC0292380780075264F /* FlightSortingOptions.swift in Sources */,
 				CC908DD7292368CD009E0481 /* FlightDetailsResponse.swift in Sources */,
+				CC988998292A357F003434CB /* FlightTraveller.swift in Sources */,
+				CC988980292A3212003434CB /* FlightFilter.swift in Sources */,
+				CC9889A1292A3630003434CB /* FlightPromotions.swift in Sources */,
+				CC988983292A32DE003434CB /* Airline.swift in Sources */,
+				CC9889D0292A4266003434CB /* DateExtension.swift in Sources */,
+				CC988989292A33EA003434CB /* FlightBasic.swift in Sources */,
+				CC988964292A28C0003434CB /* FlightSearchRequest.swift in Sources */,
 				CCB01EEF292275A400986950 /* STFlightKit.docc in Sources */,
+				CC988994292A352B003434CB /* Baggage.swift in Sources */,
 				CCC573182929FEB7007DDF9C /* FlightRouteType.swift in Sources */,
 				CC908DD8292368CD009E0481 /* FlightDetailsRequest.swift in Sources */,
 				CC908DD2292366F2009E0481 /* Covid19TestOptions.swift in Sources */,
+				CC988985292A335E003434CB /* FlightSearchResponse.swift in Sources */,
+				CC9889A6292A367C003434CB /* FlightBookigData.swift in Sources */,
+				CC988987292A33B0003434CB /* Flight.swift in Sources */,
+				CC98898D292A344F003434CB /* FlightLeg.swift in Sources */,
 				CC908DBF2923612C009E0481 /* TravelInsuranceServiceDetailResponse.swift in Sources */,
+				CC988978292A30BB003434CB /* FlightFilterData.swift in Sources */,
+				CC98899A292A359F003434CB /* Traveller.swift in Sources */,
 				CC908DD1292366F2009E0481 /* Covid19TestOptionsRowType.swift in Sources */,
 				CC908DBE2923612C009E0481 /* TravelInsuranceAddonServiceResponse.swift in Sources */,
+				CC988996292A3553003434CB /* PassengerInfo.swift in Sources */,
+				CC98899E292A3601003434CB /* FlightPriceIndicatorModels.swift in Sources */,
 				CC908DD3292366F2009E0481 /* CovidTestCenterDetailsResponse.swift in Sources */,
+				CC98897B292A30DB003434CB /* FlightPriceRange.swift in Sources */,
+				CC98899C292A35DE003434CB /* RevalidatePrice.swift in Sources */,
+				CC988990292A34E8003434CB /* SSRCodes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
