@@ -22,6 +22,8 @@
 		CC9A6AC0292380780075264F /* FlightSortingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9A6ABF292380780075264F /* FlightSortingOptions.swift */; };
 		CCB01EEF292275A400986950 /* STFlightKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = CCB01EEE292275A400986950 /* STFlightKit.docc */; };
 		CCB01EF0292275A400986950 /* STFlightKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB01EED292275A400986950 /* STFlightKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCC573182929FEB7007DDF9C /* FlightRouteType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC573172929FEB7007DDF9C /* FlightRouteType.swift */; };
+		CCC5731A292A00F3007DDF9C /* FlightClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC57319292A00F3007DDF9C /* FlightClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,6 +56,8 @@
 		CCB01EEA292275A400986950 /* STFlightKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STFlightKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB01EED292275A400986950 /* STFlightKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STFlightKit.h; sourceTree = "<group>"; };
 		CCB01EEE292275A400986950 /* STFlightKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = STFlightKit.docc; sourceTree = "<group>"; };
+		CCC573172929FEB7007DDF9C /* FlightRouteType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRouteType.swift; sourceTree = "<group>"; };
+		CCC57319292A00F3007DDF9C /* FlightClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 		CC908DB8292360CC009E0481 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CCC573162929FE91007DDF9C /* Flight */,
 				CC9A6ABE292380660075264F /* Search */,
 				CC908DD4292368CD009E0481 /* Details */,
 				CC908DCD292366F2009E0481 /* Covid */,
@@ -169,6 +174,15 @@
 			path = APIClients;
 			sourceTree = "<group>";
 		};
+		CCC573162929FE91007DDF9C /* Flight */ = {
+			isa = PBXGroup;
+			children = (
+				CCC573172929FEB7007DDF9C /* FlightRouteType.swift */,
+				CCC57319292A00F3007DDF9C /* FlightClass.swift */,
+			);
+			path = Flight;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -255,10 +269,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC5731A292A00F3007DDF9C /* FlightClass.swift in Sources */,
 				CC908DBD2923612C009E0481 /* TravelInsuranceOptionsRowType.swift in Sources */,
 				CC9A6AC0292380780075264F /* FlightSortingOptions.swift in Sources */,
 				CC908DD7292368CD009E0481 /* FlightDetailsResponse.swift in Sources */,
 				CCB01EEF292275A400986950 /* STFlightKit.docc in Sources */,
+				CCC573182929FEB7007DDF9C /* FlightRouteType.swift in Sources */,
 				CC908DD8292368CD009E0481 /* FlightDetailsRequest.swift in Sources */,
 				CC908DD2292366F2009E0481 /* Covid19TestOptions.swift in Sources */,
 				CC908DBF2923612C009E0481 /* TravelInsuranceServiceDetailResponse.swift in Sources */,
