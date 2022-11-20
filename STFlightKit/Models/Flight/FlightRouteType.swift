@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Alamofire
 
 public enum FlightRouteType: String, Codable, CaseIterable {
     case round     = "Return"
