@@ -153,12 +153,20 @@
 		CCB01EEC292275A400986950 /* STFlightKit */ = {
 			isa = PBXGroup;
 			children = (
+				CCC56C092929EB13007DDF9C /* APIClients */,
 				CC908DB8292360CC009E0481 /* Models */,
 				CC908DB329236036009E0481 /* Resources */,
 				CCB01EED292275A400986950 /* STFlightKit.h */,
 				CCB01EEE292275A400986950 /* STFlightKit.docc */,
 			);
 			path = STFlightKit;
+			sourceTree = "<group>";
+		};
+		CCC56C092929EB13007DDF9C /* APIClients */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APIClients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
