@@ -27,8 +27,8 @@ public class FlightFilter: Codable {
     }
     
     public struct IsRefundable: Codable {
-        let key: String
-        let value: Int
+        public let key: String
+        public let value: Int
     }
 }
 

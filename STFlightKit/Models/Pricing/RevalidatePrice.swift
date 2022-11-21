@@ -19,6 +19,12 @@ public struct FlightRevalidationRequest: Codable {
         params["sequenceCode"] = sequenceCode
         return params
     }
+    
+    public init(searchId: String, sequenceCode: String, sessionId: String) {
+        self.searchId = searchId
+        self.sequenceCode = sequenceCode
+        self.sessionId = sessionId
+    }
 }
 
 // MARK: - Response

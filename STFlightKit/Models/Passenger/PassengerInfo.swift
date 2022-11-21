@@ -256,4 +256,11 @@ public struct PassengersAdditionalReq {
     public var travelInsuranceSubtitle = ""
     public var selectedTravelInsuranceCode = ""
     public var selectedTravelInsuranceCodeOption: TravelInsuranceOption? = nil
+    
+    public init() { }
+
+    public init(selectedWheelChairOption: String?, selectedMealPreferenceOption: String) {
+        self.selectedWheelChairOption = selectedWheelChairOption ?? ""
+        self.selectedMealPreferenceOption = selectedMealPreferenceOption
+    }
 }
