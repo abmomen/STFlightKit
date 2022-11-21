@@ -8,10 +8,10 @@
 import Foundation
 
 // MARK: - FlightRuleResponse
-class FlightRuleResponse: Codable {
-    let refundPolicies: [RefundPolicy?]?
-    let baggages: [FlightBaggage]?
-    let fareDetails: String?
+public class FlightRuleResponse: Codable {
+    public let refundPolicies: [RefundPolicy?]?
+    public let baggages: [FlightBaggage]?
+    public let fareDetails: String?
     
     enum CodingKeys: String, CodingKey {
         case refundPolicies = "airFareRules"
@@ -20,20 +20,19 @@ class FlightRuleResponse: Codable {
 }
 
 // MARK: - RefundPolicy/AirFareRule
-class RefundPolicy: Codable {
-    let type: String
-    let rules: [RefundPolicyRule]
+public class RefundPolicy: Codable {
+    public let type: String
+    public let rules: [RefundPolicyRule]
 }
 
 // MARK: - RefundPolicyRule
-class RefundPolicyRule: Codable {
-//    let code: Int
-    let type, text: String
+public class RefundPolicyRule: Codable {
+    public let type, text: String
 }
 
 // MARK: - Baggage
-class FlightBaggage: Codable {
-    let type: String
-    let adult: String?
-    let child, infant: String?
+public class FlightBaggage: Codable {
+    public let type: String
+    public let adult: String?
+    public let child, infant: String?
 }

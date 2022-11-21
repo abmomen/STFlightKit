@@ -7,14 +7,14 @@
 
 import Foundation
 
-struct FlightSearchResponse: Codable {
-    let totalRecords: Int
-    let searchId, sessionId: String
-    let flightRouteType: FlightRouteType
-    let flightClass: FlightClass
-    let flights: [Flight]
-    var filters: FlightFilter
-    var filterDeal: FlightSortingOptions?
+public struct FlightSearchResponse: Codable {
+    public let totalRecords: Int
+    public let searchId, sessionId: String
+    public let flightRouteType: FlightRouteType
+    public let flightClass: FlightClass
+    public let flights: [Flight]
+    public var filters: FlightFilter
+    public var filterDeal: FlightSortingOptions?
     
     enum CodingKeys: String, CodingKey {
         case totalRecords, searchId, sessionId, filters, flights
@@ -24,23 +24,23 @@ struct FlightSearchResponse: Codable {
     }
 }
 
-class PlaneCabin: Codable {
-    let code, name: String
+public class PlaneCabin: Codable {
+    public let code, name: String
 }
 
-class TimeSlot: Codable {
-    let key, value: String
+public class TimeSlot: Codable {
+    public let key, value: String
 }
 
-class FlightStoppage: Codable {
-    let id: Int
-    let name: String
+public class FlightStoppage: Codable {
+    public let id: Int
+    public let name: String
 }
 
-class FlightWeight: Codable {
-    let key, weight: Int
-    let unit: String
-    let note: String
+public class FlightWeight: Codable {
+    public let key, weight: Int
+    public let unit: String
+    public let note: String
 }
 
 public class FlightLeg: Codable {

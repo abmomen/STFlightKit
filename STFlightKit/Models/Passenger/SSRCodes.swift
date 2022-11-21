@@ -8,12 +8,12 @@
 import Foundation
 
 // MARK: - Response
-struct SSRType: Codable {
-    let type: String
-    let ssr: [SSR]
+public struct SSRType: Codable {
+    public let type: String
+    public let ssr: [SSR]
 }
 
 // MARK: - SSR
-struct SSR: Codable {
-    let code, name: String
+public struct SSR: Codable {
+    public let code, name: String
 }

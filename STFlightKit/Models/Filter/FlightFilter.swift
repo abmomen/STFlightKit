@@ -7,16 +7,16 @@
 
 import Foundation
 
-class FlightFilter: Codable {
-    let airlines: [Airline]
-    let price: FlightPriceRange
-    let stoppages: [FlightStoppage]
-    let origin, destination, layover: [Airport]
-    let weight: [FlightWeight]
-    let departTimeSlot: [TimeSlot]
-    let returnTimeSlot: [TimeSlot]?
-    let refundable: Int?
-    let isRefundable: [IsRefundable]?
+public class FlightFilter: Codable {
+    public let airlines: [Airline]
+    public let price: FlightPriceRange
+    public let stoppages: [FlightStoppage]
+    public let origin, destination, layover: [Airport]
+    public let weight: [FlightWeight]
+    public let departTimeSlot: [TimeSlot]
+    public let returnTimeSlot: [TimeSlot]?
+    public let refundable: Int?
+    public let isRefundable: [IsRefundable]?
 
     enum CodingKeys: String, CodingKey {
         case price, airlines, origin, destination, layover, weight, refundable
@@ -26,13 +26,13 @@ class FlightFilter: Codable {
         case isRefundable
     }
     
-    struct IsRefundable: Codable {
+    public struct IsRefundable: Codable {
         let key: String
         let value: Int
     }
 }
 
-enum FlightFilterType: Int, CaseIterable {
+public enum FlightFilterType: Int, CaseIterable {
     case reset
     case priceRange
     case refundble
@@ -42,7 +42,7 @@ enum FlightFilterType: Int, CaseIterable {
     case layover
     case weight
     
-    var title: String {
+    public var title: String {
         switch self {
         case .reset:
             return "Sort & Filter"
@@ -63,7 +63,7 @@ enum FlightFilterType: Int, CaseIterable {
         }
     }
     
-    var subTitle: String {
+    public var subTitle: String {
         switch self {
         case .priceRange:
             return "10,000 - 500,000"
@@ -72,7 +72,7 @@ enum FlightFilterType: Int, CaseIterable {
         }
     }
     
-    var rowCount: Int {
+    public var rowCount: Int {
         switch self {
         case .reset, .priceRange:
             return 1
@@ -82,12 +82,12 @@ enum FlightFilterType: Int, CaseIterable {
     }
 }
 
-enum ScheduleCellType {
+public enum ScheduleCellType {
     case title(text: String)
     case departTimeSlot(key: String, value: String)
     case returnTimeSlot(key: String, value: String)
     
-    var timeSlotKey: String? {
+    public var timeSlotKey: String? {
         switch self {
         case .title:
             return nil
@@ -96,7 +96,7 @@ enum ScheduleCellType {
         }
     }
     
-    func equalType(with scheduleCellType: ScheduleCellType) -> Bool {
+    public func equalType(with scheduleCellType: ScheduleCellType) -> Bool {
         switch (self, scheduleCellType) {
         case ( .departTimeSlot(_, _), .departTimeSlot(_, _)):
             return true
@@ -108,24 +108,24 @@ enum ScheduleCellType {
     }
 }
 
-class FlightSearchFilter: Encodable {
-    let page: Int
-    let searchId: String
-    let filter: FlightFilterData?
+public class FlightSearchFilter: Encodable {
+    public let page: Int
+    public let searchId: String
+    public let filter: FlightFilterData?
     
-    init(page: Int, searchId: String, filter: FlightFilterData?) {
+    public init(page: Int, searchId: String, filter: FlightFilterData?) {
         self.page = page
         self.searchId = searchId
         self.filter = filter
     }
     
-    enum CodingKeys: String, CodingKey {
+    public enum CodingKeys: String, CodingKey {
         case page
         case searchId
         case filter
     }
     
-    func encode(to encoder: Encoder) throws {
+    public func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
         
         try? container.encode(page, forKey: .page)

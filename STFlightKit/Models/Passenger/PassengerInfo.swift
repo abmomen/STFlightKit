@@ -247,13 +247,13 @@ public extension PassengerInfo {
 }
 
 public struct PassengersAdditionalReq {
-    var selectedWheelChairOption = ""
-    var selectedMealPreferenceOption = ""
-    var selectedCovid19Testcode = ""
-    var selectedCovid19TestOption: CovidTestOptions? = nil
-    var covid19TestSubtitle = ""
-    var covid19TestAddress = ""
-    var travelInsuranceSubtitle = ""
-    var selectedTravelInsuranceCode = ""
-    var selectedTravelInsuranceCodeOption: TravelInsuranceOption? = nil
+    public var selectedWheelChairOption = ""
+    public var selectedMealPreferenceOption = ""
+    public var selectedCovid19Testcode = ""
+    public var selectedCovid19TestOption: CovidTestOptions? = nil
+    public var covid19TestSubtitle = ""
+    public var covid19TestAddress = ""
+    public var travelInsuranceSubtitle = ""
+    public var selectedTravelInsuranceCode = ""
+    public var selectedTravelInsuranceCodeOption: TravelInsuranceOption? = nil
 }

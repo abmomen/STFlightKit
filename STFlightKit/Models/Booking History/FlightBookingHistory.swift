@@ -35,8 +35,8 @@ public enum PaymentStatus: String, Codable {
 }
 
 public struct FlightBookingHistoryResponse: Codable {
-    let data: [FlightBookingHistory]?
-    let offset, count, limit: Int
+    public let data: [FlightBookingHistory]?
+    public let offset, count, limit: Int
 }
 
 public class FlightBookingHistory: Codable {

@@ -10,15 +10,15 @@ import Alamofire
 import STCoreKit
 
 public struct FlightSearchRequest {
-    let flightRouteType: FlightRouteType
-    let flightClass: FlightClass
-    let adult: Int
-    let child: Int
-    let childDobs: [String]
-    let infant: Int
-    let origins: [String]
-    let destinations: [String]
-    let departDates: [Date]
+    public let flightRouteType: FlightRouteType
+    public let flightClass: FlightClass
+    public let adult: Int
+    public let child: Int
+    public let childDobs: [String]
+    public let infant: Int
+    public let origins: [String]
+    public let destinations: [String]
+    public let departDates: [Date]
     
     public init?(
         routeType: FlightRouteType,

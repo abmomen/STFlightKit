@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum FlightSearchCellOption {
+public enum FlightSearchCellOption {
     case routeType
     case airport
     case date
@@ -18,13 +18,13 @@ enum FlightSearchCellOption {
     case promotionalImage
 }
 
-struct FlightSearchInfo {
-    let departure: Airport?
-    let arrival: Airport?
-    let date: Date?
+public struct FlightSearchInfo {
+    public let departure: Airport?
+    public let arrival: Airport?
+    public let date: Date?
 }
 
-enum FlightScheduledType: Int {
+public enum FlightScheduledType: Int {
     case departure
     case arrival
 }

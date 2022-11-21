@@ -7,16 +7,16 @@
 
 import Foundation
 
-struct FlightFilterData: Encodable {
-    var price: FlightPriceRange?
-    var airlines: [String]?
-    var stoppage: [Int]?
-    var layover: [String]?
-    var weight: [Int]?
-    var departTimeSlot: String?
-    var returnTimeSlot: String?
-    var isRefundable: [Int]?
-    var sort: String?
+public struct FlightFilterData: Encodable {
+    public var price: FlightPriceRange?
+    public var airlines: [String]?
+    public var stoppage: [Int]?
+    public var layover: [String]?
+    public var weight: [Int]?
+    public var departTimeSlot: String?
+    public var returnTimeSlot: String?
+    public var isRefundable: [Int]?
+    public var sort: String?
     
     enum CodingKeys: String, CodingKey {
         case price, airlines, layover, weight, isRefundable, sort
@@ -24,8 +24,14 @@ struct FlightFilterData: Encodable {
         case returnTimeSlot = "return"
         case stoppage = "stops"
     }
+    
+    public init() { }
+    
+    public init(airlines: [String]?) {
+        self.airlines = airlines
+    }
 
-    func encode(to encoder: Encoder) throws {
+    public func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
         
         try? container.encodeIfPresent(price, forKey: .price)
@@ -39,11 +45,11 @@ struct FlightFilterData: Encodable {
         try? container.encodeIfPresent(sort, forKey: .sort)
     }
     
-    func hasAtleastOneFilter() -> Bool {
+    public func hasAtleastOneFilter() -> Bool {
         return (price != nil || airlines != nil || stoppage != nil || layover != nil || weight != nil || departTimeSlot != nil || returnTimeSlot != nil || isRefundable != nil || sort != nil)
     }
     
-    mutating func reset() {
+    public mutating func reset() {
         price = nil
         airlines = nil
         stoppage = nil

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct FlightPromotions: Codable {
-    let uid: String?
-    let image: String?
+public struct FlightPromotions: Codable {
+    public let uid: String?
+    public let image: String?
 }
