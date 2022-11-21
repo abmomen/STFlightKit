@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D137B5B8EF3D9477DD7D235 /* Pods_ShareTrip_STFlightKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C01CFD9142AE4B2524D9C1 /* Pods_ShareTrip_STFlightKit.framework */; };
+		3C787135D696DA8273F8B94E /* Pods_STFlightKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C112C1315B7E4021B591AAE /* Pods_STFlightKit.framework */; };
 		CC908DB62923604B009E0481 /* BaggageResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = CC908DB42923604B009E0481 /* BaggageResponse.json */; };
 		CC908DB72923604B009E0481 /* Covid19Test.json in Resources */ = {isa = PBXBuildFile; fileRef = CC908DB52923604B009E0481 /* Covid19Test.json */; };
 		CC908DBD2923612C009E0481 /* TravelInsuranceOptionsRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC908DBA2923612C009E0481 /* TravelInsuranceOptionsRowType.swift */; };
@@ -68,7 +68,8 @@
 /* Begin PBXFileReference section */
 		06B874E701DC8D1F56F514DE /* Pods-ShareTrip-STFlightKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareTrip-STFlightKit.release.xcconfig"; path = "../STB2C-iOS/Pods/Target Support Files/Pods-ShareTrip-STFlightKit/Pods-ShareTrip-STFlightKit.release.xcconfig"; sourceTree = "<group>"; };
 		4049EF4710F19FA177F70BC2 /* Pods-ShareTrip-STFlightKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareTrip-STFlightKit.debug.xcconfig"; path = "../STB2C-iOS/Pods/Target Support Files/Pods-ShareTrip-STFlightKit/Pods-ShareTrip-STFlightKit.debug.xcconfig"; sourceTree = "<group>"; };
-		5BE7B3A131157EE073BCA10A /* Pods-STFlightKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit.debug.xcconfig"; path = "Target Support Files/Pods-STFlightKit/Pods-STFlightKit.debug.xcconfig"; sourceTree = "<group>"; };
+		5BE7B3A131157EE073BCA10A /* Pods-STFlightKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit.debug.xcconfig"; path = "../STB2C-iOS/Pods/Target Support Files/Pods-STFlightKit/Pods-STFlightKit.debug.xcconfig"; sourceTree = "<group>"; };
+		8C112C1315B7E4021B591AAE /* Pods_STFlightKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STFlightKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC908DB42923604B009E0481 /* BaggageResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BaggageResponse.json; sourceTree = "<group>"; };
 		CC908DB52923604B009E0481 /* Covid19Test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Covid19Test.json; sourceTree = "<group>"; };
 		CC908DBA2923612C009E0481 /* TravelInsuranceOptionsRowType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelInsuranceOptionsRowType.swift; sourceTree = "<group>"; };
@@ -110,8 +111,7 @@
 		CCB01EEE292275A400986950 /* STFlightKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = STFlightKit.docc; sourceTree = "<group>"; };
 		CCC573172929FEB7007DDF9C /* FlightRouteType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRouteType.swift; sourceTree = "<group>"; };
 		CCC57319292A00F3007DDF9C /* FlightClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightClass.swift; sourceTree = "<group>"; };
-		DE83EDE5BB45CE768A11E57B /* Pods-STFlightKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit.release.xcconfig"; path = "Target Support Files/Pods-STFlightKit/Pods-STFlightKit.release.xcconfig"; sourceTree = "<group>"; };
-		E7C01CFD9142AE4B2524D9C1 /* Pods_ShareTrip_STFlightKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareTrip_STFlightKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE83EDE5BB45CE768A11E57B /* Pods-STFlightKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit.release.xcconfig"; path = "../STB2C-iOS/Pods/Target Support Files/Pods-STFlightKit/Pods-STFlightKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +120,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC908DF429236A42009E0481 /* STCoreKit.framework in Frameworks */,
-				7D137B5B8EF3D9477DD7D235 /* Pods_ShareTrip_STFlightKit.framework in Frameworks */,
+				3C787135D696DA8273F8B94E /* Pods_STFlightKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				CC908DF329236A42009E0481 /* STCoreKit.framework */,
-				E7C01CFD9142AE4B2524D9C1 /* Pods_ShareTrip_STFlightKit.framework */,
+				8C112C1315B7E4021B591AAE /* Pods_STFlightKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -364,7 +364,6 @@
 				CCB01EE7292275A400986950 /* Frameworks */,
 				CCB01EE8292275A400986950 /* Resources */,
 				CC908DF629236A42009E0481 /* Embed Frameworks */,
-				03CBAC6E5630F3F295A1AAC0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -420,23 +419,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		03CBAC6E5630F3F295A1AAC0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ShareTrip-STFlightKit/Pods-ShareTrip-STFlightKit-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ShareTrip-STFlightKit/Pods-ShareTrip-STFlightKit-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ShareTrip-STFlightKit/Pods-ShareTrip-STFlightKit-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9736F3DD66ED680BD656086C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -452,7 +434,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ShareTrip-STFlightKit-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-STFlightKit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -630,7 +612,7 @@
 		};
 		CCB01EF4292275A400986950 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4049EF4710F19FA177F70BC2 /* Pods-ShareTrip-STFlightKit.debug.xcconfig */;
+			baseConfigurationReference = 5BE7B3A131157EE073BCA10A /* Pods-STFlightKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -663,7 +645,7 @@
 		};
 		CCB01EF5292275A400986950 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06B874E701DC8D1F56F514DE /* Pods-ShareTrip-STFlightKit.release.xcconfig */;
+			baseConfigurationReference = DE83EDE5BB45CE768A11E57B /* Pods-STFlightKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
