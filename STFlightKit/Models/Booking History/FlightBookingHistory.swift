@@ -7,7 +7,7 @@
 
 import STCoreKit
 
-enum FlightBookingStatus: String, Codable {
+public enum FlightBookingStatus: String, Codable {
     case pending = "Pending"
     case booked = "Booked"
     case issued = "Issued"
@@ -15,18 +15,18 @@ enum FlightBookingStatus: String, Codable {
     case canceled = "Cancelled"
     case completed = "Completed"
     
-    init(from decoder: Decoder) throws {
+    public init(from decoder: Decoder) throws {
         let stringValue = try decoder.singleValueContainer().decode(String.self)
         let capitalizedValue = stringValue.capitalized
         self = FlightBookingStatus(rawValue: capitalizedValue) ?? .pending
     }
 }
 
-enum PaymentStatus: String, Codable {
+public enum PaymentStatus: String, Codable {
     case unpaid = "Unpaid"
     case paid = "Paid"
     
-    init(from decoder: Decoder) throws {
+    public init(from decoder: Decoder) throws {
         let stringValue = try decoder.singleValueContainer().decode(String.self)
         let capitalizedValue = stringValue.capitalized
         //self = PaymentStatus(rawValue: capitalizedValue) ?? .unknown
@@ -34,58 +34,57 @@ enum PaymentStatus: String, Codable {
     }
 }
 
-struct FlightBookingHistoryResponse: Codable {
+public struct FlightBookingHistoryResponse: Codable {
     let data: [FlightBookingHistory]?
     let offset, count, limit: Int
 }
 
-class FlightBookingHistory: Codable {
-    let actualAmount: Double?
-    let airFareRules: [AirFareRule]
-    let airlineResCode: String?
-    let baggageInfo: [BaggageInfo]?
-    
-    let bookingCode: String?
-    let searchId: String?
-    let bookingCurrency: String
-    let bookingStatus: FlightBookingStatus
+public class FlightBookingHistory: Codable {
+    public let actualAmount: Double?
+    public let airFareRules: [AirFareRule]
+    public let airlineResCode: String?
+    public let baggageInfo: [BaggageInfo]?
+    public let bookingCode: String?
+    public let searchId: String?
+    public let bookingCurrency: String
+    public let bookingStatus: FlightBookingStatus
 
-    let eTicket: String?
-    let flight: [FlightRouteInfo]
-    let gatewayAmount: Double?
+    public let eTicket: String?
+    public let flight: [FlightRouteInfo]
+    public let gatewayAmount: Double?
     
-    let gatewayCurrency: String?
-    let paymentStatus: PaymentStatus
-    let pnrCode: String?
+    public let gatewayCurrency: String?
+    public let paymentStatus: PaymentStatus
+    public let pnrCode: String?
 
-    var priceBreakdown: FlightPriceBreakdown
-    let covidAmount: Double?
-    let travelInsuranceAmount: Double?
+    public var priceBreakdown: FlightPriceBreakdown
+    public let covidAmount: Double?
+    public let travelInsuranceAmount: Double?
     
-    let searchParams: FlightSearchParams
-    let searchParamDetails: [FlightSearchParamDetail]
+    public let searchParams: FlightSearchParams
+    public let searchParamDetails: [FlightSearchParamDetail]
     
-    let segments: [FlightSegment]
-    let points: Point
-    let travellers: [TravellerInfo]
+    public let segments: [FlightSegment]
+    public let points: Point
+    public let travellers: [TravellerInfo]
     
-    let luggageAmount: Double?
-    let advanceIncomeTax: Double?
-    let baggage: Baggage?
-    let convenienceFee: Double?
+    public let luggageAmount: Double?
+    public let advanceIncomeTax: Double?
+    public let baggage: Baggage?
+    public let convenienceFee: Double?
     
-    let isModified: Bool?
-    let isVoidable: Bool?
-    let isRefundable: Bool?
-    let isReissueable: Bool?
-    let modifyHistory: [ModifyHistory]?
+    public let isModified: Bool?
+    public let isVoidable: Bool?
+    public let isRefundable: Bool?
+    public let isReissueable: Bool?
+    public let modifyHistory: [ModifyHistory]?
 }
 
-struct ModifyHistory: Codable {
-    let modificationType, refundSearchID, bookingCode, automationType: String?
-    let eTickets: String?
-    let airlineRefundCharge, stFee, totalFee, purchasePrice: Int?
-    let totalRefundAmount: Int?
+public struct ModifyHistory: Codable {
+    public let modificationType, refundSearchID, bookingCode, automationType: String?
+    public let eTickets: String?
+    public let airlineRefundCharge, stFee, totalFee, purchasePrice: Int?
+    public let totalRefundAmount: Int?
     
     enum CodingKeys: String, CodingKey {
         case modificationType
@@ -95,97 +94,97 @@ struct ModifyHistory: Codable {
 }
 
 //MARK:- Baggage
-struct Baggage: Codable {
-    let basic: [AirportDetail]?
-    let extra: [ExtraBaggageDetail]?
+public struct Baggage: Codable {
+    public let basic: [AirportDetail]?
+    public let extra: [ExtraBaggageDetail]?
 }
 
-struct AirportDetail: Codable {
-    let origin: AirportDetailInfo?
-    let destination: AirportDetailInfo?
-    let baggage: [BaggageDetail]?
+public struct AirportDetail: Codable {
+    public let origin: AirportDetailInfo?
+    public let destination: AirportDetailInfo?
+    public let baggage: [BaggageDetail]?
 }
 
-struct AirportDetailInfo: Codable {
-    let code: String?
-    let country: String?
-    let city: String?
-    let airport: String?
+public struct AirportDetailInfo: Codable {
+    public let code: String?
+    public let country: String?
+    public let city: String?
+    public let airport: String?
 }
 
-struct BaggageDetail: Codable {
-    let weight: Double?
-    let name: String?
-    let unit: String?
-    let type: String?
+public struct BaggageDetail: Codable {
+    public let weight: Double?
+    public let name: String?
+    public let unit: String?
+    public let type: String?
 }
 
-struct ExtraBaggageDetail: Codable {
-    let route: String?
-    let details: [ExtraBaggageDetailInfo]?
+public struct ExtraBaggageDetail: Codable {
+    public let route: String?
+    public let details: [ExtraBaggageDetailInfo]?
 }
 
-struct ExtraBaggageDetailInfo: Codable {
-    let currency: String?
-    let weight: String?
-    let name: String?
-    let price: Double?
+public struct ExtraBaggageDetailInfo: Codable {
+    public let currency: String?
+    public let weight: String?
+    public let name: String?
+    public let price: Double?
 }
 
-class BaggageInfo: Codable {
-    let type: String
-    let adult: String?
-    let child: String?
-    let infant: String?
+public class BaggageInfo: Codable {
+    public let type: String
+    public let adult: String?
+    public let child: String?
+    public let infant: String?
 }
 
 //MARK:- airFareRules
-class AirFareRule: Codable {
-    let destination: String
-    let destinationCode: String
-    let origin: String
-    let originCode: String
-    let policy: AirFarePolicy
+public class AirFareRule: Codable {
+    public let destination: String
+    public let destinationCode: String
+    public let origin: String
+    public let originCode: String
+    public let policy: AirFarePolicy
 }
 
-class AirFarePolicy: Codable {
-    let header: [PolicyNote]
-    let rules: [PolicyNote]
+public class AirFarePolicy: Codable {
+    public let header: [PolicyNote]
+    public let rules: [PolicyNote]
 }
 
-class PolicyNote: Codable {
-    let code: Int?
-    let text: String
-    let type: String
+public class PolicyNote: Codable {
+    public let code: Int?
+    public let text: String
+    public let type: String
 }
 
 //MARK:- flight
-class FlightRouteInfo: Codable {
-    let departureDateTime: DateTime
-    let destinationName: AirportInfo?
-    let originName: AirportInfo?
+public class FlightRouteInfo: Codable {
+    public let departureDateTime: DateTime
+    public let destinationName: AirportInfo?
+    public let originName: AirportInfo?
 }
 
-class FlightSearchParamDetail: Codable {
-    let departureDateTime: String
-    let destination: String
-    let origin: String
-    let sequence: Int
+public class FlightSearchParamDetail: Codable {
+    public let departureDateTime: String
+    public let destination: String
+    public let origin: String
+    public let sequence: Int
 }
 
-class FlightSearchParams: Codable {
-    let tripType: TripType
-    let adult: Int?
-    let airlines: String?
-    let child: Int?
-    let classType: String?
-    let currency: String?
-    let deviceType: String?
-    let flightType: String?
-    let infant: Int?
-    let nextLink: String?
-    let preferredAirlines: String?
-    let stop: String?
+public class FlightSearchParams: Codable {
+    public let tripType: TripType
+    public let adult: Int?
+    public let airlines: String?
+    public let child: Int?
+    public let classType: String?
+    public let currency: String?
+    public let deviceType: String?
+    public let flightType: String?
+    public let infant: Int?
+    public let nextLink: String?
+    public let preferredAirlines: String?
+    public let stop: String?
     
     enum CodingKeys: String, CodingKey {
         case adult
