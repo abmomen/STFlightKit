@@ -43,6 +43,8 @@ public class FlightWeight: Codable {
     public let note: String
 }
 
+import STCoreKit
+
 public class FlightLeg: Codable {
     public let searchCode, sequenceCode: String
     public let airlines: AirlineInfo

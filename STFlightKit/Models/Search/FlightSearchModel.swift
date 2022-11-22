@@ -5,7 +5,7 @@
 //  Created by ST-iOS on 11/20/22.
 //
 
-import Foundation
+import STCoreKit
 
 public enum FlightSearchCellOption {
     case routeType
