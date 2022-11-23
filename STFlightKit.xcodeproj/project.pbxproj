@@ -10,6 +10,9 @@
 		7E85027A71582405BAFAF54F /* Pods_ShareTrip_STFlightKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63712F9836923DDB983B1E65 /* Pods_ShareTrip_STFlightKit.framework */; };
 		CC2FF716292CBE77003DE1EE /* FlightAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2FF715292CBE77003DE1EE /* FlightAPIClient.swift */; };
 		CC2FF718292CBEA0003DE1EE /* FlightAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2FF717292CBEA0003DE1EE /* FlightAPIRouter.swift */; };
+		CC2FF8C4292CD85C003DE1EE /* FlightDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2FF8C3292CD85C003DE1EE /* FlightDetailsViewModel.swift */; };
+		CC2FF8CB292CDC12003DE1EE /* FlightsRequiredData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2FF8CA292CDC12003DE1EE /* FlightsRequiredData.swift */; };
+		CC2FF8CE292CDC89003DE1EE /* BaggageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2FF8CD292CDC89003DE1EE /* BaggageViewModel.swift */; };
 		CC908DB62923604B009E0481 /* BaggageResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = CC908DB42923604B009E0481 /* BaggageResponse.json */; };
 		CC908DB72923604B009E0481 /* Covid19Test.json in Resources */ = {isa = PBXBuildFile; fileRef = CC908DB52923604B009E0481 /* Covid19Test.json */; };
 		CC908DBD2923612C009E0481 /* TravelInsuranceOptionsRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC908DBA2923612C009E0481 /* TravelInsuranceOptionsRowType.swift */; };
@@ -74,6 +77,9 @@
 		63712F9836923DDB983B1E65 /* Pods_ShareTrip_STFlightKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareTrip_STFlightKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC2FF715292CBE77003DE1EE /* FlightAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightAPIClient.swift; sourceTree = "<group>"; };
 		CC2FF717292CBEA0003DE1EE /* FlightAPIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightAPIRouter.swift; sourceTree = "<group>"; };
+		CC2FF8C3292CD85C003DE1EE /* FlightDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailsViewModel.swift; sourceTree = "<group>"; };
+		CC2FF8CA292CDC12003DE1EE /* FlightsRequiredData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsRequiredData.swift; sourceTree = "<group>"; };
+		CC2FF8CD292CDC89003DE1EE /* BaggageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaggageViewModel.swift; sourceTree = "<group>"; };
 		CC908DB42923604B009E0481 /* BaggageResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BaggageResponse.json; sourceTree = "<group>"; };
 		CC908DB52923604B009E0481 /* Covid19Test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Covid19Test.json; sourceTree = "<group>"; };
 		CC908DBA2923612C009E0481 /* TravelInsuranceOptionsRowType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelInsuranceOptionsRowType.swift; sourceTree = "<group>"; };
@@ -150,6 +156,31 @@
 				CC2FF717292CBEA0003DE1EE /* FlightAPIRouter.swift */,
 			);
 			path = APIClient;
+			sourceTree = "<group>";
+		};
+		CC2FF8C1292CD820003DE1EE /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC2FF8CC292CDC77003DE1EE /* Baggage */,
+				CC2FF8C2292CD83A003DE1EE /* Flight */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		CC2FF8C2292CD83A003DE1EE /* Flight */ = {
+			isa = PBXGroup;
+			children = (
+				CC2FF8C3292CD85C003DE1EE /* FlightDetailsViewModel.swift */,
+			);
+			path = Flight;
+			sourceTree = "<group>";
+		};
+		CC2FF8CC292CDC77003DE1EE /* Baggage */ = {
+			isa = PBXGroup;
+			children = (
+				CC2FF8CD292CDC89003DE1EE /* BaggageViewModel.swift */,
+			);
+			path = Baggage;
 			sourceTree = "<group>";
 		};
 		CC908DB329236036009E0481 /* Resources */ = {
@@ -331,13 +362,14 @@
 		CCB01EEC292275A400986950 /* STFlightKit */ = {
 			isa = PBXGroup;
 			children = (
-				CC2FF714292CBE61003DE1EE /* APIClient */,
 				CC98896E292A2D44003434CB /* Analytics */,
+				CC2FF714292CBE61003DE1EE /* APIClient */,
 				CC9889CD292A4248003434CB /* Extension */,
 				CC908DB8292360CC009E0481 /* Models */,
 				CC908DB329236036009E0481 /* Resources */,
 				CCB01EEE292275A400986950 /* STFlightKit.docc */,
 				CCB01EED292275A400986950 /* STFlightKit.h */,
+				CC2FF8C1292CD820003DE1EE /* View Models */,
 			);
 			path = STFlightKit;
 			sourceTree = "<group>";
@@ -350,6 +382,7 @@
 				CC988988292A33EA003434CB /* FlightBasic.swift */,
 				CCC57319292A00F3007DDF9C /* FlightClass.swift */,
 				CCC573172929FEB7007DDF9C /* FlightRouteType.swift */,
+				CC2FF8CA292CDC12003DE1EE /* FlightsRequiredData.swift */,
 			);
 			path = Flight;
 			sourceTree = "<group>";
@@ -478,6 +511,7 @@
 				CC9889D0292A4266003434CB /* DateExtension.swift in Sources */,
 				CC988989292A33EA003434CB /* FlightBasic.swift in Sources */,
 				CC988964292A28C0003434CB /* FlightSearchRequest.swift in Sources */,
+				CC2FF8CB292CDC12003DE1EE /* FlightsRequiredData.swift in Sources */,
 				CCB01EEF292275A400986950 /* STFlightKit.docc in Sources */,
 				CC988994292A352B003434CB /* Baggage.swift in Sources */,
 				CC2FF716292CBE77003DE1EE /* FlightAPIClient.swift in Sources */,
@@ -492,7 +526,9 @@
 				CC2FF718292CBEA0003DE1EE /* FlightAPIRouter.swift in Sources */,
 				CC988978292A30BB003434CB /* FlightFilterData.swift in Sources */,
 				CC98899A292A359F003434CB /* Traveller.swift in Sources */,
+				CC2FF8C4292CD85C003DE1EE /* FlightDetailsViewModel.swift in Sources */,
 				CC908DD1292366F2009E0481 /* Covid19TestOptionsRowType.swift in Sources */,
+				CC2FF8CE292CDC89003DE1EE /* BaggageViewModel.swift in Sources */,
 				CC908DBE2923612C009E0481 /* TravelInsuranceAddonServiceResponse.swift in Sources */,
 				CC988996292A3553003434CB /* PassengerInfo.swift in Sources */,
 				CC98899E292A3601003434CB /* FlightPriceIndicatorModels.swift in Sources */,
