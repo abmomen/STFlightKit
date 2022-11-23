@@ -14,6 +14,9 @@
 		CC2FF8CB292CDC12003DE1EE /* FlightsRequiredData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2FF8CA292CDC12003DE1EE /* FlightsRequiredData.swift */; };
 		CC2FF8CE292CDC89003DE1EE /* BaggageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2FF8CD292CDC89003DE1EE /* BaggageViewModel.swift */; };
 		CC2FF8D7292DE625003DE1EE /* FlightInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2FF8D6292DE625003DE1EE /* FlightInfoProvider.swift */; };
+		CC8AB74C292DFC6B00B4271E /* FlightSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8AB74B292DFC6B00B4271E /* FlightSearchViewModel.swift */; };
+		CC8AB74F292DFD9A00B4271E /* TravellerClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8AB74E292DFD9A00B4271E /* TravellerClassViewModel.swift */; };
+		CC8AB757292E003C00B4271E /* FlightNavTitleViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8AB756292E003C00B4271E /* FlightNavTitleViewData.swift */; };
 		CC908DB62923604B009E0481 /* BaggageResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = CC908DB42923604B009E0481 /* BaggageResponse.json */; };
 		CC908DB72923604B009E0481 /* Covid19Test.json in Resources */ = {isa = PBXBuildFile; fileRef = CC908DB52923604B009E0481 /* Covid19Test.json */; };
 		CC908DBD2923612C009E0481 /* TravelInsuranceOptionsRowType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC908DBA2923612C009E0481 /* TravelInsuranceOptionsRowType.swift */; };
@@ -82,6 +85,9 @@
 		CC2FF8CA292CDC12003DE1EE /* FlightsRequiredData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsRequiredData.swift; sourceTree = "<group>"; };
 		CC2FF8CD292CDC89003DE1EE /* BaggageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaggageViewModel.swift; sourceTree = "<group>"; };
 		CC2FF8D6292DE625003DE1EE /* FlightInfoProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInfoProvider.swift; sourceTree = "<group>"; };
+		CC8AB74B292DFC6B00B4271E /* FlightSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchViewModel.swift; sourceTree = "<group>"; };
+		CC8AB74E292DFD9A00B4271E /* TravellerClassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellerClassViewModel.swift; sourceTree = "<group>"; };
+		CC8AB756292E003C00B4271E /* FlightNavTitleViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightNavTitleViewData.swift; sourceTree = "<group>"; };
 		CC908DB42923604B009E0481 /* BaggageResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BaggageResponse.json; sourceTree = "<group>"; };
 		CC908DB52923604B009E0481 /* Covid19Test.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Covid19Test.json; sourceTree = "<group>"; };
 		CC908DBA2923612C009E0481 /* TravelInsuranceOptionsRowType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelInsuranceOptionsRowType.swift; sourceTree = "<group>"; };
@@ -163,6 +169,8 @@
 		CC2FF8C1292CD820003DE1EE /* View Models */ = {
 			isa = PBXGroup;
 			children = (
+				CC8AB74D292DFD8000B4271E /* Passenger */,
+				CC8AB74A292DFC5400B4271E /* Search */,
 				CC2FF8CC292CDC77003DE1EE /* Baggage */,
 				CC2FF8C2292CD83A003DE1EE /* Flight */,
 			);
@@ -186,6 +194,30 @@
 			path = Baggage;
 			sourceTree = "<group>";
 		};
+		CC8AB74A292DFC5400B4271E /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				CC8AB74B292DFC6B00B4271E /* FlightSearchViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		CC8AB74D292DFD8000B4271E /* Passenger */ = {
+			isa = PBXGroup;
+			children = (
+				CC8AB74E292DFD9A00B4271E /* TravellerClassViewModel.swift */,
+			);
+			path = Passenger;
+			sourceTree = "<group>";
+		};
+		CC8AB755292E002C00B4271E /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				CC8AB756292E003C00B4271E /* FlightNavTitleViewData.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		CC908DB329236036009E0481 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,6 +230,7 @@
 		CC908DB8292360CC009E0481 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CC8AB755292E002C00B4271E /* Navigation */,
 				CC9889B7292A3CB4003434CB /* Validators */,
 				CC9889A2292A364A003434CB /* Booking History */,
 				CC98899F292A361D003434CB /* Promotions */,
@@ -502,6 +535,7 @@
 				CC988970292A2D53003434CB /* FlightAnalaytics.swift in Sources */,
 				CCC5731A292A00F3007DDF9C /* FlightClass.swift in Sources */,
 				CC988992292A350D003434CB /* FlightRule.swift in Sources */,
+				CC8AB757292E003C00B4271E /* FlightNavTitleViewData.swift in Sources */,
 				CC908DBD2923612C009E0481 /* TravelInsuranceOptionsRowType.swift in Sources */,
 				CC9889A4292A365D003434CB /* FlightBookingHistory.swift in Sources */,
 				CC98898B292A3417003434CB /* FlightSearchModel.swift in Sources */,
@@ -521,6 +555,7 @@
 				CC2FF716292CBE77003DE1EE /* FlightAPIClient.swift in Sources */,
 				CCC573182929FEB7007DDF9C /* FlightRouteType.swift in Sources */,
 				CC908DD8292368CD009E0481 /* FlightDetailsRequest.swift in Sources */,
+				CC8AB74F292DFD9A00B4271E /* TravellerClassViewModel.swift in Sources */,
 				CC908DD2292366F2009E0481 /* Covid19TestOptions.swift in Sources */,
 				CC988985292A335E003434CB /* FlightSearchResponse.swift in Sources */,
 				CC9889A6292A367C003434CB /* FlightBookigData.swift in Sources */,
@@ -531,6 +566,7 @@
 				CC988978292A30BB003434CB /* FlightFilterData.swift in Sources */,
 				CC98899A292A359F003434CB /* Traveller.swift in Sources */,
 				CC2FF8C4292CD85C003DE1EE /* FlightDetailsViewModel.swift in Sources */,
+				CC8AB74C292DFC6B00B4271E /* FlightSearchViewModel.swift in Sources */,
 				CC908DD1292366F2009E0481 /* Covid19TestOptionsRowType.swift in Sources */,
 				CC2FF8CE292CDC89003DE1EE /* BaggageViewModel.swift in Sources */,
 				CC908DBE2923612C009E0481 /* TravelInsuranceAddonServiceResponse.swift in Sources */,
