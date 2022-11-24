@@ -420,9 +420,9 @@
 				CC9889CD292A4248003434CB /* Extension */,
 				CC908DB8292360CC009E0481 /* Models */,
 				CC908DB329236036009E0481 /* Resources */,
+				CC2FF8C1292CD820003DE1EE /* View Models */,
 				CCB01EEE292275A400986950 /* STFlightKit.docc */,
 				CCB01EED292275A400986950 /* STFlightKit.h */,
-				CC2FF8C1292CD820003DE1EE /* View Models */,
 			);
 			path = STFlightKit;
 			sourceTree = "<group>";
