@@ -97,4 +97,10 @@ public class FlightAPIClient: APIClient {
     public func fetchFlightDetails(request: FlightDetailsRequest, completion: @escaping (AFResult<Response<FlightDetailsResponse>>) -> Void) {
         performRequest(route: FlightAPIRouter.flightDetails(request: request), completion: completion)
     }
+    
+    //MARK:- Others
+    public func getShareLink(shareType: String = "Flight", value: String = "url", completion:@escaping (AFResult<ShareResponse>) -> Void) {
+        let params = [Constants.APIParameterKey.type: shareType, Constants.APIParameterKey.value: value]
+        performRequest(route: APIRouter.getShareLink(params: params), completion: completion)
+    }
 }
