@@ -19,7 +19,7 @@
 		CC4EB7DE2934C679000FAE1E /* FlightPriceBreakdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EB7DD2934C679000FAE1E /* FlightPriceBreakdownViewModel.swift */; };
 		CC4EB7E02934C6D2000FAE1E /* FareCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EB7DF2934C6D2000FAE1E /* FareCellType.swift */; };
 		CC4EB7E52934CD10000FAE1E /* FlightPassengerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EB7E42934CD10000FAE1E /* FlightPassengerListViewModel.swift */; };
-		CC7893662935F0280068616F /* FlightShareable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7893652935F0280068616F /* FlightShareable.swift */; };
+		CC7893662935F0280068616F /* ItemShareable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7893652935F0280068616F /* ItemShareable.swift */; };
 		CC8AB74C292DFC6B00B4271E /* FlightSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8AB74B292DFC6B00B4271E /* FlightSearchViewModel.swift */; };
 		CC8AB74F292DFD9A00B4271E /* TravellerClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8AB74E292DFD9A00B4271E /* TravellerClassViewModel.swift */; };
 		CC8AB757292E003C00B4271E /* FlightNavTitleViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8AB756292E003C00B4271E /* FlightNavTitleViewData.swift */; };
@@ -99,7 +99,7 @@
 		CC4EB7DD2934C679000FAE1E /* FlightPriceBreakdownViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPriceBreakdownViewModel.swift; sourceTree = "<group>"; };
 		CC4EB7DF2934C6D2000FAE1E /* FareCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FareCellType.swift; sourceTree = "<group>"; };
 		CC4EB7E42934CD10000FAE1E /* FlightPassengerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPassengerListViewModel.swift; sourceTree = "<group>"; };
-		CC7893652935F0280068616F /* FlightShareable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightShareable.swift; sourceTree = "<group>"; };
+		CC7893652935F0280068616F /* ItemShareable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemShareable.swift; sourceTree = "<group>"; };
 		CC8AB74B292DFC6B00B4271E /* FlightSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchViewModel.swift; sourceTree = "<group>"; };
 		CC8AB74E292DFD9A00B4271E /* TravellerClassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellerClassViewModel.swift; sourceTree = "<group>"; };
 		CC8AB756292E003C00B4271E /* FlightNavTitleViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightNavTitleViewData.swift; sourceTree = "<group>"; };
@@ -227,7 +227,7 @@
 		CC7893642935EFF60068616F /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				CC7893652935F0280068616F /* FlightShareable.swift */,
+				CC7893652935F0280068616F /* ItemShareable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -605,7 +605,7 @@
 				CC2FF8CB292CDC12003DE1EE /* FlightsRequiredData.swift in Sources */,
 				CCB01EEF292275A400986950 /* STFlightKit.docc in Sources */,
 				CC988994292A352B003434CB /* Baggage.swift in Sources */,
-				CC7893662935F0280068616F /* FlightShareable.swift in Sources */,
+				CC7893662935F0280068616F /* ItemShareable.swift in Sources */,
 				CC8AB75E292E30A900B4271E /* FlightFilterViewModel.swift in Sources */,
 				CC2FF716292CBE77003DE1EE /* FlightAPIClient.swift in Sources */,
 				CCC573182929FEB7007DDF9C /* FlightRouteType.swift in Sources */,

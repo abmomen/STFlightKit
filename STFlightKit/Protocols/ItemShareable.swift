@@ -8,9 +8,13 @@
 import UIKit
 import STCoreKit
 
-public extension UIViewController {
-    func shareFlight(shareType: String = "Flight") {
-        FlightAPIClient().getShareLink(shareType: shareType) {[weak self] result in
+public protocol ItemShareable {
+    func share(for serviceType: ServiceType)
+}
+
+public extension ItemShareable where Self: UIViewController {
+    func share(for serviceType: ServiceType) {
+        FlightAPIClient().getShareLink(for: serviceType) {[weak self] result in
             switch result {
             case .success(let response):
                 
