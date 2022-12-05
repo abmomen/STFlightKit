@@ -8,6 +8,136 @@
 
 /* Begin PBXBuildFile section */
 		7E85027A71582405BAFAF54F /* Pods_ShareTrip_STFlightKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63712F9836923DDB983B1E65 /* Pods_ShareTrip_STFlightKit.framework */; };
+		CC0D9FD8293C71A9000EEB7B /* FlightBookingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F6D293C71A9000EEB7B /* FlightBookingCell.xib */; };
+		CC0D9FD9293C71A9000EEB7B /* FlightBookingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F6E293C71A9000EEB7B /* FlightBookingCell.swift */; };
+		CC0D9FDA293C71A9000EEB7B /* SingleInfoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F6F293C71A9000EEB7B /* SingleInfoHeaderView.swift */; };
+		CC0D9FDB293C71A9000EEB7B /* CovidInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F71293C71A9000EEB7B /* CovidInfoCell.swift */; };
+		CC0D9FDC293C71A9000EEB7B /* CovidInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F72293C71A9000EEB7B /* CovidInfoCell.xib */; };
+		CC0D9FDD293C71A9000EEB7B /* CovidTestChargeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F73293C71A9000EEB7B /* CovidTestChargeCell.swift */; };
+		CC0D9FDE293C71A9000EEB7B /* LearnMoreCVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F74293C71A9000EEB7B /* LearnMoreCVCell.xib */; };
+		CC0D9FDF293C71A9000EEB7B /* LearnMoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F75293C71A9000EEB7B /* LearnMoreCell.xib */; };
+		CC0D9FE0293C71A9000EEB7B /* LearnMoreCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F76293C71A9000EEB7B /* LearnMoreCVCell.swift */; };
+		CC0D9FE1293C71A9000EEB7B /* LearnMoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F77293C71A9000EEB7B /* LearnMoreCell.swift */; };
+		CC0D9FE2293C71A9000EEB7B /* CovidTestChargeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F78293C71A9000EEB7B /* CovidTestChargeCell.xib */; };
+		CC0D9FE3293C71A9000EEB7B /* FlightCalendarTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F7A293C71A9000EEB7B /* FlightCalendarTopView.swift */; };
+		CC0D9FE4293C71A9000EEB7B /* FlightCalendarTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F7B293C71A9000EEB7B /* FlightCalendarTopView.xib */; };
+		CC0D9FE5293C71A9000EEB7B /* FlightInfoHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F7E293C71A9000EEB7B /* FlightInfoHeaderView.xib */; };
+		CC0D9FE6293C71A9000EEB7B /* FlightLegPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F7F293C71A9000EEB7B /* FlightLegPlaceholderView.swift */; };
+		CC0D9FE7293C71A9000EEB7B /* FlightInfoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F80293C71A9000EEB7B /* FlightInfoHeaderView.swift */; };
+		CC0D9FE8293C71A9000EEB7B /* FlightLegView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F81293C71A9000EEB7B /* FlightLegView.swift */; };
+		CC0D9FE9293C71A9000EEB7B /* FlightLegPlaceholderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F82293C71A9000EEB7B /* FlightLegPlaceholderView.xib */; };
+		CC0D9FEA293C71A9000EEB7B /* FlightLegView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F83293C71A9000EEB7B /* FlightLegView.xib */; };
+		CC0D9FEB293C71A9000EEB7B /* FlightSegmentCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F85293C71A9000EEB7B /* FlightSegmentCardCell.swift */; };
+		CC0D9FEC293C71A9000EEB7B /* SeatAndBagageInfoCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F86293C71A9000EEB7B /* SeatAndBagageInfoCardCell.swift */; };
+		CC0D9FED293C71A9000EEB7B /* FlightDetailTopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F87293C71A9000EEB7B /* FlightDetailTopCell.swift */; };
+		CC0D9FEE293C71A9000EEB7B /* WarningMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F88293C71A9000EEB7B /* WarningMessageCell.swift */; };
+		CC0D9FEF293C71A9000EEB7B /* FlightLegCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F89293C71A9000EEB7B /* FlightLegCardCell.xib */; };
+		CC0D9FF0293C71A9000EEB7B /* NextPrevLegDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F8A293C71A9000EEB7B /* NextPrevLegDetailsCell.swift */; };
+		CC0D9FF1293C71A9000EEB7B /* SeatAndBagageInfoCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F8B293C71A9000EEB7B /* SeatAndBagageInfoCardCell.xib */; };
+		CC0D9FF2293C71A9000EEB7B /* FlightLegCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F8C293C71A9000EEB7B /* FlightLegCardCell.swift */; };
+		CC0D9FF3293C71A9000EEB7B /* FlightSegmentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F8D293C71A9000EEB7B /* FlightSegmentCell.swift */; };
+		CC0D9FF4293C71A9000EEB7B /* NextPrevLegDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F8E293C71A9000EEB7B /* NextPrevLegDetailsCell.xib */; };
+		CC0D9FF5293C71A9000EEB7B /* FlightSegmentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F8F293C71A9000EEB7B /* FlightSegmentCell.xib */; };
+		CC0D9FF6293C71A9000EEB7B /* WarningMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F90293C71A9000EEB7B /* WarningMessageCell.xib */; };
+		CC0D9FF7293C71A9000EEB7B /* FlightSegmentCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F91293C71A9000EEB7B /* FlightSegmentCardCell.xib */; };
+		CC0D9FF8293C71A9000EEB7B /* FlightNavTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F94293C71A9000EEB7B /* FlightNavTitle.swift */; };
+		CC0D9FF9293C71A9000EEB7B /* MHSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F95293C71A9000EEB7B /* MHSegmentedControl.swift */; };
+		CC0D9FFA293C71A9000EEB7B /* FlightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F97293C71A9000EEB7B /* FlightCell.swift */; };
+		CC0D9FFB293C71A9000EEB7B /* WeightInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F98293C71A9000EEB7B /* WeightInfoCell.swift */; };
+		CC0D9FFC293C71A9000EEB7B /* FlightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F99293C71A9000EEB7B /* FlightCell.xib */; };
+		CC0D9FFD293C71A9000EEB7B /* TravelerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F9A293C71A9000EEB7B /* TravelerCell.swift */; };
+		CC0D9FFE293C71A9000EEB7B /* FlightRouteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F9B293C71A9000EEB7B /* FlightRouteCell.swift */; };
+		CC0D9FFF293C71A9000EEB7B /* TravelerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F9C293C71A9000EEB7B /* TravelerCell.xib */; };
+		CC0DA000293C71A9000EEB7B /* FlightNameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F9F293C71A9000EEB7B /* FlightNameCollectionViewCell.swift */; };
+		CC0DA001293C71A9000EEB7B /* FlightNameCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FA0293C71A9000EEB7B /* FlightNameCollectionViewCell.xib */; };
+		CC0DA002293C71A9000EEB7B /* PopupSingleOptionSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FA2293C71A9000EEB7B /* PopupSingleOptionSelectionView.swift */; };
+		CC0DA003293C71A9000EEB7B /* FlightSortingButtonGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FA3293C71A9000EEB7B /* FlightSortingButtonGroups.swift */; };
+		CC0DA004293C71A9000EEB7B /* FlightSortingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FA4293C71A9000EEB7B /* FlightSortingButton.swift */; };
+		CC0DA005293C71A9000EEB7B /* FlightFilterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FA5293C71A9000EEB7B /* FlightFilterCardView.swift */; };
+		CC0DA006293C71A9000EEB7B /* ScheduleFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FA7293C71A9000EEB7B /* ScheduleFilterCell.swift */; };
+		CC0DA007293C71A9000EEB7B /* FlightFilterAirlinesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FA8293C71A9000EEB7B /* FlightFilterAirlinesCell.swift */; };
+		CC0DA008293C71A9000EEB7B /* FilterFlightDurationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FA9293C71A9000EEB7B /* FilterFlightDurationCell.swift */; };
+		CC0DA00A293C71A9000EEB7B /* FlightFilterAirlinesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FAB293C71A9000EEB7B /* FlightFilterAirlinesCell.xib */; };
+		CC0DA00B293C71A9000EEB7B /* OptionSelectTBCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FAC293C71A9000EEB7B /* OptionSelectTBCell.xib */; };
+		CC0DA00C293C71A9000EEB7B /* AirportCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FAD293C71A9000EEB7B /* AirportCell.swift */; };
+		CC0DA00D293C71A9000EEB7B /* FilterPriceRangeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FAE293C71A9000EEB7B /* FilterPriceRangeCell.xib */; };
+		CC0DA00E293C71A9000EEB7B /* AirportCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FAF293C71A9000EEB7B /* AirportCell.xib */; };
+		CC0DA00F293C71A9000EEB7B /* FilterFlightDurationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FB0293C71A9000EEB7B /* FilterFlightDurationCell.xib */; };
+		CC0DA010293C71A9000EEB7B /* OptionSelectTBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FB1293C71A9000EEB7B /* OptionSelectTBCell.swift */; };
+		CC0DA011293C71A9000EEB7B /* FilterFlightScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FB2293C71A9000EEB7B /* FilterFlightScheduleCell.swift */; };
+		CC0DA012293C71A9000EEB7B /* FilterFlightScheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FB3293C71A9000EEB7B /* FilterFlightScheduleCell.xib */; };
+		CC0DA013293C71A9000EEB7B /* AirportInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FB4293C71A9000EEB7B /* AirportInputCell.xib */; };
+		CC0DA014293C71A9000EEB7B /* FilterPriceRangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FB5293C71A9000EEB7B /* FilterPriceRangeCell.swift */; };
+		CC0DA015293C71A9000EEB7B /* AirportInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FB6293C71A9000EEB7B /* AirportInputCell.swift */; };
+		CC0DA017293C71A9000EEB7B /* ConditionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FB9293C71A9000EEB7B /* ConditionCell.swift */; };
+		CC0DA018293C71A9000EEB7B /* PassportVisaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FBA293C71A9000EEB7B /* PassportVisaCell.swift */; };
+		CC0DA019293C71A9000EEB7B /* EditableContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FBB293C71A9000EEB7B /* EditableContactCell.swift */; };
+		CC0DA01A293C71A9000EEB7B /* EditableContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FBC293C71A9000EEB7B /* EditableContactCell.xib */; };
+		CC0DA01B293C71A9000EEB7B /* InfoDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FBD293C71A9000EEB7B /* InfoDetailCell.swift */; };
+		CC0DA01C293C71A9000EEB7B /* InfoDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FBE293C71A9000EEB7B /* InfoDetailCell.xib */; };
+		CC0DA01D293C71A9000EEB7B /* PassportVisaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FBF293C71A9000EEB7B /* PassportVisaCell.xib */; };
+		CC0DA01E293C71A9000EEB7B /* NameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FC0293C71A9000EEB7B /* NameCell.swift */; };
+		CC0DA01F293C71A9000EEB7B /* FlightEditContactButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FC1293C71A9000EEB7B /* FlightEditContactButtonCell.xib */; };
+		CC0DA020293C71A9000EEB7B /* ConditionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FC2293C71A9000EEB7B /* ConditionCell.xib */; };
+		CC0DA021293C71A9000EEB7B /* FlightEditContactButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FC3293C71A9000EEB7B /* FlightEditContactButtonCell.swift */; };
+		CC0DA022293C71A9000EEB7B /* NameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FC4293C71A9000EEB7B /* NameCell.xib */; };
+		CC0DA023293C71A9000EEB7B /* BaggageSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FC7293C71A9000EEB7B /* BaggageSelectionView.swift */; };
+		CC0DA024293C71A9000EEB7B /* BaggageOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FC8293C71A9000EEB7B /* BaggageOptionView.swift */; };
+		CC0DA025293C71A9000EEB7B /* BaggageRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FC9293C71A9000EEB7B /* BaggageRouteView.swift */; };
+		CC0DA026293C71A9000EEB7B /* BaggageSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FCB293C71A9000EEB7B /* BaggageSelectionCell.swift */; };
+		CC0DA028293C71A9000EEB7B /* BaggageInfoTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FCD293C71A9000EEB7B /* BaggageInfoTVCell.xib */; };
+		CC0DA029293C71A9000EEB7B /* BaggageSelectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FCE293C71A9000EEB7B /* BaggageSelectionCell.xib */; };
+		CC0DA02A293C71A9000EEB7B /* BaggageInfoTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FCF293C71A9000EEB7B /* BaggageInfoTVCell.swift */; };
+		CC0DA02B293C71A9000EEB7B /* NameInputGuideCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FD1293C71A9000EEB7B /* NameInputGuideCell.xib */; };
+		CC0DA02C293C71A9000EEB7B /* NameInputGuideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FD2293C71A9000EEB7B /* NameInputGuideCell.swift */; };
+		CC0DA02D293C71A9000EEB7B /* PriceChangeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FD5293C71A9000EEB7B /* PriceChangeView.xib */; };
+		CC0DA02E293C71A9000EEB7B /* PriceChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FD6293C71A9000EEB7B /* PriceChangeView.swift */; };
+		CC0DA02F293C71A9000EEB7B /* OptionSelectionCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FD7293C71A9000EEB7B /* OptionSelectionCardView.swift */; };
+		CC0DA081293C7291000EEB7B /* RefundVoidEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA032293C7291000EEB7B /* RefundVoidEndPoints.swift */; };
+		CC0DA082293C7291000EEB7B /* FlightVoidConfirmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA035293C7291000EEB7B /* FlightVoidConfirmViewModel.swift */; };
+		CC0DA083293C7291000EEB7B /* FlightVoidQuotationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA036293C7291000EEB7B /* FlightVoidQuotationViewModel.swift */; };
+		CC0DA084293C7291000EEB7B /* FlightBookingHistoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA038293C7291000EEB7B /* FlightBookingHistoryDetailViewModel.swift */; };
+		CC0DA085293C7291000EEB7B /* FlightBookingHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA039293C7291000EEB7B /* FlightBookingHistoryViewModel.swift */; };
+		CC0DA086293C7291000EEB7B /* FlightRefundConfirmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA03B293C7291000EEB7B /* FlightRefundConfirmViewModel.swift */; };
+		CC0DA087293C7291000EEB7B /* RefundVoidViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA03C293C7291000EEB7B /* RefundVoidViewModel.swift */; };
+		CC0DA088293C7291000EEB7B /* RefundQuotationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA03D293C7291000EEB7B /* RefundQuotationViewModel.swift */; };
+		CC0DA089293C7291000EEB7B /* FlightRefundAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA03F293C7291000EEB7B /* FlightRefundAPIClient.swift */; };
+		CC0DA08A293C7291000EEB7B /* FlightBooking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0DA041293C7291000EEB7B /* FlightBooking.storyboard */; };
+		CC0DA08B293C7291000EEB7B /* FlightRefundRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA043293C7291000EEB7B /* FlightRefundRequests.swift */; };
+		CC0DA08C293C7291000EEB7B /* FlightBookingHistoryCellTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA044293C7291000EEB7B /* FlightBookingHistoryCellTypes.swift */; };
+		CC0DA08D293C7291000EEB7B /* FlightVoidRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA045293C7291000EEB7B /* FlightVoidRequests.swift */; };
+		CC0DA08E293C7291000EEB7B /* FlightVoidResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA046293C7291000EEB7B /* FlightVoidResponses.swift */; };
+		CC0DA08F293C7291000EEB7B /* FlightRefundResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA047293C7291000EEB7B /* FlightRefundResponses.swift */; };
+		CC0DA090293C7291000EEB7B /* FlightVoidSuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA04A293C7291000EEB7B /* FlightVoidSuccessVC.swift */; };
+		CC0DA091293C7291000EEB7B /* VoidQuotationDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA04B293C7291000EEB7B /* VoidQuotationDetailsVC.swift */; };
+		CC0DA092293C7291000EEB7B /* FlightConfirmVoidVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA04C293C7291000EEB7B /* FlightConfirmVoidVC.swift */; };
+		CC0DA093293C7291000EEB7B /* FlightInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA04E293C7291000EEB7B /* FlightInfoVC.swift */; };
+		CC0DA094293C7291000EEB7B /* FlightBookingHistoryDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA04F293C7291000EEB7B /* FlightBookingHistoryDetailVC.swift */; };
+		CC0DA095293C7291000EEB7B /* FlightTravellerInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA050293C7291000EEB7B /* FlightTravellerInfoVC.swift */; };
+		CC0DA096293C7291000EEB7B /* BaggageHistoryDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA051293C7291000EEB7B /* BaggageHistoryDetailsVC.swift */; };
+		CC0DA097293C7291000EEB7B /* FlightBookingHistoryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA052293C7291000EEB7B /* FlightBookingHistoryListVC.swift */; };
+		CC0DA098293C7291000EEB7B /* RefundQuotationDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA054293C7291000EEB7B /* RefundQuotationDetailsVC.swift */; };
+		CC0DA099293C7291000EEB7B /* FlightRefundSuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA055293C7291000EEB7B /* FlightRefundSuccessVC.swift */; };
+		CC0DA09A293C7291000EEB7B /* RefundablePassengersSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA056293C7291000EEB7B /* RefundablePassengersSelectionVC.swift */; };
+		CC0DA09B293C7291000EEB7B /* ConfirmFlightRefundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA057293C7291000EEB7B /* ConfirmFlightRefundVC.swift */; };
+		CC0DA09C293C7291000EEB7B /* RefundableTravellersDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA058293C7291000EEB7B /* RefundableTravellersDetailsVC.swift */; };
+		CC0DA09D293C7291000EEB7B /* SelectDeselectButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA05A293C7291000EEB7B /* SelectDeselectButtonView.swift */; };
+		CC0DA09E293C7291000EEB7B /* Flight.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0DA05C293C7291000EEB7B /* Flight.storyboard */; };
+		CC0DA0A1293C7291000EEB7B /* FlightLegDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA062293C7291000EEB7B /* FlightLegDetailsVC.swift */; };
+		CC0DA0A2293C7291000EEB7B /* FlightDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA063293C7291000EEB7B /* FlightDetailsVC.swift */; };
+		CC0DA0A4293C7291000EEB7B /* AirportSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA066293C7291000EEB7B /* AirportSearchVC.swift */; };
+		CC0DA0A5293C7291000EEB7B /* FlightSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA067293C7291000EEB7B /* FlightSearchVC.swift */; };
+		CC0DA0A6293C7291000EEB7B /* TravellerClassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA068293C7291000EEB7B /* TravellerClassVC.swift */; };
+		CC0DA0A7293C7291000EEB7B /* FlightListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA069293C7291000EEB7B /* FlightListVC.swift */; };
+		CC0DA0A8293C7291000EEB7B /* FlightFilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA06A293C7291000EEB7B /* FlightFilterVC.swift */; };
+		CC0DA0A9293C7291000EEB7B /* FlightCalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA06B293C7291000EEB7B /* FlightCalendarVC.swift */; };
+		CC0DA0B2293C7291000EEB7B /* FlightVerifyInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA075293C7291000EEB7B /* FlightVerifyInfoVC.swift */; };
+		CC0DA0B5293C7291000EEB7B /* FlightPassengerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA079293C7291000EEB7B /* FlightPassengerListVC.swift */; };
+		CC0DA0B6293C7291000EEB7B /* FlightPassengerInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA07A293C7291000EEB7B /* FlightPassengerInfoVC.swift */; };
+		CC0DA0B7293C7291000EEB7B /* FareRuleAndPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA07C293C7291000EEB7B /* FareRuleAndPolicyVC.swift */; };
+		CC0DA0B8293C7291000EEB7B /* FareRulesAndPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA07D293C7291000EEB7B /* FareRulesAndPolicyVC.swift */; };
+		CC0DA0B9293C7291000EEB7B /* FlightPriceBreakdownVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA07F293C7291000EEB7B /* FlightPriceBreakdownVC.swift */; };
+		CC0DA0BA293C7291000EEB7B /* FlightSummaryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0DA080293C7291000EEB7B /* FlightSummaryVC.swift */; };
 		CC2FF716292CBE77003DE1EE /* FlightAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2FF715292CBE77003DE1EE /* FlightAPIClient.swift */; };
 		CC2FF718292CBEA0003DE1EE /* FlightAPIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2FF717292CBEA0003DE1EE /* FlightAPIRouter.swift */; };
 		CC2FF8C4292CD85C003DE1EE /* FlightDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2FF8C3292CD85C003DE1EE /* FlightDetailsViewModel.swift */; };
@@ -17,7 +147,6 @@
 		CC463A23292F6B2600101E12 /* BaggageHistoryDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC463A22292F6B2600101E12 /* BaggageHistoryDetailsViewModel.swift */; };
 		CC4EB7DC2934C4DE000FAE1E /* FlightPriceIndicatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EB7DB2934C4DE000FAE1E /* FlightPriceIndicatorViewModel.swift */; };
 		CC4EB7DE2934C679000FAE1E /* FlightPriceBreakdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EB7DD2934C679000FAE1E /* FlightPriceBreakdownViewModel.swift */; };
-		CC4EB7E02934C6D2000FAE1E /* FareCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EB7DF2934C6D2000FAE1E /* FareCellType.swift */; };
 		CC4EB7E52934CD10000FAE1E /* FlightPassengerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EB7E42934CD10000FAE1E /* FlightPassengerListViewModel.swift */; };
 		CC7893662935F0280068616F /* ItemShareable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7893652935F0280068616F /* ItemShareable.swift */; };
 		CC8AB74C292DFC6B00B4271E /* FlightSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8AB74B292DFC6B00B4271E /* FlightSearchViewModel.swift */; };
@@ -64,7 +193,6 @@
 		CC9889D0292A4266003434CB /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9889CF292A4266003434CB /* DateExtension.swift */; };
 		CC9A6AC0292380780075264F /* FlightSortingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9A6ABF292380780075264F /* FlightSortingOptions.swift */; };
 		CCA15A352938838300322E3E /* FlightPassengerInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA15A342938838300322E3E /* FlightPassengerInfoViewModel.swift */; };
-		CCA15A37293883DF00322E3E /* FileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA15A36293883DF00322E3E /* FileType.swift */; };
 		CCB01EEF292275A400986950 /* STFlightKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = CCB01EEE292275A400986950 /* STFlightKit.docc */; };
 		CCB01EF0292275A400986950 /* STFlightKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB01EED292275A400986950 /* STFlightKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCC573182929FEB7007DDF9C /* FlightRouteType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC573172929FEB7007DDF9C /* FlightRouteType.swift */; };
@@ -90,6 +218,136 @@
 		4049EF4710F19FA177F70BC2 /* Pods-ShareTrip-STFlightKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareTrip-STFlightKit.debug.xcconfig"; path = "../STB2C-iOS/Pods/Target Support Files/Pods-ShareTrip-STFlightKit/Pods-ShareTrip-STFlightKit.debug.xcconfig"; sourceTree = "<group>"; };
 		5BE7B3A131157EE073BCA10A /* Pods-STFlightKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit.debug.xcconfig"; path = "../STB2C-iOS/Pods/Target Support Files/Pods-STFlightKit/Pods-STFlightKit.debug.xcconfig"; sourceTree = "<group>"; };
 		63712F9836923DDB983B1E65 /* Pods_ShareTrip_STFlightKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareTrip_STFlightKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0D9F6D293C71A9000EEB7B /* FlightBookingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightBookingCell.xib; sourceTree = "<group>"; };
+		CC0D9F6E293C71A9000EEB7B /* FlightBookingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightBookingCell.swift; sourceTree = "<group>"; };
+		CC0D9F6F293C71A9000EEB7B /* SingleInfoHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleInfoHeaderView.swift; sourceTree = "<group>"; };
+		CC0D9F71293C71A9000EEB7B /* CovidInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CovidInfoCell.swift; sourceTree = "<group>"; };
+		CC0D9F72293C71A9000EEB7B /* CovidInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CovidInfoCell.xib; sourceTree = "<group>"; };
+		CC0D9F73293C71A9000EEB7B /* CovidTestChargeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CovidTestChargeCell.swift; sourceTree = "<group>"; };
+		CC0D9F74293C71A9000EEB7B /* LearnMoreCVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LearnMoreCVCell.xib; sourceTree = "<group>"; };
+		CC0D9F75293C71A9000EEB7B /* LearnMoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LearnMoreCell.xib; sourceTree = "<group>"; };
+		CC0D9F76293C71A9000EEB7B /* LearnMoreCVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnMoreCVCell.swift; sourceTree = "<group>"; };
+		CC0D9F77293C71A9000EEB7B /* LearnMoreCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnMoreCell.swift; sourceTree = "<group>"; };
+		CC0D9F78293C71A9000EEB7B /* CovidTestChargeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CovidTestChargeCell.xib; sourceTree = "<group>"; };
+		CC0D9F7A293C71A9000EEB7B /* FlightCalendarTopView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightCalendarTopView.swift; sourceTree = "<group>"; };
+		CC0D9F7B293C71A9000EEB7B /* FlightCalendarTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightCalendarTopView.xib; sourceTree = "<group>"; };
+		CC0D9F7E293C71A9000EEB7B /* FlightInfoHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightInfoHeaderView.xib; sourceTree = "<group>"; };
+		CC0D9F7F293C71A9000EEB7B /* FlightLegPlaceholderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightLegPlaceholderView.swift; sourceTree = "<group>"; };
+		CC0D9F80293C71A9000EEB7B /* FlightInfoHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightInfoHeaderView.swift; sourceTree = "<group>"; };
+		CC0D9F81293C71A9000EEB7B /* FlightLegView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightLegView.swift; sourceTree = "<group>"; };
+		CC0D9F82293C71A9000EEB7B /* FlightLegPlaceholderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightLegPlaceholderView.xib; sourceTree = "<group>"; };
+		CC0D9F83293C71A9000EEB7B /* FlightLegView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightLegView.xib; sourceTree = "<group>"; };
+		CC0D9F85293C71A9000EEB7B /* FlightSegmentCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightSegmentCardCell.swift; sourceTree = "<group>"; };
+		CC0D9F86293C71A9000EEB7B /* SeatAndBagageInfoCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeatAndBagageInfoCardCell.swift; sourceTree = "<group>"; };
+		CC0D9F87293C71A9000EEB7B /* FlightDetailTopCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightDetailTopCell.swift; sourceTree = "<group>"; };
+		CC0D9F88293C71A9000EEB7B /* WarningMessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarningMessageCell.swift; sourceTree = "<group>"; };
+		CC0D9F89293C71A9000EEB7B /* FlightLegCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightLegCardCell.xib; sourceTree = "<group>"; };
+		CC0D9F8A293C71A9000EEB7B /* NextPrevLegDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextPrevLegDetailsCell.swift; sourceTree = "<group>"; };
+		CC0D9F8B293C71A9000EEB7B /* SeatAndBagageInfoCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeatAndBagageInfoCardCell.xib; sourceTree = "<group>"; };
+		CC0D9F8C293C71A9000EEB7B /* FlightLegCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightLegCardCell.swift; sourceTree = "<group>"; };
+		CC0D9F8D293C71A9000EEB7B /* FlightSegmentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightSegmentCell.swift; sourceTree = "<group>"; };
+		CC0D9F8E293C71A9000EEB7B /* NextPrevLegDetailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NextPrevLegDetailsCell.xib; sourceTree = "<group>"; };
+		CC0D9F8F293C71A9000EEB7B /* FlightSegmentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightSegmentCell.xib; sourceTree = "<group>"; };
+		CC0D9F90293C71A9000EEB7B /* WarningMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WarningMessageCell.xib; sourceTree = "<group>"; };
+		CC0D9F91293C71A9000EEB7B /* FlightSegmentCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightSegmentCardCell.xib; sourceTree = "<group>"; };
+		CC0D9F94293C71A9000EEB7B /* FlightNavTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightNavTitle.swift; sourceTree = "<group>"; };
+		CC0D9F95293C71A9000EEB7B /* MHSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MHSegmentedControl.swift; sourceTree = "<group>"; };
+		CC0D9F97293C71A9000EEB7B /* FlightCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightCell.swift; sourceTree = "<group>"; };
+		CC0D9F98293C71A9000EEB7B /* WeightInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightInfoCell.swift; sourceTree = "<group>"; };
+		CC0D9F99293C71A9000EEB7B /* FlightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightCell.xib; sourceTree = "<group>"; };
+		CC0D9F9A293C71A9000EEB7B /* TravelerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravelerCell.swift; sourceTree = "<group>"; };
+		CC0D9F9B293C71A9000EEB7B /* FlightRouteCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightRouteCell.swift; sourceTree = "<group>"; };
+		CC0D9F9C293C71A9000EEB7B /* TravelerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelerCell.xib; sourceTree = "<group>"; };
+		CC0D9F9F293C71A9000EEB7B /* FlightNameCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightNameCollectionViewCell.swift; sourceTree = "<group>"; };
+		CC0D9FA0293C71A9000EEB7B /* FlightNameCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightNameCollectionViewCell.xib; sourceTree = "<group>"; };
+		CC0D9FA2293C71A9000EEB7B /* PopupSingleOptionSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupSingleOptionSelectionView.swift; sourceTree = "<group>"; };
+		CC0D9FA3293C71A9000EEB7B /* FlightSortingButtonGroups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightSortingButtonGroups.swift; sourceTree = "<group>"; };
+		CC0D9FA4293C71A9000EEB7B /* FlightSortingButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightSortingButton.swift; sourceTree = "<group>"; };
+		CC0D9FA5293C71A9000EEB7B /* FlightFilterCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightFilterCardView.swift; sourceTree = "<group>"; };
+		CC0D9FA7293C71A9000EEB7B /* ScheduleFilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleFilterCell.swift; sourceTree = "<group>"; };
+		CC0D9FA8293C71A9000EEB7B /* FlightFilterAirlinesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightFilterAirlinesCell.swift; sourceTree = "<group>"; };
+		CC0D9FA9293C71A9000EEB7B /* FilterFlightDurationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterFlightDurationCell.swift; sourceTree = "<group>"; };
+		CC0D9FAB293C71A9000EEB7B /* FlightFilterAirlinesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightFilterAirlinesCell.xib; sourceTree = "<group>"; };
+		CC0D9FAC293C71A9000EEB7B /* OptionSelectTBCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionSelectTBCell.xib; sourceTree = "<group>"; };
+		CC0D9FAD293C71A9000EEB7B /* AirportCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportCell.swift; sourceTree = "<group>"; };
+		CC0D9FAE293C71A9000EEB7B /* FilterPriceRangeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterPriceRangeCell.xib; sourceTree = "<group>"; };
+		CC0D9FAF293C71A9000EEB7B /* AirportCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AirportCell.xib; sourceTree = "<group>"; };
+		CC0D9FB0293C71A9000EEB7B /* FilterFlightDurationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterFlightDurationCell.xib; sourceTree = "<group>"; };
+		CC0D9FB1293C71A9000EEB7B /* OptionSelectTBCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionSelectTBCell.swift; sourceTree = "<group>"; };
+		CC0D9FB2293C71A9000EEB7B /* FilterFlightScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterFlightScheduleCell.swift; sourceTree = "<group>"; };
+		CC0D9FB3293C71A9000EEB7B /* FilterFlightScheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterFlightScheduleCell.xib; sourceTree = "<group>"; };
+		CC0D9FB4293C71A9000EEB7B /* AirportInputCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AirportInputCell.xib; sourceTree = "<group>"; };
+		CC0D9FB5293C71A9000EEB7B /* FilterPriceRangeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterPriceRangeCell.swift; sourceTree = "<group>"; };
+		CC0D9FB6293C71A9000EEB7B /* AirportInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportInputCell.swift; sourceTree = "<group>"; };
+		CC0D9FB9293C71A9000EEB7B /* ConditionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionCell.swift; sourceTree = "<group>"; };
+		CC0D9FBA293C71A9000EEB7B /* PassportVisaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportVisaCell.swift; sourceTree = "<group>"; };
+		CC0D9FBB293C71A9000EEB7B /* EditableContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditableContactCell.swift; sourceTree = "<group>"; };
+		CC0D9FBC293C71A9000EEB7B /* EditableContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditableContactCell.xib; sourceTree = "<group>"; };
+		CC0D9FBD293C71A9000EEB7B /* InfoDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDetailCell.swift; sourceTree = "<group>"; };
+		CC0D9FBE293C71A9000EEB7B /* InfoDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoDetailCell.xib; sourceTree = "<group>"; };
+		CC0D9FBF293C71A9000EEB7B /* PassportVisaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassportVisaCell.xib; sourceTree = "<group>"; };
+		CC0D9FC0293C71A9000EEB7B /* NameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameCell.swift; sourceTree = "<group>"; };
+		CC0D9FC1293C71A9000EEB7B /* FlightEditContactButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightEditContactButtonCell.xib; sourceTree = "<group>"; };
+		CC0D9FC2293C71A9000EEB7B /* ConditionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConditionCell.xib; sourceTree = "<group>"; };
+		CC0D9FC3293C71A9000EEB7B /* FlightEditContactButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightEditContactButtonCell.swift; sourceTree = "<group>"; };
+		CC0D9FC4293C71A9000EEB7B /* NameCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameCell.xib; sourceTree = "<group>"; };
+		CC0D9FC7293C71A9000EEB7B /* BaggageSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaggageSelectionView.swift; sourceTree = "<group>"; };
+		CC0D9FC8293C71A9000EEB7B /* BaggageOptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaggageOptionView.swift; sourceTree = "<group>"; };
+		CC0D9FC9293C71A9000EEB7B /* BaggageRouteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaggageRouteView.swift; sourceTree = "<group>"; };
+		CC0D9FCB293C71A9000EEB7B /* BaggageSelectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaggageSelectionCell.swift; sourceTree = "<group>"; };
+		CC0D9FCD293C71A9000EEB7B /* BaggageInfoTVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaggageInfoTVCell.xib; sourceTree = "<group>"; };
+		CC0D9FCE293C71A9000EEB7B /* BaggageSelectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaggageSelectionCell.xib; sourceTree = "<group>"; };
+		CC0D9FCF293C71A9000EEB7B /* BaggageInfoTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaggageInfoTVCell.swift; sourceTree = "<group>"; };
+		CC0D9FD1293C71A9000EEB7B /* NameInputGuideCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NameInputGuideCell.xib; sourceTree = "<group>"; };
+		CC0D9FD2293C71A9000EEB7B /* NameInputGuideCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameInputGuideCell.swift; sourceTree = "<group>"; };
+		CC0D9FD5293C71A9000EEB7B /* PriceChangeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PriceChangeView.xib; sourceTree = "<group>"; };
+		CC0D9FD6293C71A9000EEB7B /* PriceChangeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceChangeView.swift; sourceTree = "<group>"; };
+		CC0D9FD7293C71A9000EEB7B /* OptionSelectionCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionSelectionCardView.swift; sourceTree = "<group>"; };
+		CC0DA032293C7291000EEB7B /* RefundVoidEndPoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefundVoidEndPoints.swift; sourceTree = "<group>"; };
+		CC0DA035293C7291000EEB7B /* FlightVoidConfirmViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightVoidConfirmViewModel.swift; sourceTree = "<group>"; };
+		CC0DA036293C7291000EEB7B /* FlightVoidQuotationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightVoidQuotationViewModel.swift; sourceTree = "<group>"; };
+		CC0DA038293C7291000EEB7B /* FlightBookingHistoryDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightBookingHistoryDetailViewModel.swift; sourceTree = "<group>"; };
+		CC0DA039293C7291000EEB7B /* FlightBookingHistoryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightBookingHistoryViewModel.swift; sourceTree = "<group>"; };
+		CC0DA03B293C7291000EEB7B /* FlightRefundConfirmViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightRefundConfirmViewModel.swift; sourceTree = "<group>"; };
+		CC0DA03C293C7291000EEB7B /* RefundVoidViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefundVoidViewModel.swift; sourceTree = "<group>"; };
+		CC0DA03D293C7291000EEB7B /* RefundQuotationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefundQuotationViewModel.swift; sourceTree = "<group>"; };
+		CC0DA03F293C7291000EEB7B /* FlightRefundAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightRefundAPIClient.swift; sourceTree = "<group>"; };
+		CC0DA041293C7291000EEB7B /* FlightBooking.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FlightBooking.storyboard; sourceTree = "<group>"; };
+		CC0DA043293C7291000EEB7B /* FlightRefundRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightRefundRequests.swift; sourceTree = "<group>"; };
+		CC0DA044293C7291000EEB7B /* FlightBookingHistoryCellTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightBookingHistoryCellTypes.swift; sourceTree = "<group>"; };
+		CC0DA045293C7291000EEB7B /* FlightVoidRequests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightVoidRequests.swift; sourceTree = "<group>"; };
+		CC0DA046293C7291000EEB7B /* FlightVoidResponses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightVoidResponses.swift; sourceTree = "<group>"; };
+		CC0DA047293C7291000EEB7B /* FlightRefundResponses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightRefundResponses.swift; sourceTree = "<group>"; };
+		CC0DA04A293C7291000EEB7B /* FlightVoidSuccessVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightVoidSuccessVC.swift; sourceTree = "<group>"; };
+		CC0DA04B293C7291000EEB7B /* VoidQuotationDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoidQuotationDetailsVC.swift; sourceTree = "<group>"; };
+		CC0DA04C293C7291000EEB7B /* FlightConfirmVoidVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightConfirmVoidVC.swift; sourceTree = "<group>"; };
+		CC0DA04E293C7291000EEB7B /* FlightInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightInfoVC.swift; sourceTree = "<group>"; };
+		CC0DA04F293C7291000EEB7B /* FlightBookingHistoryDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightBookingHistoryDetailVC.swift; sourceTree = "<group>"; };
+		CC0DA050293C7291000EEB7B /* FlightTravellerInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightTravellerInfoVC.swift; sourceTree = "<group>"; };
+		CC0DA051293C7291000EEB7B /* BaggageHistoryDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaggageHistoryDetailsVC.swift; sourceTree = "<group>"; };
+		CC0DA052293C7291000EEB7B /* FlightBookingHistoryListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightBookingHistoryListVC.swift; sourceTree = "<group>"; };
+		CC0DA054293C7291000EEB7B /* RefundQuotationDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefundQuotationDetailsVC.swift; sourceTree = "<group>"; };
+		CC0DA055293C7291000EEB7B /* FlightRefundSuccessVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightRefundSuccessVC.swift; sourceTree = "<group>"; };
+		CC0DA056293C7291000EEB7B /* RefundablePassengersSelectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefundablePassengersSelectionVC.swift; sourceTree = "<group>"; };
+		CC0DA057293C7291000EEB7B /* ConfirmFlightRefundVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmFlightRefundVC.swift; sourceTree = "<group>"; };
+		CC0DA058293C7291000EEB7B /* RefundableTravellersDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefundableTravellersDetailsVC.swift; sourceTree = "<group>"; };
+		CC0DA05A293C7291000EEB7B /* SelectDeselectButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectDeselectButtonView.swift; sourceTree = "<group>"; };
+		CC0DA05D293C7291000EEB7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Flight.storyboard; sourceTree = "<group>"; };
+		CC0DA062293C7291000EEB7B /* FlightLegDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightLegDetailsVC.swift; sourceTree = "<group>"; };
+		CC0DA063293C7291000EEB7B /* FlightDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightDetailsVC.swift; sourceTree = "<group>"; };
+		CC0DA066293C7291000EEB7B /* AirportSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportSearchVC.swift; sourceTree = "<group>"; };
+		CC0DA067293C7291000EEB7B /* FlightSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightSearchVC.swift; sourceTree = "<group>"; };
+		CC0DA068293C7291000EEB7B /* TravellerClassVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TravellerClassVC.swift; sourceTree = "<group>"; };
+		CC0DA069293C7291000EEB7B /* FlightListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightListVC.swift; sourceTree = "<group>"; };
+		CC0DA06A293C7291000EEB7B /* FlightFilterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightFilterVC.swift; sourceTree = "<group>"; };
+		CC0DA06B293C7291000EEB7B /* FlightCalendarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightCalendarVC.swift; sourceTree = "<group>"; };
+		CC0DA075293C7291000EEB7B /* FlightVerifyInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightVerifyInfoVC.swift; sourceTree = "<group>"; };
+		CC0DA079293C7291000EEB7B /* FlightPassengerListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightPassengerListVC.swift; sourceTree = "<group>"; };
+		CC0DA07A293C7291000EEB7B /* FlightPassengerInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightPassengerInfoVC.swift; sourceTree = "<group>"; };
+		CC0DA07C293C7291000EEB7B /* FareRuleAndPolicyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareRuleAndPolicyVC.swift; sourceTree = "<group>"; };
+		CC0DA07D293C7291000EEB7B /* FareRulesAndPolicyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FareRulesAndPolicyVC.swift; sourceTree = "<group>"; };
+		CC0DA07F293C7291000EEB7B /* FlightPriceBreakdownVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightPriceBreakdownVC.swift; sourceTree = "<group>"; };
+		CC0DA080293C7291000EEB7B /* FlightSummaryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightSummaryVC.swift; sourceTree = "<group>"; };
 		CC2FF715292CBE77003DE1EE /* FlightAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightAPIClient.swift; sourceTree = "<group>"; };
 		CC2FF717292CBEA0003DE1EE /* FlightAPIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightAPIRouter.swift; sourceTree = "<group>"; };
 		CC2FF8C3292CD85C003DE1EE /* FlightDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailsViewModel.swift; sourceTree = "<group>"; };
@@ -99,7 +357,6 @@
 		CC463A22292F6B2600101E12 /* BaggageHistoryDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaggageHistoryDetailsViewModel.swift; sourceTree = "<group>"; };
 		CC4EB7DB2934C4DE000FAE1E /* FlightPriceIndicatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPriceIndicatorViewModel.swift; sourceTree = "<group>"; };
 		CC4EB7DD2934C679000FAE1E /* FlightPriceBreakdownViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPriceBreakdownViewModel.swift; sourceTree = "<group>"; };
-		CC4EB7DF2934C6D2000FAE1E /* FareCellType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FareCellType.swift; sourceTree = "<group>"; };
 		CC4EB7E42934CD10000FAE1E /* FlightPassengerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPassengerListViewModel.swift; sourceTree = "<group>"; };
 		CC7893652935F0280068616F /* ItemShareable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemShareable.swift; sourceTree = "<group>"; };
 		CC8AB74B292DFC6B00B4271E /* FlightSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchViewModel.swift; sourceTree = "<group>"; };
@@ -145,7 +402,6 @@
 		CC9889CF292A4266003434CB /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		CC9A6ABF292380780075264F /* FlightSortingOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSortingOptions.swift; sourceTree = "<group>"; };
 		CCA15A342938838300322E3E /* FlightPassengerInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPassengerInfoViewModel.swift; sourceTree = "<group>"; };
-		CCA15A36293883DF00322E3E /* FileType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileType.swift; sourceTree = "<group>"; };
 		CCB01EEA292275A400986950 /* STFlightKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STFlightKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCB01EED292275A400986950 /* STFlightKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STFlightKit.h; sourceTree = "<group>"; };
 		CCB01EEE292275A400986950 /* STFlightKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = STFlightKit.docc; sourceTree = "<group>"; };
@@ -177,6 +433,476 @@
 			);
 			name = Pods;
 			path = ../../Pods;
+			sourceTree = "<group>";
+		};
+		CC0D9F6B293C71A9000EEB7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9F6C293C71A9000EEB7B /* Booking History */,
+				CC0D9F70293C71A9000EEB7B /* Covid19 */,
+				CC0D9F79293C71A9000EEB7B /* Calendar */,
+				CC0D9F7C293C71A9000EEB7B /* Details */,
+				CC0D9F92293C71A9000EEB7B /* Search */,
+				CC0D9F9D293C71A9000EEB7B /* Filter */,
+				CC0D9FB8293C71A9000EEB7B /* Verify Info */,
+				CC0D9FC5293C71A9000EEB7B /* Baggage */,
+				CC0D9FD0293C71A9000EEB7B /* Passenger Info */,
+				CC0D9FD3293C71A9000EEB7B /* Summary */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC0D9F6C293C71A9000EEB7B /* Booking History */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9F6D293C71A9000EEB7B /* FlightBookingCell.xib */,
+				CC0D9F6E293C71A9000EEB7B /* FlightBookingCell.swift */,
+				CC0D9F6F293C71A9000EEB7B /* SingleInfoHeaderView.swift */,
+			);
+			path = "Booking History";
+			sourceTree = "<group>";
+		};
+		CC0D9F70293C71A9000EEB7B /* Covid19 */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9F71293C71A9000EEB7B /* CovidInfoCell.swift */,
+				CC0D9F72293C71A9000EEB7B /* CovidInfoCell.xib */,
+				CC0D9F73293C71A9000EEB7B /* CovidTestChargeCell.swift */,
+				CC0D9F74293C71A9000EEB7B /* LearnMoreCVCell.xib */,
+				CC0D9F75293C71A9000EEB7B /* LearnMoreCell.xib */,
+				CC0D9F76293C71A9000EEB7B /* LearnMoreCVCell.swift */,
+				CC0D9F77293C71A9000EEB7B /* LearnMoreCell.swift */,
+				CC0D9F78293C71A9000EEB7B /* CovidTestChargeCell.xib */,
+			);
+			path = Covid19;
+			sourceTree = "<group>";
+		};
+		CC0D9F79293C71A9000EEB7B /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9F7A293C71A9000EEB7B /* FlightCalendarTopView.swift */,
+				CC0D9F7B293C71A9000EEB7B /* FlightCalendarTopView.xib */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		CC0D9F7C293C71A9000EEB7B /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9F7D293C71A9000EEB7B /* Views */,
+				CC0D9F84293C71A9000EEB7B /* TVCell */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		CC0D9F7D293C71A9000EEB7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9F7E293C71A9000EEB7B /* FlightInfoHeaderView.xib */,
+				CC0D9F7F293C71A9000EEB7B /* FlightLegPlaceholderView.swift */,
+				CC0D9F80293C71A9000EEB7B /* FlightInfoHeaderView.swift */,
+				CC0D9F81293C71A9000EEB7B /* FlightLegView.swift */,
+				CC0D9F82293C71A9000EEB7B /* FlightLegPlaceholderView.xib */,
+				CC0D9F83293C71A9000EEB7B /* FlightLegView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC0D9F84293C71A9000EEB7B /* TVCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9F85293C71A9000EEB7B /* FlightSegmentCardCell.swift */,
+				CC0D9F86293C71A9000EEB7B /* SeatAndBagageInfoCardCell.swift */,
+				CC0D9F87293C71A9000EEB7B /* FlightDetailTopCell.swift */,
+				CC0D9F88293C71A9000EEB7B /* WarningMessageCell.swift */,
+				CC0D9F89293C71A9000EEB7B /* FlightLegCardCell.xib */,
+				CC0D9F8A293C71A9000EEB7B /* NextPrevLegDetailsCell.swift */,
+				CC0D9F8B293C71A9000EEB7B /* SeatAndBagageInfoCardCell.xib */,
+				CC0D9F8C293C71A9000EEB7B /* FlightLegCardCell.swift */,
+				CC0D9F8D293C71A9000EEB7B /* FlightSegmentCell.swift */,
+				CC0D9F8E293C71A9000EEB7B /* NextPrevLegDetailsCell.xib */,
+				CC0D9F8F293C71A9000EEB7B /* FlightSegmentCell.xib */,
+				CC0D9F90293C71A9000EEB7B /* WarningMessageCell.xib */,
+				CC0D9F91293C71A9000EEB7B /* FlightSegmentCardCell.xib */,
+			);
+			path = TVCell;
+			sourceTree = "<group>";
+		};
+		CC0D9F92293C71A9000EEB7B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9F93293C71A9000EEB7B /* Views */,
+				CC0D9F96293C71A9000EEB7B /* TVCell */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		CC0D9F93293C71A9000EEB7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9F94293C71A9000EEB7B /* FlightNavTitle.swift */,
+				CC0D9F95293C71A9000EEB7B /* MHSegmentedControl.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC0D9F96293C71A9000EEB7B /* TVCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9F97293C71A9000EEB7B /* FlightCell.swift */,
+				CC0D9F98293C71A9000EEB7B /* WeightInfoCell.swift */,
+				CC0D9F99293C71A9000EEB7B /* FlightCell.xib */,
+				CC0D9F9A293C71A9000EEB7B /* TravelerCell.swift */,
+				CC0D9F9B293C71A9000EEB7B /* FlightRouteCell.swift */,
+				CC0D9F9C293C71A9000EEB7B /* TravelerCell.xib */,
+			);
+			path = TVCell;
+			sourceTree = "<group>";
+		};
+		CC0D9F9D293C71A9000EEB7B /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9F9E293C71A9000EEB7B /* CVCell */,
+				CC0D9FA1293C71A9000EEB7B /* Views */,
+				CC0D9FA6293C71A9000EEB7B /* TVCell */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		CC0D9F9E293C71A9000EEB7B /* CVCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9F9F293C71A9000EEB7B /* FlightNameCollectionViewCell.swift */,
+				CC0D9FA0293C71A9000EEB7B /* FlightNameCollectionViewCell.xib */,
+			);
+			path = CVCell;
+			sourceTree = "<group>";
+		};
+		CC0D9FA1293C71A9000EEB7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9FA2293C71A9000EEB7B /* PopupSingleOptionSelectionView.swift */,
+				CC0D9FA3293C71A9000EEB7B /* FlightSortingButtonGroups.swift */,
+				CC0D9FA4293C71A9000EEB7B /* FlightSortingButton.swift */,
+				CC0D9FA5293C71A9000EEB7B /* FlightFilterCardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC0D9FA6293C71A9000EEB7B /* TVCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9FAD293C71A9000EEB7B /* AirportCell.swift */,
+				CC0D9FAF293C71A9000EEB7B /* AirportCell.xib */,
+				CC0D9FB6293C71A9000EEB7B /* AirportInputCell.swift */,
+				CC0D9FB4293C71A9000EEB7B /* AirportInputCell.xib */,
+				CC0D9FA9293C71A9000EEB7B /* FilterFlightDurationCell.swift */,
+				CC0D9FB0293C71A9000EEB7B /* FilterFlightDurationCell.xib */,
+				CC0D9FB2293C71A9000EEB7B /* FilterFlightScheduleCell.swift */,
+				CC0D9FB3293C71A9000EEB7B /* FilterFlightScheduleCell.xib */,
+				CC0D9FB5293C71A9000EEB7B /* FilterPriceRangeCell.swift */,
+				CC0D9FAE293C71A9000EEB7B /* FilterPriceRangeCell.xib */,
+				CC0D9FA8293C71A9000EEB7B /* FlightFilterAirlinesCell.swift */,
+				CC0D9FAB293C71A9000EEB7B /* FlightFilterAirlinesCell.xib */,
+				CC0D9FB1293C71A9000EEB7B /* OptionSelectTBCell.swift */,
+				CC0D9FAC293C71A9000EEB7B /* OptionSelectTBCell.xib */,
+				CC0D9FA7293C71A9000EEB7B /* ScheduleFilterCell.swift */,
+			);
+			path = TVCell;
+			sourceTree = "<group>";
+		};
+		CC0D9FB8293C71A9000EEB7B /* Verify Info */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9FB9293C71A9000EEB7B /* ConditionCell.swift */,
+				CC0D9FBA293C71A9000EEB7B /* PassportVisaCell.swift */,
+				CC0D9FBB293C71A9000EEB7B /* EditableContactCell.swift */,
+				CC0D9FBC293C71A9000EEB7B /* EditableContactCell.xib */,
+				CC0D9FBD293C71A9000EEB7B /* InfoDetailCell.swift */,
+				CC0D9FBE293C71A9000EEB7B /* InfoDetailCell.xib */,
+				CC0D9FBF293C71A9000EEB7B /* PassportVisaCell.xib */,
+				CC0D9FC0293C71A9000EEB7B /* NameCell.swift */,
+				CC0D9FC1293C71A9000EEB7B /* FlightEditContactButtonCell.xib */,
+				CC0D9FC2293C71A9000EEB7B /* ConditionCell.xib */,
+				CC0D9FC3293C71A9000EEB7B /* FlightEditContactButtonCell.swift */,
+				CC0D9FC4293C71A9000EEB7B /* NameCell.xib */,
+			);
+			path = "Verify Info";
+			sourceTree = "<group>";
+		};
+		CC0D9FC5293C71A9000EEB7B /* Baggage */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9FC6293C71A9000EEB7B /* Views */,
+				CC0D9FCA293C71A9000EEB7B /* TVCell */,
+			);
+			path = Baggage;
+			sourceTree = "<group>";
+		};
+		CC0D9FC6293C71A9000EEB7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9FD7293C71A9000EEB7B /* OptionSelectionCardView.swift */,
+				CC0D9FC7293C71A9000EEB7B /* BaggageSelectionView.swift */,
+				CC0D9FC8293C71A9000EEB7B /* BaggageOptionView.swift */,
+				CC0D9FC9293C71A9000EEB7B /* BaggageRouteView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC0D9FCA293C71A9000EEB7B /* TVCell */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9FCB293C71A9000EEB7B /* BaggageSelectionCell.swift */,
+				CC0D9FCD293C71A9000EEB7B /* BaggageInfoTVCell.xib */,
+				CC0D9FCE293C71A9000EEB7B /* BaggageSelectionCell.xib */,
+				CC0D9FCF293C71A9000EEB7B /* BaggageInfoTVCell.swift */,
+			);
+			path = TVCell;
+			sourceTree = "<group>";
+		};
+		CC0D9FD0293C71A9000EEB7B /* Passenger Info */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9FD1293C71A9000EEB7B /* NameInputGuideCell.xib */,
+				CC0D9FD2293C71A9000EEB7B /* NameInputGuideCell.swift */,
+			);
+			path = "Passenger Info";
+			sourceTree = "<group>";
+		};
+		CC0D9FD3293C71A9000EEB7B /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9FD4293C71A9000EEB7B /* Views */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		CC0D9FD4293C71A9000EEB7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC0D9FD5293C71A9000EEB7B /* PriceChangeView.xib */,
+				CC0D9FD6293C71A9000EEB7B /* PriceChangeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC0DA030293C7291000EEB7B /* BookingHistory */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA031293C7291000EEB7B /* EndPoints */,
+				CC0DA033293C7291000EEB7B /* View Models */,
+				CC0DA03E293C7291000EEB7B /* APIClient */,
+				CC0DA040293C7291000EEB7B /* Storyboard */,
+				CC0DA042293C7291000EEB7B /* Models */,
+				CC0DA048293C7291000EEB7B /* Controllers */,
+				CC0DA059293C7291000EEB7B /* Views */,
+			);
+			path = BookingHistory;
+			sourceTree = "<group>";
+		};
+		CC0DA031293C7291000EEB7B /* EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA032293C7291000EEB7B /* RefundVoidEndPoints.swift */,
+			);
+			path = EndPoints;
+			sourceTree = "<group>";
+		};
+		CC0DA033293C7291000EEB7B /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA034293C7291000EEB7B /* Void */,
+				CC0DA037293C7291000EEB7B /* History */,
+				CC0DA03A293C7291000EEB7B /* Refund */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		CC0DA034293C7291000EEB7B /* Void */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA035293C7291000EEB7B /* FlightVoidConfirmViewModel.swift */,
+				CC0DA036293C7291000EEB7B /* FlightVoidQuotationViewModel.swift */,
+			);
+			path = Void;
+			sourceTree = "<group>";
+		};
+		CC0DA037293C7291000EEB7B /* History */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA038293C7291000EEB7B /* FlightBookingHistoryDetailViewModel.swift */,
+				CC0DA039293C7291000EEB7B /* FlightBookingHistoryViewModel.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		CC0DA03A293C7291000EEB7B /* Refund */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA03B293C7291000EEB7B /* FlightRefundConfirmViewModel.swift */,
+				CC0DA03C293C7291000EEB7B /* RefundVoidViewModel.swift */,
+				CC0DA03D293C7291000EEB7B /* RefundQuotationViewModel.swift */,
+			);
+			path = Refund;
+			sourceTree = "<group>";
+		};
+		CC0DA03E293C7291000EEB7B /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA03F293C7291000EEB7B /* FlightRefundAPIClient.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		CC0DA040293C7291000EEB7B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA041293C7291000EEB7B /* FlightBooking.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CC0DA042293C7291000EEB7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA043293C7291000EEB7B /* FlightRefundRequests.swift */,
+				CC0DA044293C7291000EEB7B /* FlightBookingHistoryCellTypes.swift */,
+				CC0DA045293C7291000EEB7B /* FlightVoidRequests.swift */,
+				CC0DA046293C7291000EEB7B /* FlightVoidResponses.swift */,
+				CC0DA047293C7291000EEB7B /* FlightRefundResponses.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC0DA048293C7291000EEB7B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA049293C7291000EEB7B /* Void */,
+				CC0DA04D293C7291000EEB7B /* History */,
+				CC0DA053293C7291000EEB7B /* Refund */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CC0DA049293C7291000EEB7B /* Void */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA04A293C7291000EEB7B /* FlightVoidSuccessVC.swift */,
+				CC0DA04B293C7291000EEB7B /* VoidQuotationDetailsVC.swift */,
+				CC0DA04C293C7291000EEB7B /* FlightConfirmVoidVC.swift */,
+			);
+			path = Void;
+			sourceTree = "<group>";
+		};
+		CC0DA04D293C7291000EEB7B /* History */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA04E293C7291000EEB7B /* FlightInfoVC.swift */,
+				CC0DA04F293C7291000EEB7B /* FlightBookingHistoryDetailVC.swift */,
+				CC0DA050293C7291000EEB7B /* FlightTravellerInfoVC.swift */,
+				CC0DA051293C7291000EEB7B /* BaggageHistoryDetailsVC.swift */,
+				CC0DA052293C7291000EEB7B /* FlightBookingHistoryListVC.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		CC0DA053293C7291000EEB7B /* Refund */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA054293C7291000EEB7B /* RefundQuotationDetailsVC.swift */,
+				CC0DA055293C7291000EEB7B /* FlightRefundSuccessVC.swift */,
+				CC0DA056293C7291000EEB7B /* RefundablePassengersSelectionVC.swift */,
+				CC0DA057293C7291000EEB7B /* ConfirmFlightRefundVC.swift */,
+				CC0DA058293C7291000EEB7B /* RefundableTravellersDetailsVC.swift */,
+			);
+			path = Refund;
+			sourceTree = "<group>";
+		};
+		CC0DA059293C7291000EEB7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA05A293C7291000EEB7B /* SelectDeselectButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC0DA05B293C7291000EEB7B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA05C293C7291000EEB7B /* Flight.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CC0DA05E293C7291000EEB7B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA061293C7291000EEB7B /* Details */,
+				CC0DA065293C7291000EEB7B /* Search */,
+				CC0DA074293C7291000EEB7B /* Verify Info */,
+				CC0DA078293C7291000EEB7B /* Passenger Info */,
+				CC0DA07B293C7291000EEB7B /* Policy */,
+				CC0DA07E293C7291000EEB7B /* Summary */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CC0DA061293C7291000EEB7B /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA062293C7291000EEB7B /* FlightLegDetailsVC.swift */,
+				CC0DA063293C7291000EEB7B /* FlightDetailsVC.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		CC0DA065293C7291000EEB7B /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA066293C7291000EEB7B /* AirportSearchVC.swift */,
+				CC0DA067293C7291000EEB7B /* FlightSearchVC.swift */,
+				CC0DA068293C7291000EEB7B /* TravellerClassVC.swift */,
+				CC0DA069293C7291000EEB7B /* FlightListVC.swift */,
+				CC0DA06A293C7291000EEB7B /* FlightFilterVC.swift */,
+				CC0DA06B293C7291000EEB7B /* FlightCalendarVC.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		CC0DA074293C7291000EEB7B /* Verify Info */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA075293C7291000EEB7B /* FlightVerifyInfoVC.swift */,
+			);
+			path = "Verify Info";
+			sourceTree = "<group>";
+		};
+		CC0DA078293C7291000EEB7B /* Passenger Info */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA079293C7291000EEB7B /* FlightPassengerListVC.swift */,
+				CC0DA07A293C7291000EEB7B /* FlightPassengerInfoVC.swift */,
+			);
+			path = "Passenger Info";
+			sourceTree = "<group>";
+		};
+		CC0DA07B293C7291000EEB7B /* Policy */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA07C293C7291000EEB7B /* FareRuleAndPolicyVC.swift */,
+				CC0DA07D293C7291000EEB7B /* FareRulesAndPolicyVC.swift */,
+			);
+			path = Policy;
+			sourceTree = "<group>";
+		};
+		CC0DA07E293C7291000EEB7B /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				CC0DA07F293C7291000EEB7B /* FlightPriceBreakdownVC.swift */,
+				CC0DA080293C7291000EEB7B /* FlightSummaryVC.swift */,
+			);
+			path = Summary;
 			sourceTree = "<group>";
 		};
 		CC2FF714292CBE61003DE1EE /* APIClient */ = {
@@ -452,6 +1178,9 @@
 		CCB01EEC292275A400986950 /* STFlightKit */ = {
 			isa = PBXGroup;
 			children = (
+				CC0DA030293C7291000EEB7B /* BookingHistory */,
+				CC0DA05E293C7291000EEB7B /* Controllers */,
+				CC0DA05B293C7291000EEB7B /* Storyboard */,
 				CC7893642935EFF60068616F /* Protocols */,
 				CC98896E292A2D44003434CB /* Analytics */,
 				CC2FF714292CBE61003DE1EE /* APIClient */,
@@ -459,6 +1188,7 @@
 				CC908DB8292360CC009E0481 /* Models */,
 				CC908DB329236036009E0481 /* Resources */,
 				CC2FF8C1292CD820003DE1EE /* View Models */,
+				CC0D9F6B293C71A9000EEB7B /* Views */,
 				CCB01EEE292275A400986950 /* STFlightKit.docc */,
 				CCB01EED292275A400986950 /* STFlightKit.h */,
 			);
@@ -474,8 +1204,6 @@
 				CCC57319292A00F3007DDF9C /* FlightClass.swift */,
 				CCC573172929FEB7007DDF9C /* FlightRouteType.swift */,
 				CC2FF8CA292CDC12003DE1EE /* FlightsRequiredData.swift */,
-				CC4EB7DF2934C6D2000FAE1E /* FareCellType.swift */,
-				CCA15A36293883DF00322E3E /* FileType.swift */,
 			);
 			path = Flight;
 			sourceTree = "<group>";
@@ -551,8 +1279,45 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0DA02B293C71A9000EEB7B /* NameInputGuideCell.xib in Resources */,
+				CC0D9FF7293C71A9000EEB7B /* FlightSegmentCardCell.xib in Resources */,
+				CC0D9FE4293C71A9000EEB7B /* FlightCalendarTopView.xib in Resources */,
+				CC0DA00B293C71A9000EEB7B /* OptionSelectTBCell.xib in Resources */,
+				CC0D9FE2293C71A9000EEB7B /* CovidTestChargeCell.xib in Resources */,
+				CC0DA01C293C71A9000EEB7B /* InfoDetailCell.xib in Resources */,
+				CC0DA029293C71A9000EEB7B /* BaggageSelectionCell.xib in Resources */,
+				CC0DA01D293C71A9000EEB7B /* PassportVisaCell.xib in Resources */,
+				CC0DA022293C71A9000EEB7B /* NameCell.xib in Resources */,
+				CC0DA028293C71A9000EEB7B /* BaggageInfoTVCell.xib in Resources */,
+				CC0DA00E293C71A9000EEB7B /* AirportCell.xib in Resources */,
+				CC0DA020293C71A9000EEB7B /* ConditionCell.xib in Resources */,
+				CC0D9FF6293C71A9000EEB7B /* WarningMessageCell.xib in Resources */,
+				CC0D9FF1293C71A9000EEB7B /* SeatAndBagageInfoCardCell.xib in Resources */,
+				CC0DA02D293C71A9000EEB7B /* PriceChangeView.xib in Resources */,
+				CC0DA00A293C71A9000EEB7B /* FlightFilterAirlinesCell.xib in Resources */,
+				CC0D9FF4293C71A9000EEB7B /* NextPrevLegDetailsCell.xib in Resources */,
 				CC908DB62923604B009E0481 /* BaggageResponse.json in Resources */,
+				CC0D9FF5293C71A9000EEB7B /* FlightSegmentCell.xib in Resources */,
+				CC0DA01A293C71A9000EEB7B /* EditableContactCell.xib in Resources */,
+				CC0D9FDF293C71A9000EEB7B /* LearnMoreCell.xib in Resources */,
+				CC0DA09E293C7291000EEB7B /* Flight.storyboard in Resources */,
+				CC0D9FDE293C71A9000EEB7B /* LearnMoreCVCell.xib in Resources */,
+				CC0DA001293C71A9000EEB7B /* FlightNameCollectionViewCell.xib in Resources */,
+				CC0DA00F293C71A9000EEB7B /* FilterFlightDurationCell.xib in Resources */,
+				CC0D9FE9293C71A9000EEB7B /* FlightLegPlaceholderView.xib in Resources */,
+				CC0D9FFC293C71A9000EEB7B /* FlightCell.xib in Resources */,
+				CC0DA08A293C7291000EEB7B /* FlightBooking.storyboard in Resources */,
+				CC0DA012293C71A9000EEB7B /* FilterFlightScheduleCell.xib in Resources */,
+				CC0D9FEF293C71A9000EEB7B /* FlightLegCardCell.xib in Resources */,
+				CC0D9FD8293C71A9000EEB7B /* FlightBookingCell.xib in Resources */,
 				CC908DB72923604B009E0481 /* Covid19Test.json in Resources */,
+				CC0D9FEA293C71A9000EEB7B /* FlightLegView.xib in Resources */,
+				CC0D9FFF293C71A9000EEB7B /* TravelerCell.xib in Resources */,
+				CC0D9FE5293C71A9000EEB7B /* FlightInfoHeaderView.xib in Resources */,
+				CC0DA01F293C71A9000EEB7B /* FlightEditContactButtonCell.xib in Resources */,
+				CC0D9FDC293C71A9000EEB7B /* CovidInfoCell.xib in Resources */,
+				CC0DA013293C71A9000EEB7B /* AirportInputCell.xib in Resources */,
+				CC0DA00D293C71A9000EEB7B /* FilterPriceRangeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,66 +1353,168 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0DA098293C7291000EEB7B /* RefundQuotationDetailsVC.swift in Sources */,
 				CC9889B9292A3CC7003434CB /* FlightPassengerInfoValidator.swift in Sources */,
+				CC0DA002293C71A9000EEB7B /* PopupSingleOptionSelectionView.swift in Sources */,
 				CC988970292A2D53003434CB /* FlightAnalaytics.swift in Sources */,
+				CC0DA0B7293C7291000EEB7B /* FareRuleAndPolicyVC.swift in Sources */,
+				CC0DA08C293C7291000EEB7B /* FlightBookingHistoryCellTypes.swift in Sources */,
 				CCC5731A292A00F3007DDF9C /* FlightClass.swift in Sources */,
+				CC0DA02C293C71A9000EEB7B /* NameInputGuideCell.swift in Sources */,
+				CC0DA026293C71A9000EEB7B /* BaggageSelectionCell.swift in Sources */,
+				CC0DA011293C71A9000EEB7B /* FilterFlightScheduleCell.swift in Sources */,
 				CC988992292A350D003434CB /* FlightRule.swift in Sources */,
+				CC0DA092293C7291000EEB7B /* FlightConfirmVoidVC.swift in Sources */,
 				CC8AB757292E003C00B4271E /* FlightNavTitleViewData.swift in Sources */,
 				CCA15A352938838300322E3E /* FlightPassengerInfoViewModel.swift in Sources */,
 				CC908DBD2923612C009E0481 /* TravelInsuranceOptionsRowType.swift in Sources */,
+				CC0D9FDA293C71A9000EEB7B /* SingleInfoHeaderView.swift in Sources */,
+				CC0DA0A1293C7291000EEB7B /* FlightLegDetailsVC.swift in Sources */,
+				CC0DA0A6293C7291000EEB7B /* TravellerClassVC.swift in Sources */,
+				CC0DA008293C71A9000EEB7B /* FilterFlightDurationCell.swift in Sources */,
+				CC0DA086293C7291000EEB7B /* FlightRefundConfirmViewModel.swift in Sources */,
+				CC0DA097293C7291000EEB7B /* FlightBookingHistoryListVC.swift in Sources */,
 				CC9889A4292A365D003434CB /* FlightBookingHistory.swift in Sources */,
+				CC0DA005293C71A9000EEB7B /* FlightFilterCardView.swift in Sources */,
+				CC0D9FE7293C71A9000EEB7B /* FlightInfoHeaderView.swift in Sources */,
+				CC0DA01B293C71A9000EEB7B /* InfoDetailCell.swift in Sources */,
 				CC98898B292A3417003434CB /* FlightSearchModel.swift in Sources */,
 				CC9A6AC0292380780075264F /* FlightSortingOptions.swift in Sources */,
 				CC908DD7292368CD009E0481 /* FlightDetailsResponse.swift in Sources */,
+				CC0DA0A4293C7291000EEB7B /* AirportSearchVC.swift in Sources */,
 				CC988998292A357F003434CB /* FlightTraveller.swift in Sources */,
+				CC0D9FED293C71A9000EEB7B /* FlightDetailTopCell.swift in Sources */,
+				CC0DA021293C71A9000EEB7B /* FlightEditContactButtonCell.swift in Sources */,
 				CC988980292A3212003434CB /* FlightFilter.swift in Sources */,
 				CC4EB7DC2934C4DE000FAE1E /* FlightPriceIndicatorViewModel.swift in Sources */,
 				CC9889A1292A3630003434CB /* FlightPromotions.swift in Sources */,
+				CC0DA018293C71A9000EEB7B /* PassportVisaCell.swift in Sources */,
+				CC0DA024293C71A9000EEB7B /* BaggageOptionView.swift in Sources */,
+				CC0DA08D293C7291000EEB7B /* FlightVoidRequests.swift in Sources */,
+				CC0D9FF3293C71A9000EEB7B /* FlightSegmentCell.swift in Sources */,
+				CC0D9FF2293C71A9000EEB7B /* FlightLegCardCell.swift in Sources */,
+				CC0DA019293C71A9000EEB7B /* EditableContactCell.swift in Sources */,
 				CC2FF8D7292DE625003DE1EE /* FlightInfoProvider.swift in Sources */,
 				CC988983292A32DE003434CB /* Airline.swift in Sources */,
+				CC0DA015293C71A9000EEB7B /* AirportInputCell.swift in Sources */,
 				CC9889D0292A4266003434CB /* DateExtension.swift in Sources */,
+				CC0DA094293C7291000EEB7B /* FlightBookingHistoryDetailVC.swift in Sources */,
 				CC8AB759292E303A00B4271E /* FlightListViewModel.swift in Sources */,
+				CC0DA095293C7291000EEB7B /* FlightTravellerInfoVC.swift in Sources */,
+				CC0D9FFB293C71A9000EEB7B /* WeightInfoCell.swift in Sources */,
+				CC0DA003293C71A9000EEB7B /* FlightSortingButtonGroups.swift in Sources */,
+				CC0D9FE0293C71A9000EEB7B /* LearnMoreCVCell.swift in Sources */,
+				CC0DA09C293C7291000EEB7B /* RefundableTravellersDetailsVC.swift in Sources */,
+				CC0DA088293C7291000EEB7B /* RefundQuotationViewModel.swift in Sources */,
 				CC988989292A33EA003434CB /* FlightBasic.swift in Sources */,
+				CC0DA085293C7291000EEB7B /* FlightBookingHistoryViewModel.swift in Sources */,
+				CC0DA0A9293C7291000EEB7B /* FlightCalendarVC.swift in Sources */,
+				CC0D9FDB293C71A9000EEB7B /* CovidInfoCell.swift in Sources */,
+				CC0DA0B8293C7291000EEB7B /* FareRulesAndPolicyVC.swift in Sources */,
 				CC988964292A28C0003434CB /* FlightSearchRequest.swift in Sources */,
+				CC0DA087293C7291000EEB7B /* RefundVoidViewModel.swift in Sources */,
 				CC2FF8CB292CDC12003DE1EE /* FlightsRequiredData.swift in Sources */,
+				CC0D9FFD293C71A9000EEB7B /* TravelerCell.swift in Sources */,
+				CC0DA000293C71A9000EEB7B /* FlightNameCollectionViewCell.swift in Sources */,
+				CC0D9FE1293C71A9000EEB7B /* LearnMoreCell.swift in Sources */,
 				CCB01EEF292275A400986950 /* STFlightKit.docc in Sources */,
 				CC988994292A352B003434CB /* Baggage.swift in Sources */,
+				CC0DA0B5293C7291000EEB7B /* FlightPassengerListVC.swift in Sources */,
+				CC0D9FF8293C71A9000EEB7B /* FlightNavTitle.swift in Sources */,
+				CC0DA083293C7291000EEB7B /* FlightVoidQuotationViewModel.swift in Sources */,
 				CC7893662935F0280068616F /* ItemShareable.swift in Sources */,
+				CC0D9FDD293C71A9000EEB7B /* CovidTestChargeCell.swift in Sources */,
+				CC0DA089293C7291000EEB7B /* FlightRefundAPIClient.swift in Sources */,
+				CC0D9FEC293C71A9000EEB7B /* SeatAndBagageInfoCardCell.swift in Sources */,
 				CC8AB75E292E30A900B4271E /* FlightFilterViewModel.swift in Sources */,
+				CC0DA0A5293C7291000EEB7B /* FlightSearchVC.swift in Sources */,
 				CC2FF716292CBE77003DE1EE /* FlightAPIClient.swift in Sources */,
 				CCC573182929FEB7007DDF9C /* FlightRouteType.swift in Sources */,
 				CC908DD8292368CD009E0481 /* FlightDetailsRequest.swift in Sources */,
+				CC0DA09B293C7291000EEB7B /* ConfirmFlightRefundVC.swift in Sources */,
+				CC0DA09D293C7291000EEB7B /* SelectDeselectButtonView.swift in Sources */,
+				CC0DA0A7293C7291000EEB7B /* FlightListVC.swift in Sources */,
+				CC0DA0B2293C7291000EEB7B /* FlightVerifyInfoVC.swift in Sources */,
+				CC0D9FEB293C71A9000EEB7B /* FlightSegmentCardCell.swift in Sources */,
 				CC4EB7DE2934C679000FAE1E /* FlightPriceBreakdownViewModel.swift in Sources */,
+				CC0DA023293C71A9000EEB7B /* BaggageSelectionView.swift in Sources */,
 				CC8AB74F292DFD9A00B4271E /* TravellerClassViewModel.swift in Sources */,
+				CC0DA02A293C71A9000EEB7B /* BaggageInfoTVCell.swift in Sources */,
 				CC908DD2292366F2009E0481 /* Covid19TestOptions.swift in Sources */,
+				CC0DA096293C7291000EEB7B /* BaggageHistoryDetailsVC.swift in Sources */,
 				CC988985292A335E003434CB /* FlightSearchResponse.swift in Sources */,
+				CC0DA01E293C71A9000EEB7B /* NameCell.swift in Sources */,
 				CC9889A6292A367C003434CB /* FlightBookigData.swift in Sources */,
+				CC0DA0B6293C7291000EEB7B /* FlightPassengerInfoVC.swift in Sources */,
 				CC988987292A33B0003434CB /* Flight.swift in Sources */,
-				CCA15A37293883DF00322E3E /* FileType.swift in Sources */,
-				CC4EB7E02934C6D2000FAE1E /* FareCellType.swift in Sources */,
+				CC0D9FFA293C71A9000EEB7B /* FlightCell.swift in Sources */,
+				CC0DA0A8293C7291000EEB7B /* FlightFilterVC.swift in Sources */,
 				CC98898D292A344F003434CB /* FlightLeg.swift in Sources */,
+				CC0DA017293C71A9000EEB7B /* ConditionCell.swift in Sources */,
 				CC908DBF2923612C009E0481 /* TravelInsuranceServiceDetailResponse.swift in Sources */,
+				CC0D9FE8293C71A9000EEB7B /* FlightLegView.swift in Sources */,
+				CC0DA084293C7291000EEB7B /* FlightBookingHistoryDetailViewModel.swift in Sources */,
+				CC0DA004293C71A9000EEB7B /* FlightSortingButton.swift in Sources */,
+				CC0DA00C293C71A9000EEB7B /* AirportCell.swift in Sources */,
 				CC2FF718292CBEA0003DE1EE /* FlightAPIRouter.swift in Sources */,
+				CC0DA082293C7291000EEB7B /* FlightVoidConfirmViewModel.swift in Sources */,
+				CC0D9FE6293C71A9000EEB7B /* FlightLegPlaceholderView.swift in Sources */,
 				CC988978292A30BB003434CB /* FlightFilterData.swift in Sources */,
+				CC0DA0B9293C7291000EEB7B /* FlightPriceBreakdownVC.swift in Sources */,
 				CC98899A292A359F003434CB /* Traveller.swift in Sources */,
+				CC0D9FF9293C71A9000EEB7B /* MHSegmentedControl.swift in Sources */,
 				CC2FF8C4292CD85C003DE1EE /* FlightDetailsViewModel.swift in Sources */,
+				CC0DA0BA293C7291000EEB7B /* FlightSummaryVC.swift in Sources */,
+				CC0D9FE3293C71A9000EEB7B /* FlightCalendarTopView.swift in Sources */,
+				CC0DA010293C71A9000EEB7B /* OptionSelectTBCell.swift in Sources */,
+				CC0DA093293C7291000EEB7B /* FlightInfoVC.swift in Sources */,
 				CC8AB74C292DFC6B00B4271E /* FlightSearchViewModel.swift in Sources */,
+				CC0D9FFE293C71A9000EEB7B /* FlightRouteCell.swift in Sources */,
+				CC0DA014293C71A9000EEB7B /* FilterPriceRangeCell.swift in Sources */,
 				CC463A23292F6B2600101E12 /* BaggageHistoryDetailsViewModel.swift in Sources */,
+				CC0DA007293C71A9000EEB7B /* FlightFilterAirlinesCell.swift in Sources */,
 				CC8AB75C292E308D00B4271E /* FlightFilterViewModelOld.swift in Sources */,
 				CC908DD1292366F2009E0481 /* Covid19TestOptionsRowType.swift in Sources */,
 				CC2FF8CE292CDC89003DE1EE /* BaggageViewModel.swift in Sources */,
+				CC0D9FD9293C71A9000EEB7B /* FlightBookingCell.swift in Sources */,
+				CC0DA006293C71A9000EEB7B /* ScheduleFilterCell.swift in Sources */,
 				CC908DBE2923612C009E0481 /* TravelInsuranceAddonServiceResponse.swift in Sources */,
 				CC4EB7E52934CD10000FAE1E /* FlightPassengerListViewModel.swift in Sources */,
+				CC0DA08B293C7291000EEB7B /* FlightRefundRequests.swift in Sources */,
+				CC0DA08F293C7291000EEB7B /* FlightRefundResponses.swift in Sources */,
 				CC988996292A3553003434CB /* PassengerInfo.swift in Sources */,
+				CC0DA0A2293C7291000EEB7B /* FlightDetailsVC.swift in Sources */,
+				CC0DA08E293C7291000EEB7B /* FlightVoidResponses.swift in Sources */,
 				CC98899E292A3601003434CB /* FlightPriceIndicatorModels.swift in Sources */,
 				CC908DD3292366F2009E0481 /* CovidTestCenterDetailsResponse.swift in Sources */,
+				CC0DA09A293C7291000EEB7B /* RefundablePassengersSelectionVC.swift in Sources */,
+				CC0DA081293C7291000EEB7B /* RefundVoidEndPoints.swift in Sources */,
+				CC0DA02F293C71A9000EEB7B /* OptionSelectionCardView.swift in Sources */,
+				CC0D9FF0293C71A9000EEB7B /* NextPrevLegDetailsCell.swift in Sources */,
+				CC0DA091293C7291000EEB7B /* VoidQuotationDetailsVC.swift in Sources */,
+				CC0DA025293C71A9000EEB7B /* BaggageRouteView.swift in Sources */,
+				CC0DA02E293C71A9000EEB7B /* PriceChangeView.swift in Sources */,
+				CC0DA099293C7291000EEB7B /* FlightRefundSuccessVC.swift in Sources */,
 				CC98897B292A30DB003434CB /* FlightPriceRange.swift in Sources */,
 				CC98899C292A35DE003434CB /* RevalidatePrice.swift in Sources */,
+				CC0D9FEE293C71A9000EEB7B /* WarningMessageCell.swift in Sources */,
 				CC988990292A34E8003434CB /* SSRCodes.swift in Sources */,
+				CC0DA090293C7291000EEB7B /* FlightVoidSuccessVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC0DA05C293C7291000EEB7B /* Flight.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC0DA05D293C7291000EEB7B /* Base */,
+			);
+			name = Flight.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CCB01EF1292275A400986950 /* Debug */ = {
