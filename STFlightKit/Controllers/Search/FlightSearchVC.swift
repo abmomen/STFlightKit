@@ -10,11 +10,11 @@ import UIKit
 import STCoreKit
 
 //MARK: - FlightSerachVC Delegate
-protocol FlightSearchVCDelegate: AnyObject {
+public protocol FlightSearchVCDelegate: AnyObject {
     func updatedFlightSearchViewModel(_ viewModel: FlightSearchViewModel)
 }
 
-class FlightSearchVC: UIViewController {
+public class FlightSearchVC: UIViewController {
     //MARK: - IBOutlets
     @IBOutlet weak private var searchTableView: UITableView!
     
@@ -25,7 +25,7 @@ class FlightSearchVC: UIViewController {
     private var flightPromotion: FlightPromotions?
     
     //MARK: - Public Properties
-    weak var flightSearchVCDelegate: FlightSearchVCDelegate?
+    public weak var flightSearchVCDelegate: FlightSearchVCDelegate?
     private var flightSearchViewModel = FlightSearchViewModel()
     
     //MARK: Analytics Manager
@@ -36,13 +36,13 @@ class FlightSearchVC: UIViewController {
     }()
     
     //MARK:- VC's Life Cycle
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         setupInitialData()
         setupScene()
     }
     
-    override func viewWillAppear(_ animated: Bool) {
+    public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         searchTableView.reloadData()
         
@@ -57,7 +57,7 @@ class FlightSearchVC: UIViewController {
         }
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    public override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == FlightSearchVC.AirportSearchVC {
             let airportSearchVC = segue.destination as! AirportSearchVC
             airportSearchVC.delegate = self
@@ -287,11 +287,11 @@ class FlightSearchVC: UIViewController {
 
 //MARK:- UITableViewDataSource
 extension FlightSearchVC: UITableViewDataSource, UITableViewDelegate {
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return flightSearchViewModel.cellOptions.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cellOption = flightSearchViewModel.cellOptions[indexPath.row]
         
@@ -400,7 +400,7 @@ extension FlightSearchVC: UITableViewDataSource, UITableViewDelegate {
         }
     }
     
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+    public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         
         let cellOption = flightSearchViewModel.cellOptions[indexPath.row]
         
@@ -441,14 +441,14 @@ extension FlightSearchVC: AirportSearchDelegate {
 
 //MARK: - Select Airport Delegate
 extension FlightSearchVC: DoubleButtonCellDelegate {
-    func firstButtonTapped(indexPath: IndexPath) {
+    public func firstButtonTapped(indexPath: IndexPath) {
         let oldCount = flightSearchViewModel.cellOptions.count
         flightSearchViewModel.addCity()
         let newCount = flightSearchViewModel.cellOptions.count
         searchTableView.reloadRowsInSection(section: 0, oldCount: oldCount, newCount: newCount)
     }
     
-    func secondButtonTapped(indexPath: IndexPath) {
+    public func secondButtonTapped(indexPath: IndexPath) {
         let oldCount = flightSearchViewModel.cellOptions.count
         flightSearchViewModel.removeCity()
         let newCount = flightSearchViewModel.cellOptions.count
@@ -467,7 +467,7 @@ extension FlightSearchVC: TravellerClassVCDelegate {
 
 //MARK: - Calendar Delegate
 extension FlightSearchVC: JTCalendarVCDelegate {
-    func dateSelectionChanged(selectedDate: Date, for indexPath: IndexPath?) {
+    public func dateSelectionChanged(selectedDate: Date, for indexPath: IndexPath?) {
         guard let indexPath = indexPath else { return }
         flightSearchViewModel.setDate(for: indexPath.row, value: selectedDate)
         var indexPaths = [indexPath]
@@ -477,7 +477,7 @@ extension FlightSearchVC: JTCalendarVCDelegate {
         searchTableView.reloadRowsSafely(at: indexPaths, with: .none)
     }
     
-    func dateSelectionChanged(firstDate: Date, secondDate: Date, for indexPath: IndexPath?) {
+    public func dateSelectionChanged(firstDate: Date, secondDate: Date, for indexPath: IndexPath?) {
         guard let indexPath = indexPath else { return }
         flightSearchViewModel.setDateRange(for: indexPath.row, value: firstDate...secondDate)
         var indexPaths = [indexPath]
@@ -490,7 +490,7 @@ extension FlightSearchVC: JTCalendarVCDelegate {
 
 //MARK: - Storyboard Extension
 extension FlightSearchVC: StoryboardBased {
-    static var storyboardName: String {
+    public static var storyboardName: String {
         return "Flight"
     }
 }

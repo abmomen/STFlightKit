@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EditableContactCell: UITableViewCell {
+public class EditableContactCell: UITableViewCell {
     @IBOutlet weak var imgView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var subTitleLabel: UILabel!
@@ -18,24 +18,24 @@ class EditableContactCell: UITableViewCell {
     private var cellIndexPath: IndexPath!
     private var callbackClosure: ((IndexPath, String?) -> Void)?
 
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
 
         setupView()
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
+    public override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
     }
 
-    func setupView() {
+    public func setupView() {
         editTextField.addTarget(self, action: #selector(self.textFieldDidChange(_:)), for: UIControl.Event.editingChanged)
     }
 
-    func configure(imageName: String, titleText: String, subTitleText: String?, editingMode: Bool, cellIndexPath: IndexPath, callbackClosure: ((_ cellIndexPath: IndexPath, _ value: String?) -> Void)?) {
+    public func configure(imageName: String, titleText: String, subTitleText: String?, editingMode: Bool, cellIndexPath: IndexPath, callbackClosure: ((_ cellIndexPath: IndexPath, _ value: String?) -> Void)?) {
 
         self.cellIndexPath = cellIndexPath
         self.callbackClosure = callbackClosure

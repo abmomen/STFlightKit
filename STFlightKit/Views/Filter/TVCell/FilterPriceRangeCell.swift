@@ -9,22 +9,22 @@
 import UIKit
 import STCoreKit
 
-class FilterPriceRangeCell: UITableViewCell {
+public class FilterPriceRangeCell: UITableViewCell {
     
-    weak var delegate: PriceRangeCellDelegate?
+    public weak var delegate: PriceRangeCellDelegate?
     
-    @IBOutlet weak var minPriceLabel: UILabel!
-    @IBOutlet weak var maxPriceLabel: UILabel!
-    @IBOutlet weak var rangeSeekSlider: RangeSeekSlider!
-    @IBOutlet weak var cellContainerView: UIView!
+    @IBOutlet public weak var minPriceLabel: UILabel!
+    @IBOutlet public weak var maxPriceLabel: UILabel!
+    @IBOutlet public weak var rangeSeekSlider: RangeSeekSlider!
+    @IBOutlet public weak var cellContainerView: UIView!
     
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         setupView()
     }
     
-    func setupView(){
+    public func setupView(){
 
         rangeSeekSlider.delegate = self
         selectionStyle = .none
@@ -35,7 +35,7 @@ class FilterPriceRangeCell: UITableViewCell {
         rangeSeekSlider.addGestureRecognizer(panGesture)
     }
     
-    func configure(priceRange: FilterPriceRange, delegate: PriceRangeCellDelegate){
+    public func configure(priceRange: FilterPriceRange, delegate: PriceRangeCellDelegate){
 
         self.delegate = delegate
         
@@ -61,7 +61,7 @@ class FilterPriceRangeCell: UITableViewCell {
 
 extension FilterPriceRangeCell: RangeSeekSliderDelegate {
     
-    func rangeSeekSlider(_ slider: RangeSeekSlider, didChange minValue: CGFloat, maxValue: CGFloat) {
+    public func rangeSeekSlider(_ slider: RangeSeekSlider, didChange minValue: CGFloat, maxValue: CGFloat) {
         minPriceLabel.text = Int(minValue).withCommas()
         maxPriceLabel.text = Int(maxValue).withCommas()
         delegate?.rangeSeekSliderDidChange(minValue: minValue, maxValue: maxValue)

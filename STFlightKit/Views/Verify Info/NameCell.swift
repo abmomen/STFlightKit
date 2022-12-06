@@ -8,22 +8,24 @@
 
 import UIKit
 
-class NameCell: UITableViewCell {
+public class NameCell: UITableViewCell {
 
     @IBOutlet weak var accountImageView: UIImageView!
     @IBOutlet weak var nameTitlelabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
-    override func awakeFromNib() {
+    
+    public override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
+    public override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
     }
-    func configure(imageName: String, titleText: String, subTitleText: String){
+    
+    public func configure(imageName: String, titleText: String, subTitleText: String){
         accountImageView.image = UIImage(named: imageName)
         accountImageView.tintColor = .black
         nameTitlelabel.text = titleText

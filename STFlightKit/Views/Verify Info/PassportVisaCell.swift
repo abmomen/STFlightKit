@@ -9,21 +9,21 @@
 import UIKit
 import Kingfisher
 
-protocol PassportVisaCellDelegate: AnyObject {
+public protocol PassportVisaCellDelegate: AnyObject {
     func passportViewTapped(cellIndexPath: IndexPath)
     func visaViewTapped(cellIndexPath: IndexPath)
 }
 
-class PassportVisaCell: UITableViewCell {
+public class PassportVisaCell: UITableViewCell {
 
     private weak var delegate: PassportVisaCellDelegate?
     private var cellIndexPath: IndexPath!
 
     @IBOutlet weak var passportImageView: UIImageView!
     @IBOutlet weak var visaImageView: UIImageView!
-    var count = 0
+    public var count = 0
 
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
         setupView()
@@ -47,13 +47,13 @@ class PassportVisaCell: UITableViewCell {
         visaImageView.isUserInteractionEnabled = true
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
+    public override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
     }
 
-    func configure(passportUrl: String, visaUrl: String, cellIndexPath: IndexPath, delegate: PassportVisaCellDelegate) {
+    public func configure(passportUrl: String, visaUrl: String, cellIndexPath: IndexPath, delegate: PassportVisaCellDelegate) {
 
         self.cellIndexPath = cellIndexPath
         self.delegate = delegate
@@ -76,7 +76,7 @@ class PassportVisaCell: UITableViewCell {
         }
     }
 
-    func configCell(cellIndexPath: IndexPath, delegate: PassportVisaCellDelegate){
+    public func configCell(cellIndexPath: IndexPath, delegate: PassportVisaCellDelegate){
 
     }
 

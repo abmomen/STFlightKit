@@ -9,31 +9,31 @@
 import UIKit
 import STCoreKit
 
-class FlightBookingCell: UITableViewCell {
+public class FlightBookingCell: UITableViewCell {
 
-    @IBOutlet weak var containerView: UIView!
-    @IBOutlet weak var routeLabel: UILabel!
-    @IBOutlet weak var fareLabel: UILabel!
-    @IBOutlet weak var travelersLabel: UILabel!
-    @IBOutlet weak var dateRangeLabel: UILabel!
-    @IBOutlet weak var ticketIDLabel: UILabel!
-    @IBOutlet weak var pnrLabel: UILabel!
-    @IBOutlet weak var statusLabel: UILabel!
-    @IBOutlet weak var tripCoinLabel: UILabel!
-    @IBOutlet weak var cellContainerHeightLC: NSLayoutConstraint!
+    @IBOutlet public weak var containerView: UIView!
+    @IBOutlet private weak var routeLabel: UILabel!
+    @IBOutlet private weak var fareLabel: UILabel!
+    @IBOutlet private weak var travelersLabel: UILabel!
+    @IBOutlet private weak var dateRangeLabel: UILabel!
+    @IBOutlet private weak var ticketIDLabel: UILabel!
+    @IBOutlet private weak var pnrLabel: UILabel!
+    @IBOutlet private weak var statusLabel: UILabel!
+    @IBOutlet private weak var tripCoinLabel: UILabel!
+    @IBOutlet private weak var cellContainerHeightLC: NSLayoutConstraint!
 
     private var showHighlightAnimation = true
 
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
+    public override func setSelected(_ selected: Bool, animated: Bool) {
         setAsSelectedOrHighlighted(selected, animated: animated)
         super.setSelected(selected, animated: animated)
     }
 
-    override func setHighlighted(_ highlighted: Bool, animated: Bool) {
+    public override func setHighlighted(_ highlighted: Bool, animated: Bool) {
         setAsSelectedOrHighlighted(highlighted, animated: animated)
         super.setHighlighted(highlighted, animated: animated)
     }
@@ -53,7 +53,7 @@ class FlightBookingCell: UITableViewCell {
     }
     
     //MARK:- Helpers
-    func configure(historyOption: BookingHistoryOption, history: FlightBookingHistory, showHighlightAnimation: Bool = true ,cellHeight: CGFloat? = nil) {
+    public func configure(historyOption: BookingHistoryOption, history: FlightBookingHistory, showHighlightAnimation: Bool = true ,cellHeight: CGFloat? = nil) {
 
         //Set Date Label
         if history.searchParams.tripType == TripType.roundTrip || history.searchParams.tripType == TripType.multiCity{
@@ -156,12 +156,12 @@ class FlightBookingCell: UITableViewCell {
         }
     }
     
-    func prepareStatusLabel(text: String, textColor: UIColor){
+    public func prepareStatusLabel(text: String, textColor: UIColor){
         statusLabel.text = text
         statusLabel.textColor = textColor
     }
     
-    func AttributedTextwithImgaeSuffixAndPrefix(AttributeImage1 : UIImage , AttributedText : String ,AttributeImage2 : UIImage,  LabelBound : UILabel) -> NSMutableAttributedString
+    public func AttributedTextwithImgaeSuffixAndPrefix(AttributeImage1 : UIImage , AttributedText : String ,AttributeImage2 : UIImage,  LabelBound : UILabel) -> NSMutableAttributedString
     {
         let fullString = NSMutableAttributedString(string: "  ")
         let image1Attachment = NSTextAttachment()

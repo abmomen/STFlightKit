@@ -9,12 +9,12 @@
 import UIKit
 import STCoreKit
 
-class FlightBookingHistoryListVC: UITableViewController {
+public class FlightBookingHistoryListVC: UITableViewController {
     
     private let viewModel = FlightBookingHistoryViewModel()
     
     //MARK:- ViewController's Life Cycle
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
         handleCallbacks()
@@ -35,7 +35,7 @@ class FlightBookingHistoryListVC: UITableViewController {
         }
     }
     
-    override func viewWillAppear(_ animated: Bool) {
+    public override func viewWillAppear(_ animated: Bool) {
         tableView.reloadData()
         super.viewWillAppear(animated)
         self.tabBarController?.tabBar.isHidden = true
@@ -62,11 +62,11 @@ class FlightBookingHistoryListVC: UITableViewController {
     }
     
     // MARK: - UITableViewDataSource
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    public override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel.histories.count
     }
     
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    public override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let history = viewModel.histories[indexPath.row]
         let cell = tableView.dequeueReusableCell(forIndexPath: indexPath) as FlightBookingCell
         cell.configure(historyOption: .flight, history: history)
@@ -74,14 +74,14 @@ class FlightBookingHistoryListVC: UITableViewController {
         return cell
     }
     
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    public override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         let detailViewModel = FlightBookingHistoryDetailViewModel(of: viewModel.histories[indexPath.row])
         let flightBookingHistoryDetailVC = FlightBookingHistoryDetailVC(viewModel: detailViewModel)
         navigationController?.pushViewController(flightBookingHistoryDetailVC, animated: true)
     }
     
-    override func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    public override func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let height = scrollView.frame.size.height
         let contentYoffset = scrollView.contentOffset.y
         let distanceFromBottom = scrollView.contentSize.height - contentYoffset

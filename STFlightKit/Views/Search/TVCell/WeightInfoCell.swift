@@ -8,9 +8,9 @@
 
 import UIKit
 
-class WeightInfoCell: UITableViewCell {
+public class WeightInfoCell: UITableViewCell {
 
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
         
     }
@@ -19,12 +19,12 @@ class WeightInfoCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    override func setSelected(_ selected: Bool, animated: Bool) {
+    public override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
     }
     
-    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+    public override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
         tintColor = .black
@@ -35,7 +35,7 @@ class WeightInfoCell: UITableViewCell {
         textLabel?.backgroundColor = .clear
     }
     
-    func configure(history: FlightBookingHistory){
+    public func configure(history: FlightBookingHistory){
         var weightText = "Info isn't available"
         if let baggageInfo = history.baggageInfo?.first {
             if let adultWeight = baggageInfo.adult, adultWeight.count > 0 {

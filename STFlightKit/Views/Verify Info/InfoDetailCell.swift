@@ -7,19 +7,20 @@
 //
 
 import UIKit
-struct VerifyInfoData {
-    var title: String
-    var subTitle: String
-    var image: String
 
-    init(title: String, subTitle: String, image: String) {
+public struct VerifyInfoData {
+    public var title: String
+    public var subTitle: String
+    public var image: String
+
+    public init(title: String, subTitle: String, image: String) {
         self.title = title.count > 0 ? title : "-"
         self.subTitle = subTitle.count > 0 ? subTitle : "-"
         self.image = image
     }
 }
 
-class InfoDetailCell: UITableViewCell {
+public class InfoDetailCell: UITableViewCell {
 
     @IBOutlet weak var imageViewOne: UIImageView!
     @IBOutlet weak var titleLabelOne: UILabel!
@@ -28,18 +29,18 @@ class InfoDetailCell: UITableViewCell {
     @IBOutlet weak var titleLabelTwo: UILabel!
     @IBOutlet weak var subtitleLabelTwo: UILabel!
     
-    override func awakeFromNib() {
+    public override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
+    public override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
     }
 
-    func configure(infoDataOne: VerifyInfoData?, infoDataTwo: VerifyInfoData?){
+    public func configure(infoDataOne: VerifyInfoData?, infoDataTwo: VerifyInfoData?){
         if let dataOne = infoDataOne {
             imageViewOne.image = UIImage(named: dataOne.image)
             titleLabelOne.text = dataOne.title
