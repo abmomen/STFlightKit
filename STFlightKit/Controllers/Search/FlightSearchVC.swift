@@ -106,13 +106,16 @@ public class FlightSearchVC: UIViewController {
         searchTableView.delegate = self
         searchTableView.dataSource = self
         searchTableView.allowsSelection = false
+        
         searchTableView.registerCell(FlightRouteCell.self)
         searchTableView.registerCell(SingleButtonCell.self)
         searchTableView.registerCell(DoubleButtonCell.self)
-        searchTableView.registerNibCell(SingleInputTitleCell.self)
-        searchTableView.registerNibCell(AirportInputCell.self)
-        searchTableView.registerNibCell(ExploreDestinationTVCell.self)
+
         searchTableView.registerNibCell(PostCardCell.self)
+        searchTableView.registerNibCell(AirportInputCell.self)
+        searchTableView.registerNibCell(SingleInputTitleCell.self)
+        searchTableView.registerNibCell(ExploreDestinationTVCell.self)
+        
         searchTableView.addTopBackgroundView(viewColor: .clearBlue)
     }
     
@@ -490,6 +493,10 @@ extension FlightSearchVC: JTCalendarVCDelegate {
 
 //MARK: - Storyboard Extension
 extension FlightSearchVC: StoryboardBased {
+    public static var bundle: Bundle? {
+        return Bundle(identifier: "net.sharetrip.ios.flight")
+    }
+    
     public static var storyboardName: String {
         return "Flight"
     }

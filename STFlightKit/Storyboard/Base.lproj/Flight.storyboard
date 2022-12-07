@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -13,10 +13,10 @@
         <!--Navigation Controller-->
         <scene sceneID="a7m-YP-niK">
             <objects>
-                <navigationController storyboardIdentifier="NavigationController" automaticallyAdjustsScrollViewInsets="NO" id="qv9-b2-6qg" customClass="NavigationController" customModule="ShareTrip" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NavigationController" automaticallyAdjustsScrollViewInsets="NO" id="qv9-b2-6qg" customClass="NavigationController" customModule="STFlightKit" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="SS3-yS-a9w">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.094117647060000004" green="0.50980392159999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <textAttributes key="titleTextAttributes">
@@ -35,13 +35,13 @@
         <!--Flights-->
         <scene sceneID="6rb-Bw-jTl">
             <objects>
-                <viewController storyboardIdentifier="FlightSearchVC" id="zxa-6f-3DU" customClass="FlightSearchVC" customModule="ShareTrip" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FlightSearchVC" id="zxa-6f-3DU" customClass="FlightSearchVC" customModule="STFlightKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HWV-8d-AFS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="804"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zJL-jm-IrH">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="770"/>
                                 <color key="backgroundColor" white="0.89324700342465757" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
@@ -73,15 +73,15 @@
         <!--Airport SearchVC-->
         <scene sceneID="wgg-zp-Uac">
             <objects>
-                <viewController storyboardIdentifier="AirportSearchVC" id="X8M-1l-EK3" customClass="AirportSearchVC" customModule="ShareTrip" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AirportSearchVC" id="X8M-1l-EK3" customClass="AirportSearchVC" customModule="STFlightKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="STI-Jn-edZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="804"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="74S-vv-sdJ">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                                 <subviews>
-                                    <searchBar contentMode="redraw" placeholder="Search City or Destination" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S39-pb-Plo" customClass="SearchBar" customModule="ShareTrip" customModuleProvider="target">
+                                    <searchBar contentMode="redraw" placeholder="Search City or Destination" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S39-pb-Plo" customClass="SearchBar" customModule="STFlightKit" customModuleProvider="target">
                                         <rect key="frame" x="8" y="4" width="398" height="48"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </searchBar>
@@ -96,7 +96,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lbe-8X-615">
-                                <rect key="frame" x="0.0" y="56" width="414" height="752"/>
+                                <rect key="frame" x="0.0" y="56" width="414" height="748"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
@@ -125,9 +125,9 @@
         <!--Flight ListVC-->
         <scene sceneID="DhY-Lu-9fx">
             <objects>
-                <viewController storyboardIdentifier="FlightListVC" automaticallyAdjustsScrollViewInsets="NO" id="M2t-YT-Ev4" customClass="FlightListVC" customModule="ShareTrip" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FlightListVC" automaticallyAdjustsScrollViewInsets="NO" id="M2t-YT-Ev4" customClass="FlightListVC" customModule="STFlightKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="q6x-N2-cgA">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="804"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pbv-dx-ZYu" userLabel="TopBarView">
@@ -159,13 +159,13 @@
                                             <constraint firstItem="Zs5-TY-dgg" firstAttribute="top" secondItem="jk4-9y-c9d" secondAttribute="top" id="fV7-Qg-Oth"/>
                                         </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nzl-Zh-QnF" customClass="FlightSortingButtonGroup" customModule="ShareTrip" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nzl-Zh-QnF" customClass="FlightSortingButtonGroup" customModule="STFlightKit" customModuleProvider="target">
                                         <rect key="frame" x="16" y="52" width="382" height="34"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="4zF-sl-RHP">
                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="27"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXk-7t-EnB" userLabel="Earliest Button" customClass="FlightSortingButton" customModule="ShareTrip" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXk-7t-EnB" userLabel="Earliest Button" customClass="FlightSortingButton" customModule="STFlightKit" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="0.0" width="126" height="27"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                         <state key="normal" title="EARLIEST">
@@ -175,7 +175,7 @@
                                                             <action selector="onSortingButtonTapped:" destination="nzl-Zh-QnF" eventType="touchUpInside" id="5RR-vx-sj1"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ieb-5u-aD1" customClass="FlightSortingButton" customModule="ShareTrip" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ieb-5u-aD1" customClass="FlightSortingButton" customModule="STFlightKit" customModuleProvider="target">
                                                         <rect key="frame" x="128" y="0.0" width="126" height="27"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                         <state key="normal" title="CHEAPEST">
@@ -185,7 +185,7 @@
                                                             <action selector="onSortingButtonTapped:" destination="nzl-Zh-QnF" eventType="touchUpInside" id="EcN-YM-Ybh"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0t2-AX-sDF" customClass="FlightSortingButton" customModule="ShareTrip" customModuleProvider="target">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0t2-AX-sDF" customClass="FlightSortingButton" customModule="STFlightKit" customModuleProvider="target">
                                                         <rect key="frame" x="256" y="0.0" width="126" height="27"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                         <state key="normal" title="FASTEST">
@@ -268,7 +268,7 @@
                                 </cells>
                             </collectionView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mOB-DO-Jod">
-                                <rect key="frame" x="0.0" y="139" width="414" height="669"/>
+                                <rect key="frame" x="0.0" y="139" width="414" height="665"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
@@ -307,17 +307,17 @@
         <!--Flight DetailVC-->
         <scene sceneID="Fph-Vd-3bU">
             <objects>
-                <viewController id="uhV-Ff-QZL" customClass="FlightDetailVC" customModule="ShareTrip" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="uhV-Ff-QZL" customClass="FlightDetailVC" customModule="STFlightKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rhB-as-wBT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="804"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="TrT-bS-uWU">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="770"/>
                                 <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u7j-G0-3l8" userLabel="BottomSafeAreaView">
-                                <rect key="frame" x="0.0" y="774" width="414" height="34"/>
+                                <rect key="frame" x="0.0" y="770" width="414" height="34"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
@@ -347,13 +347,13 @@
         <!--Traveller ClassVC-->
         <scene sceneID="pLg-vW-HwR">
             <objects>
-                <viewController storyboardIdentifier="TravellerClassVC" id="cef-Ft-Bvq" customClass="TravellerClassVC" customModule="ShareTrip" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TravellerClassVC" id="cef-Ft-Bvq" customClass="TravellerClassVC" customModule="STFlightKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="z9A-Wh-MbY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="BzF-CJ-fcF">
-                                <rect key="frame" x="0.0" y="44" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="48" width="414" height="770"/>
                                 <color key="backgroundColor" systemColor="groupTableViewBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="cef-Ft-Bvq" id="P8c-wY-KCl"/>
@@ -396,13 +396,13 @@
         <!--Flight Price BreakdownVC-->
         <scene sceneID="CaJ-OD-6oy">
             <objects>
-                <viewController storyboardIdentifier="FlightPriceBreakdownVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qQk-Vw-Skt" customClass="FlightPriceBreakdownVC" customModule="ShareTrip" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FlightPriceBreakdownVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qQk-Vw-Skt" customClass="FlightPriceBreakdownVC" customModule="STFlightKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ybu-uz-nwY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="khr-aw-Kjm">
-                                <rect key="frame" x="247.5" y="74" width="150.5" height="44"/>
+                                <rect key="frame" x="247.5" y="78" width="150.5" height="44"/>
                                 <color key="backgroundColor" red="0.1647058824" green="0.54901960780000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="XiP-kM-dW4"/>
@@ -418,7 +418,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xMh-Ff-oxF">
-                                <rect key="frame" x="16" y="75.5" width="89.5" height="41"/>
+                                <rect key="frame" x="16" y="79.5" width="89.5" height="41"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBJ-UF-AGF">
                                         <rect key="frame" x="0.0" y="0.0" width="89.5" height="13"/>
@@ -455,14 +455,14 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JOJ-5l-GAX">
-                                <rect key="frame" x="16" y="132" width="382" height="1"/>
+                                <rect key="frame" x="16" y="136" width="382" height="1"/>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.93725490199999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="F5M-s3-wDO"/>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BAA-DB-nK9">
-                                <rect key="frame" x="0.0" y="133" width="414" height="763"/>
+                                <rect key="frame" x="0.0" y="137" width="414" height="759"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
@@ -497,13 +497,13 @@
         <!--Fare Rule And PolicyVC-->
         <scene sceneID="kG2-kw-8Ra">
             <objects>
-                <viewController storyboardIdentifier="FareRuleAndPolicyVC" id="rLW-Hu-OD4" customClass="FareRuleAndPolicyVC" customModule="ShareTrip" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FareRuleAndPolicyVC" id="rLW-Hu-OD4" customClass="FareRuleAndPolicyVC" customModule="STFlightKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rsf-fr-XeG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="wtu-8Z-EIT">
-                                <rect key="frame" x="8" y="60" width="398" height="45"/>
+                                <rect key="frame" x="8" y="64" width="398" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="xLs-WO-54r"/>
                                 </constraints>
@@ -517,7 +517,7 @@
                                 </connections>
                             </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ji7-vb-yU0">
-                                <rect key="frame" x="0.0" y="120" width="414" height="742"/>
+                                <rect key="frame" x="0.0" y="124" width="414" height="738"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </tableView>
                         </subviews>
@@ -545,13 +545,13 @@
         <!--Flight Passenger ListVC-->
         <scene sceneID="pRa-Xa-AIl">
             <objects>
-                <viewController storyboardIdentifier="FlightPassengerListVC" id="LDg-rD-ZV1" customClass="FlightPassengerListVC" customModule="ShareTrip" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FlightPassengerListVC" id="LDg-rD-ZV1" customClass="FlightPassengerListVC" customModule="STFlightKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Mzs-iy-J6C">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="wbV-OW-zk1">
-                                <rect key="frame" x="0.0" y="44" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="48" width="414" height="770"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="LDg-rD-ZV1" id="o8w-Be-WOE"/>
@@ -597,13 +597,13 @@
         <!--Flight DetailsVC-->
         <scene sceneID="Zeh-LV-9pu">
             <objects>
-                <viewController storyboardIdentifier="FlightDetailsVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ay2-ji-reU" customClass="FlightDetailsVC" customModule="ShareTrip" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FlightDetailsVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ay2-ji-reU" customClass="FlightDetailsVC" customModule="STFlightKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BDP-53-i1o">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Aos-Yh-iWV">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="48" width="414" height="814"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="ay2-ji-reU" id="s22-Kf-Gs5"/>
@@ -640,13 +640,13 @@
         <!--Flight SummaryVC-->
         <scene sceneID="2dg-VR-lDL">
             <objects>
-                <viewController storyboardIdentifier="FlightSummaryVC" id="EGc-hI-uFI" customClass="FlightSummaryVC" customModule="ShareTrip" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FlightSummaryVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="EGc-hI-uFI" customClass="FlightSummaryVC" customModule="STFlightKit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cWa-q6-cBa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JgA-iz-45U">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="48" width="414" height="814"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="cna-5D-et0">
                                         <rect key="frame" x="8" y="8" width="398" height="188"/>
@@ -894,7 +894,7 @@ Discount Offer</string>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OVk-k5-F2H">
                                                 <rect key="frame" x="0.0" y="138" width="398" height="50"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tp0-s3-mGQ" customClass="GDCheckbox" customModule="ShareTrip" customModuleProvider="target">
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tp0-s3-mGQ" customClass="GDCheckbox" customModule="STFlightKit">
                                                         <rect key="frame" x="16" y="16" width="20" height="20"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>

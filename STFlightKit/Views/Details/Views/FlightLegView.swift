@@ -22,7 +22,8 @@ class FlightLegView: UIView, NibBased {
     @IBOutlet weak var durationLabel: UILabel!
 
     class func instanceFromNib() -> FlightLegView {
-        return UINib(nibName: "FlightLegView", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! FlightLegView
+        let bundle = Bundle(for: FlightLegView.self)
+        return UINib(nibName: "FlightLegView", bundle: bundle).instantiate(withOwner: nil, options: nil)[0] as! FlightLegView
     }
     
     //initWithCode to init view from xib or storyboard

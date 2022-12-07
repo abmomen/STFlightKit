@@ -66,9 +66,7 @@
 		CC0DA010293C71A9000EEB7B /* OptionSelectTBCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FB1293C71A9000EEB7B /* OptionSelectTBCell.swift */; };
 		CC0DA011293C71A9000EEB7B /* FilterFlightScheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FB2293C71A9000EEB7B /* FilterFlightScheduleCell.swift */; };
 		CC0DA012293C71A9000EEB7B /* FilterFlightScheduleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FB3293C71A9000EEB7B /* FilterFlightScheduleCell.xib */; };
-		CC0DA013293C71A9000EEB7B /* AirportInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9FB4293C71A9000EEB7B /* AirportInputCell.xib */; };
 		CC0DA014293C71A9000EEB7B /* FilterPriceRangeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FB5293C71A9000EEB7B /* FilterPriceRangeCell.swift */; };
-		CC0DA015293C71A9000EEB7B /* AirportInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FB6293C71A9000EEB7B /* AirportInputCell.swift */; };
 		CC0DA017293C71A9000EEB7B /* ConditionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FB9293C71A9000EEB7B /* ConditionCell.swift */; };
 		CC0DA018293C71A9000EEB7B /* PassportVisaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FBA293C71A9000EEB7B /* PassportVisaCell.swift */; };
 		CC0DA019293C71A9000EEB7B /* EditableContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9FBB293C71A9000EEB7B /* EditableContactCell.swift */; };
@@ -148,6 +146,8 @@
 		CC4EB7DC2934C4DE000FAE1E /* FlightPriceIndicatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EB7DB2934C4DE000FAE1E /* FlightPriceIndicatorViewModel.swift */; };
 		CC4EB7DE2934C679000FAE1E /* FlightPriceBreakdownViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EB7DD2934C679000FAE1E /* FlightPriceBreakdownViewModel.swift */; };
 		CC4EB7E52934CD10000FAE1E /* FlightPassengerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4EB7E42934CD10000FAE1E /* FlightPassengerListViewModel.swift */; };
+		CC54989D293F510700D0A30E /* AirportInputCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC54989B293F510700D0A30E /* AirportInputCell.swift */; };
+		CC54989E293F510700D0A30E /* AirportInputCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC54989C293F510700D0A30E /* AirportInputCell.xib */; };
 		CC7893662935F0280068616F /* ItemShareable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7893652935F0280068616F /* ItemShareable.swift */; };
 		CC8AB74C292DFC6B00B4271E /* FlightSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8AB74B292DFC6B00B4271E /* FlightSearchViewModel.swift */; };
 		CC8AB74F292DFD9A00B4271E /* TravellerClassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8AB74E292DFD9A00B4271E /* TravellerClassViewModel.swift */; };
@@ -276,9 +276,7 @@
 		CC0D9FB1293C71A9000EEB7B /* OptionSelectTBCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionSelectTBCell.swift; sourceTree = "<group>"; };
 		CC0D9FB2293C71A9000EEB7B /* FilterFlightScheduleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterFlightScheduleCell.swift; sourceTree = "<group>"; };
 		CC0D9FB3293C71A9000EEB7B /* FilterFlightScheduleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilterFlightScheduleCell.xib; sourceTree = "<group>"; };
-		CC0D9FB4293C71A9000EEB7B /* AirportInputCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AirportInputCell.xib; sourceTree = "<group>"; };
 		CC0D9FB5293C71A9000EEB7B /* FilterPriceRangeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterPriceRangeCell.swift; sourceTree = "<group>"; };
-		CC0D9FB6293C71A9000EEB7B /* AirportInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportInputCell.swift; sourceTree = "<group>"; };
 		CC0D9FB9293C71A9000EEB7B /* ConditionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionCell.swift; sourceTree = "<group>"; };
 		CC0D9FBA293C71A9000EEB7B /* PassportVisaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PassportVisaCell.swift; sourceTree = "<group>"; };
 		CC0D9FBB293C71A9000EEB7B /* EditableContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditableContactCell.swift; sourceTree = "<group>"; };
@@ -358,6 +356,8 @@
 		CC4EB7DB2934C4DE000FAE1E /* FlightPriceIndicatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPriceIndicatorViewModel.swift; sourceTree = "<group>"; };
 		CC4EB7DD2934C679000FAE1E /* FlightPriceBreakdownViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPriceBreakdownViewModel.swift; sourceTree = "<group>"; };
 		CC4EB7E42934CD10000FAE1E /* FlightPassengerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightPassengerListViewModel.swift; sourceTree = "<group>"; };
+		CC54989B293F510700D0A30E /* AirportInputCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportInputCell.swift; sourceTree = "<group>"; };
+		CC54989C293F510700D0A30E /* AirportInputCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AirportInputCell.xib; sourceTree = "<group>"; };
 		CC7893652935F0280068616F /* ItemShareable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemShareable.swift; sourceTree = "<group>"; };
 		CC8AB74B292DFC6B00B4271E /* FlightSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightSearchViewModel.swift; sourceTree = "<group>"; };
 		CC8AB74E292DFD9A00B4271E /* TravellerClassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravellerClassViewModel.swift; sourceTree = "<group>"; };
@@ -594,8 +594,8 @@
 			children = (
 				CC0D9FAD293C71A9000EEB7B /* AirportCell.swift */,
 				CC0D9FAF293C71A9000EEB7B /* AirportCell.xib */,
-				CC0D9FB6293C71A9000EEB7B /* AirportInputCell.swift */,
-				CC0D9FB4293C71A9000EEB7B /* AirportInputCell.xib */,
+				CC54989B293F510700D0A30E /* AirportInputCell.swift */,
+				CC54989C293F510700D0A30E /* AirportInputCell.xib */,
 				CC0D9FA9293C71A9000EEB7B /* FilterFlightDurationCell.swift */,
 				CC0D9FB0293C71A9000EEB7B /* FilterFlightDurationCell.xib */,
 				CC0D9FB2293C71A9000EEB7B /* FilterFlightScheduleCell.swift */,
@@ -1313,10 +1313,10 @@
 				CC908DB72923604B009E0481 /* Covid19Test.json in Resources */,
 				CC0D9FEA293C71A9000EEB7B /* FlightLegView.xib in Resources */,
 				CC0D9FFF293C71A9000EEB7B /* TravelerCell.xib in Resources */,
+				CC54989E293F510700D0A30E /* AirportInputCell.xib in Resources */,
 				CC0D9FE5293C71A9000EEB7B /* FlightInfoHeaderView.xib in Resources */,
 				CC0DA01F293C71A9000EEB7B /* FlightEditContactButtonCell.xib in Resources */,
 				CC0D9FDC293C71A9000EEB7B /* CovidInfoCell.xib in Resources */,
-				CC0DA013293C71A9000EEB7B /* AirportInputCell.xib in Resources */,
 				CC0DA00D293C71A9000EEB7B /* FilterPriceRangeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1396,7 +1396,6 @@
 				CC0DA019293C71A9000EEB7B /* EditableContactCell.swift in Sources */,
 				CC2FF8D7292DE625003DE1EE /* FlightInfoProvider.swift in Sources */,
 				CC988983292A32DE003434CB /* Airline.swift in Sources */,
-				CC0DA015293C71A9000EEB7B /* AirportInputCell.swift in Sources */,
 				CC9889D0292A4266003434CB /* DateExtension.swift in Sources */,
 				CC0DA094293C7291000EEB7B /* FlightBookingHistoryDetailVC.swift in Sources */,
 				CC8AB759292E303A00B4271E /* FlightListViewModel.swift in Sources */,
@@ -1441,6 +1440,7 @@
 				CC8AB74F292DFD9A00B4271E /* TravellerClassViewModel.swift in Sources */,
 				CC0DA02A293C71A9000EEB7B /* BaggageInfoTVCell.swift in Sources */,
 				CC908DD2292366F2009E0481 /* Covid19TestOptions.swift in Sources */,
+				CC54989D293F510700D0A30E /* AirportInputCell.swift in Sources */,
 				CC0DA096293C7291000EEB7B /* BaggageHistoryDetailsVC.swift in Sources */,
 				CC988985292A335E003434CB /* FlightSearchResponse.swift in Sources */,
 				CC0DA01E293C71A9000EEB7B /* NameCell.swift in Sources */,
@@ -1658,7 +1658,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.sharetrip.ios.flight.STFlightKit;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sharetrip.ios.flight;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -1691,7 +1691,7 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = net.sharetrip.ios.flight.STFlightKit;
+				PRODUCT_BUNDLE_IDENTIFIER = net.sharetrip.ios.flight;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

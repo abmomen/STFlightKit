@@ -19,7 +19,6 @@ struct AirportInputData {
 }
 
 class AirportInputCell: UITableViewCell {
-    //IBOutlet
     @IBOutlet weak var topDotsImageView: UIImageView!
     @IBOutlet weak var inputTypeImageView: UIImageView!
 
@@ -35,6 +34,14 @@ class AirportInputCell: UITableViewCell {
     private var cellIndexPath: IndexPath!
     private var callbackClosure: ((IndexPath, Int) -> Void)?
     var swapCallbackClosure: ((IndexPath) -> Void)?
+    
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+    }
     
     override func awakeFromNib() {
         super.awakeFromNib()

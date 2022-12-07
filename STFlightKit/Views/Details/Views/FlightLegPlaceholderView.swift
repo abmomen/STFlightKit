@@ -18,7 +18,8 @@ class FlightLegPlaceholderView: UIView {
     */
     
     class func instanceFromNib() -> FlightLegPlaceholderView {
-        return UINib(nibName: "FlightLegPlaceholderView", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as! FlightLegPlaceholderView
+        let bundle = Bundle(for: FlightLegPlaceholderView.self)
+        return UINib(nibName: "FlightLegPlaceholderView", bundle: bundle).instantiate(withOwner: nil, options: nil)[0] as! FlightLegPlaceholderView
     }
     
     //initWithCode to init view from xib or storyboard
