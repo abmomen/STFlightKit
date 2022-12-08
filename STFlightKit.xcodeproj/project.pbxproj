@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E85027A71582405BAFAF54F /* Pods_ShareTrip_STFlightKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63712F9836923DDB983B1E65 /* Pods_ShareTrip_STFlightKit.framework */; };
+		90D4CBE39A0634243715F5E7 /* Pods_STFlightKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E047024ECE1B148E40DE5AC /* Pods_STFlightKit.framework */; };
 		CC0D9FD8293C71A9000EEB7B /* FlightBookingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0D9F6D293C71A9000EEB7B /* FlightBookingCell.xib */; };
 		CC0D9FD9293C71A9000EEB7B /* FlightBookingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F6E293C71A9000EEB7B /* FlightBookingCell.swift */; };
 		CC0D9FDA293C71A9000EEB7B /* SingleInfoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0D9F6F293C71A9000EEB7B /* SingleInfoHeaderView.swift */; };
@@ -215,10 +215,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		06B874E701DC8D1F56F514DE /* Pods-ShareTrip-STFlightKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareTrip-STFlightKit.release.xcconfig"; path = "../STB2C-iOS/Pods/Target Support Files/Pods-ShareTrip-STFlightKit/Pods-ShareTrip-STFlightKit.release.xcconfig"; sourceTree = "<group>"; };
-		4049EF4710F19FA177F70BC2 /* Pods-ShareTrip-STFlightKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareTrip-STFlightKit.debug.xcconfig"; path = "../STB2C-iOS/Pods/Target Support Files/Pods-ShareTrip-STFlightKit/Pods-ShareTrip-STFlightKit.debug.xcconfig"; sourceTree = "<group>"; };
-		5BE7B3A131157EE073BCA10A /* Pods-STFlightKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit.debug.xcconfig"; path = "../STB2C-iOS/Pods/Target Support Files/Pods-STFlightKit/Pods-STFlightKit.debug.xcconfig"; sourceTree = "<group>"; };
-		63712F9836923DDB983B1E65 /* Pods_ShareTrip_STFlightKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareTrip_STFlightKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1144D066670CA96745EF9730 /* Pods-STFlightKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit.debug.xcconfig"; path = "Target Support Files/Pods-STFlightKit/Pods-STFlightKit.debug.xcconfig"; sourceTree = "<group>"; };
+		1E047024ECE1B148E40DE5AC /* Pods_STFlightKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STFlightKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E94C9F4C1C52905A66C9EC /* Pods-STFlightKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit.release.xcconfig"; path = "Target Support Files/Pods-STFlightKit/Pods-STFlightKit.release.xcconfig"; sourceTree = "<group>"; };
 		CC0D9F6D293C71A9000EEB7B /* FlightBookingCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightBookingCell.xib; sourceTree = "<group>"; };
 		CC0D9F6E293C71A9000EEB7B /* FlightBookingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlightBookingCell.swift; sourceTree = "<group>"; };
 		CC0D9F6F293C71A9000EEB7B /* SingleInfoHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleInfoHeaderView.swift; sourceTree = "<group>"; };
@@ -409,7 +408,6 @@
 		CCC573172929FEB7007DDF9C /* FlightRouteType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRouteType.swift; sourceTree = "<group>"; };
 		CCC57319292A00F3007DDF9C /* FlightClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightClass.swift; sourceTree = "<group>"; };
 		CCDC21AD2940A4C0002D2D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DE83EDE5BB45CE768A11E57B /* Pods-STFlightKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit.release.xcconfig"; path = "../STB2C-iOS/Pods/Target Support Files/Pods-STFlightKit/Pods-STFlightKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -418,23 +416,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC908DF429236A42009E0481 /* STCoreKit.framework in Frameworks */,
-				7E85027A71582405BAFAF54F /* Pods_ShareTrip_STFlightKit.framework in Frameworks */,
+				90D4CBE39A0634243715F5E7 /* Pods_STFlightKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		54930032D288631BD271E48E /* Pods */ = {
+		2D66F58BD4D3D479B7A216E4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5BE7B3A131157EE073BCA10A /* Pods-STFlightKit.debug.xcconfig */,
-				DE83EDE5BB45CE768A11E57B /* Pods-STFlightKit.release.xcconfig */,
-				4049EF4710F19FA177F70BC2 /* Pods-ShareTrip-STFlightKit.debug.xcconfig */,
-				06B874E701DC8D1F56F514DE /* Pods-ShareTrip-STFlightKit.release.xcconfig */,
+				1144D066670CA96745EF9730 /* Pods-STFlightKit.debug.xcconfig */,
+				61E94C9F4C1C52905A66C9EC /* Pods-STFlightKit.release.xcconfig */,
 			);
 			name = Pods;
-			path = ../../Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		CC0D9F6B293C71A9000EEB7B /* Views */ = {
@@ -1061,7 +1057,7 @@
 			isa = PBXGroup;
 			children = (
 				CC908DF329236A42009E0481 /* STCoreKit.framework */,
-				63712F9836923DDB983B1E65 /* Pods_ShareTrip_STFlightKit.framework */,
+				1E047024ECE1B148E40DE5AC /* Pods_STFlightKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1165,7 +1161,7 @@
 				CCB01EEC292275A400986950 /* STFlightKit */,
 				CCB01EEB292275A400986950 /* Products */,
 				CC908DF229236A42009E0481 /* Frameworks */,
-				54930032D288631BD271E48E /* Pods */,
+				2D66F58BD4D3D479B7A216E4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1229,7 +1225,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCB01EF3292275A400986950 /* Build configuration list for PBXNativeTarget "STFlightKit" */;
 			buildPhases = (
-				9736F3DD66ED680BD656086C /* [CP] Check Pods Manifest.lock */,
+				4282185AB1E5F37FA07B32C0 /* [CP] Check Pods Manifest.lock */,
 				CCB01EE5292275A400986950 /* Headers */,
 				CCB01EE6292275A400986950 /* Sources */,
 				CCB01EE7292275A400986950 /* Frameworks */,
@@ -1328,7 +1324,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9736F3DD66ED680BD656086C /* [CP] Check Pods Manifest.lock */ = {
+		4282185AB1E5F37FA07B32C0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1343,7 +1339,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ShareTrip-STFlightKit-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-STFlightKit-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1643,7 +1639,7 @@
 		};
 		CCB01EF4292275A400986950 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4049EF4710F19FA177F70BC2 /* Pods-ShareTrip-STFlightKit.debug.xcconfig */;
+			baseConfigurationReference = 1144D066670CA96745EF9730 /* Pods-STFlightKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1676,7 +1672,7 @@
 		};
 		CCB01EF5292275A400986950 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06B874E701DC8D1F56F514DE /* Pods-ShareTrip-STFlightKit.release.xcconfig */;
+			baseConfigurationReference = 61E94C9F4C1C52905A66C9EC /* Pods-STFlightKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
