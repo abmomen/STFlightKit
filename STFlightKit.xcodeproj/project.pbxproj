@@ -197,6 +197,7 @@
 		CCB01EF0292275A400986950 /* STFlightKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB01EED292275A400986950 /* STFlightKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CCC573182929FEB7007DDF9C /* FlightRouteType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC573172929FEB7007DDF9C /* FlightRouteType.swift */; };
 		CCC5731A292A00F3007DDF9C /* FlightClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC57319292A00F3007DDF9C /* FlightClass.swift */; };
+		CCDC21AE2940A4C0002D2D3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCDC21AD2940A4C0002D2D3E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -407,6 +408,7 @@
 		CCB01EEE292275A400986950 /* STFlightKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = STFlightKit.docc; sourceTree = "<group>"; };
 		CCC573172929FEB7007DDF9C /* FlightRouteType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRouteType.swift; sourceTree = "<group>"; };
 		CCC57319292A00F3007DDF9C /* FlightClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightClass.swift; sourceTree = "<group>"; };
+		CCDC21AD2940A4C0002D2D3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE83EDE5BB45CE768A11E57B /* Pods-STFlightKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit.release.xcconfig"; path = "../STB2C-iOS/Pods/Target Support Files/Pods-STFlightKit/Pods-STFlightKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1191,6 +1193,7 @@
 				CC0D9F6B293C71A9000EEB7B /* Views */,
 				CCB01EEE292275A400986950 /* STFlightKit.docc */,
 				CCB01EED292275A400986950 /* STFlightKit.h */,
+				CCDC21AD2940A4C0002D2D3E /* Assets.xcassets */,
 			);
 			path = STFlightKit;
 			sourceTree = "<group>";
@@ -1293,6 +1296,7 @@
 				CC0DA020293C71A9000EEB7B /* ConditionCell.xib in Resources */,
 				CC0D9FF6293C71A9000EEB7B /* WarningMessageCell.xib in Resources */,
 				CC0D9FF1293C71A9000EEB7B /* SeatAndBagageInfoCardCell.xib in Resources */,
+				CCDC21AE2940A4C0002D2D3E /* Assets.xcassets in Resources */,
 				CC0DA02D293C71A9000EEB7B /* PriceChangeView.xib in Resources */,
 				CC0DA00A293C71A9000EEB7B /* FlightFilterAirlinesCell.xib in Resources */,
 				CC0D9FF4293C71A9000EEB7B /* NextPrevLegDetailsCell.xib in Resources */,
