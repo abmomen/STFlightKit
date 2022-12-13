@@ -13,11 +13,12 @@ Pod::Spec.new do |s|
   s.author           = { 'abmomen' => 'abdulmomen130@gmail.com' }
   s.source           = { :git => 'https://github.com/abmomen/STFlightKit.git', :tag => s.version.to_s }
   
-  s.ios.deployment_target = '10.0'
   s.swift_version = '5.0'
-  s.source_files = 'Sources/**/*'
+  s.ios.deployment_target = '13.0'
   
+  s.source_files = 'Sources/**/*'
   s.ios.resource_bundle = { 'STFlightKit' => 'Assets/**/*.xcassets' }
+  
   s.frameworks = 'UIKit', 'MapKit', 'Foundation'
   s.static_framework = true
   
