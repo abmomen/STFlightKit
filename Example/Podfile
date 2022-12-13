@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'STFlightKit_Example' do
+  pod 'STFlightKit', :path => '../'
+
+  target 'STFlightKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
