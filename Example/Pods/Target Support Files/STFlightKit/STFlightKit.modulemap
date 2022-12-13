@@ -1,0 +1,6 @@
+framework module STFlightKit {
+  umbrella header "STFlightKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

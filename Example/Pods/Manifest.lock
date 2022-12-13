@@ -1,0 +1,16 @@
+PODS:
+  - STFlightKit (0.1.0)
+
+DEPENDENCIES:
+  - STFlightKit (from `../`)
+
+EXTERNAL SOURCES:
+  STFlightKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  STFlightKit: 7a806e939349415304cd2f734b486800b4fda846
+
+PODFILE CHECKSUM: 2da0af9fd06db6d8e21cf28c17d5e6d315fcb1ab
+
+COCOAPODS: 1.11.3
