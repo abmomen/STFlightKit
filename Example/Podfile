@@ -1,9 +1,10 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '13.0'
 
 target 'STFlightKit_Example' do
   pod 'STFlightKit', :path => '../'
+  pod 'STCoreKit', :git => 'https://github.com/abmomen/STCoreKit.git'
 
   target 'STFlightKit_Tests' do
     inherit! :search_paths
