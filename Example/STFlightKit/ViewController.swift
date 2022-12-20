@@ -12,12 +12,15 @@ import STFlightKit
 class ViewController: UIViewController {
 
     @IBAction func didTapSearchFlight(_ sender: UIButton) {
-        present(FlightSearchVC.instantiate(), animated: true)
+        navigationController?.pushViewController(FlightSearchVC.instantiate(), animated: true)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        var navigationBarAppearace = UINavigationBar.appearance()
+
+        navigationBarAppearace.tintColor = UIColor.appPrimary
+        navigationBarAppearace.barTintColor = UIColor.appPrimary
     }
 
     override func didReceiveMemoryWarning() {
