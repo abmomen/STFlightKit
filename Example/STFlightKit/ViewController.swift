@@ -7,9 +7,14 @@
 //
 
 import UIKit
+import STFlightKit
 
 class ViewController: UIViewController {
 
+    @IBAction func didTapSearchFlight(_ sender: UIButton) {
+        present(FlightSearchVC.instantiate(), animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
