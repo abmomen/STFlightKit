@@ -17,10 +17,10 @@ Pod::Spec.new do |s|
   s.source_files = 'STFlightKit/Classes/**/*.{swift}'
   
   s.resource_bundles = {
-    'STFlightKit' => ['STFlightKit/Classes/**/*.{xib,storyboard,xcassets}']
+    'STFlightKit' => ['STFlightKit/Assets/**/*.{xcassets}', 'STFlightKit/Classes/**/*.{xib,storyboard}']
   }
   
-  s.resources = 'STFlightKit/Classes/**/*.{xib,storyboard,xcassets}'
+  s.resources = ['STFlightKit/Assets/**/*.{xcassets}', 'STFlightKit/Classes/**/*.{xib,storyboard}']
   
   s.dependency 'STCoreKit'
   s.dependency 'JWT'

@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B05CCB3CC71AB63315CD4BD /* Pods_STFlightKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB3B36B0A858E178B67761A /* Pods_STFlightKit_Tests.framework */; };
+		43FD4BCFA5CD6D7D16D16E89 /* Pods_STFlightKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6849CD4F80C71BB978E9F102 /* Pods_STFlightKit_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		FC5E17DA059D9783A856DE4A /* Pods_STFlightKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D67AB89CAA032549828B560 /* Pods_STFlightKit_Example.framework */; };
+		877D390F3451AE40BCE25E81 /* Pods_STFlightKit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC61EC8C686380A628FB57C /* Pods_STFlightKit_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +29,8 @@
 
 /* Begin PBXFileReference section */
 		050901E670F2C3F551B47C36 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		13A83FC312D73F6498A43759 /* Pods-STFlightKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-STFlightKit_Tests/Pods-STFlightKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		44F0E662C5D934A679279539 /* Pods-STFlightKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-STFlightKit_Tests/Pods-STFlightKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* STFlightKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STFlightKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,14 +41,12 @@
 		607FACE51AFB9204008FA782 /* STFlightKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STFlightKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8B7EF7960CFAF1055FC2EDA3 /* Pods-STFlightKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-STFlightKit_Tests/Pods-STFlightKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8D67AB89CAA032549828B560 /* Pods_STFlightKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STFlightKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6849CD4F80C71BB978E9F102 /* Pods_STFlightKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STFlightKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC61EC8C686380A628FB57C /* Pods_STFlightKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STFlightKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95329F64103A230A9D3E4EA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A45D1F88DAF60E5B685179BA /* Pods-STFlightKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-STFlightKit_Tests/Pods-STFlightKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AAC9785396900BFA35856A4D /* Pods-STFlightKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-STFlightKit_Example/Pods-STFlightKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B88540E0849816DDE7684B15 /* Pods-STFlightKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit_Example.release.xcconfig"; path = "Target Support Files/Pods-STFlightKit_Example/Pods-STFlightKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		988F3B3BF05F1169D8A65D59 /* Pods-STFlightKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-STFlightKit_Example/Pods-STFlightKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CC81125BCC7A95D5AF87BE3D /* STFlightKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = STFlightKit.podspec; path = ../STFlightKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		FAB3B36B0A858E178B67761A /* Pods_STFlightKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STFlightKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB6074FF38ED1CE8CA763519 /* Pods-STFlightKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STFlightKit_Example.release.xcconfig"; path = "Target Support Files/Pods-STFlightKit_Example/Pods-STFlightKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC5E17DA059D9783A856DE4A /* Pods_STFlightKit_Example.framework in Frameworks */,
+				877D390F3451AE40BCE25E81 /* Pods_STFlightKit_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B05CCB3CC71AB63315CD4BD /* Pods_STFlightKit_Tests.framework in Frameworks */,
+				43FD4BCFA5CD6D7D16D16E89 /* Pods_STFlightKit_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +77,7 @@
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				F1834EC176D92E30DADAB83B /* Pods */,
-				6B4AA93CB78D5E395A9A909E /* Frameworks */,
+				F3185A181CF08B74027C2AF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,24 +139,24 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		6B4AA93CB78D5E395A9A909E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8D67AB89CAA032549828B560 /* Pods_STFlightKit_Example.framework */,
-				FAB3B36B0A858E178B67761A /* Pods_STFlightKit_Tests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		F1834EC176D92E30DADAB83B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AAC9785396900BFA35856A4D /* Pods-STFlightKit_Example.debug.xcconfig */,
-				B88540E0849816DDE7684B15 /* Pods-STFlightKit_Example.release.xcconfig */,
-				8B7EF7960CFAF1055FC2EDA3 /* Pods-STFlightKit_Tests.debug.xcconfig */,
-				A45D1F88DAF60E5B685179BA /* Pods-STFlightKit_Tests.release.xcconfig */,
+				988F3B3BF05F1169D8A65D59 /* Pods-STFlightKit_Example.debug.xcconfig */,
+				DB6074FF38ED1CE8CA763519 /* Pods-STFlightKit_Example.release.xcconfig */,
+				13A83FC312D73F6498A43759 /* Pods-STFlightKit_Tests.debug.xcconfig */,
+				44F0E662C5D934A679279539 /* Pods-STFlightKit_Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3185A181CF08B74027C2AF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CC61EC8C686380A628FB57C /* Pods_STFlightKit_Example.framework */,
+				6849CD4F80C71BB978E9F102 /* Pods_STFlightKit_Tests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,12 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "STFlightKit_Example" */;
 			buildPhases = (
-				C0ADCF6702A0F9F14C9C29DF /* [CP] Check Pods Manifest.lock */,
+				459212B9BF360C919C58FF29 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				80F233B0862A2A79C7F88E2C /* [CP] Embed Pods Frameworks */,
-				2E14171877F869B03DB61A2C /* [CP] Copy Pods Resources */,
+				9530BAF36CCB6629B3EE02C6 /* [CP] Embed Pods Frameworks */,
+				9FCADBABB6FAD88BFFF91FC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,7 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "STFlightKit_Tests" */;
 			buildPhases = (
-				E771A7E52A63DADC76405735 /* [CP] Check Pods Manifest.lock */,
+				B974B25CD14B82A4B826604E /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -263,237 +263,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2E14171877F869B03DB61A2C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-STFlightKit_Example/Pods-STFlightKit_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/GoogleSignIn/GoogleSignIn.bundle",
-				"${PODS_ROOT}/ImageSlideshow/ImageSlideshow/Assets/ic_cross_white@2x.png",
-				"${PODS_ROOT}/ImageSlideshow/ImageSlideshow/Assets/ic_cross_white@3x.png",
-				"${PODS_CONFIGURATION_BUILD_DIR}/PKHUD/PKHUDResources.bundle",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/LoadingVC.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/PaymentConfirmationVC.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/CouponSuggestionView.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/PhoneNumberVerificationView.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/TravelAdvice.storyboardc",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/ExploreDestinationTVCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/PermissionInfoTVCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/TravelAdviceTVCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/TravelAdvisoryLevelTVCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/TravelDetailsInfoTVCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/JTCalendarHeader.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/JTCalendarView.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/JTDateCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/DiscountOptionsCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/EarnTripcoinView.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/RedeemTripcoinView.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/UseCouponView.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/FilterCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/FilterResetCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/BriefInfoCardCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/InfoSelectionCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/InfoTextFieldCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/InfoUploadCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/PaymentGatewaysView.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/FareCardSingleLineCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/PriceBreakdownFareCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/PriceViewCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/PriceRangeCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SingleCellShareView.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SingleCellTripCoinView.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/TripCoinCardCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/TripCoinViewCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/PostCardCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SharePostTVCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/RightArrowTitleCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/DoubleInputCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/FirstNameInputCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/LastNameInputCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/TowColGivenNameInputCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/RetryInfoCardCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SearchCountryTVCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SingleInputCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SingleInputTakenCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SingleInputTitleCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/STSingleButtonCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SingleButtonCardCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SingleLabelInfoTVCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SingleLineInfoCardCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STCoreKit/STCoreKit.framework/SwitchCell.nib",
-				"${PODS_ROOT}/STCoreKit/STCoreKit/Classes/Assets.xcassets",
-				"${PODS_CONFIGURATION_BUILD_DIR}/STCoreKit/STCoreKit.bundle",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/FlightBooking.storyboardc",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/Base.lproj/Flight.storyboardc",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/BaggageInfoTVCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/BaggageSelectionCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/FlightBookingCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/FlightCalendarTopView.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/CovidInfoCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/CovidTestChargeCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/LearnMoreCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/LearnMoreCVCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/FlightLegCardCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/FlightSegmentCardCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/FlightSegmentCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/NextPrevLegDetailsCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/SeatAndBagageInfoCardCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/WarningMessageCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/FlightInfoHeaderView.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/FlightLegPlaceholderView.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/FlightLegView.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/FlightNameCollectionViewCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/AirportCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/AirportInputCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/FilterFlightDurationCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/FilterFlightScheduleCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/FilterPriceRangeCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/FlightFilterAirlinesCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/OptionSelectTBCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/NameInputGuideCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/FlightCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/TravelerCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/PriceChangeView.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/ConditionCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/EditableContactCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/FlightEditContactButtonCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/InfoDetailCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/NameCell.nib",
-				"${BUILT_PRODUCTS_DIR}/STFlightKit/STFlightKit.framework/PassportVisaCell.nib",
-				"${PODS_ROOT}/../../STFlightKit/Classes/FlightAssets.xcassets",
-				"${PODS_CONFIGURATION_BUILD_DIR}/STFlightKit/STFlightKit.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC-C++/gRPCCertificates-Cpp.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_cross_white@2x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ic_cross_white@3x.png",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PKHUDResources.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LoadingVC.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PaymentConfirmationVC.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CouponSuggestionView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PhoneNumberVerificationView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TravelAdvice.storyboardc",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExploreDestinationTVCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PermissionInfoTVCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TravelAdviceTVCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TravelAdvisoryLevelTVCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TravelDetailsInfoTVCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JTCalendarHeader.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JTCalendarView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JTDateCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DiscountOptionsCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EarnTripcoinView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RedeemTripcoinView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UseCouponView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FilterCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FilterResetCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BriefInfoCardCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InfoSelectionCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InfoTextFieldCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InfoUploadCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PaymentGatewaysView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FareCardSingleLineCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PriceBreakdownFareCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PriceViewCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PriceRangeCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SingleCellShareView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SingleCellTripCoinView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TripCoinCardCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TripCoinViewCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PostCardCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SharePostTVCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RightArrowTitleCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DoubleInputCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirstNameInputCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LastNameInputCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TowColGivenNameInputCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RetryInfoCardCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SearchCountryTVCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SingleInputCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SingleInputTakenCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SingleInputTitleCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/STSingleButtonCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SingleButtonCardCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SingleLabelInfoTVCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SingleLineInfoCardCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SwitchCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/STCoreKit.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FlightBooking.storyboardc",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Flight.storyboardc",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BaggageInfoTVCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BaggageSelectionCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FlightBookingCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FlightCalendarTopView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CovidInfoCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CovidTestChargeCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LearnMoreCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LearnMoreCVCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FlightLegCardCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FlightSegmentCardCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FlightSegmentCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NextPrevLegDetailsCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SeatAndBagageInfoCardCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WarningMessageCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FlightInfoHeaderView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FlightLegPlaceholderView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FlightLegView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FlightNameCollectionViewCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AirportCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AirportInputCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FilterFlightDurationCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FilterFlightScheduleCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FilterPriceRangeCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FlightFilterAirlinesCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OptionSelectTBCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NameInputGuideCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FlightCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TravelerCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PriceChangeView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ConditionCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EditableContactCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FlightEditContactButtonCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/InfoDetailCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NameCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PassportVisaCell.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/STFlightKit.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates-Cpp.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-STFlightKit_Example/Pods-STFlightKit_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		80F233B0862A2A79C7F88E2C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-STFlightKit_Example/Pods-STFlightKit_Example-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBAEMKit/FBAEMKit.framework/FBAEMKit",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework/FBSDKCoreKit",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKCoreKit_Basics/FBSDKCoreKit_Basics.framework/FBSDKCoreKit_Basics",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework/FBSDKLoginKit",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/FBSDKShareKit/FBSDKShareKit.framework/FBSDKShareKit",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBAEMKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit_Basics.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-STFlightKit_Example/Pods-STFlightKit_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C0ADCF6702A0F9F14C9C29DF /* [CP] Check Pods Manifest.lock */ = {
+		459212B9BF360C919C58FF29 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -515,7 +285,37 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E771A7E52A63DADC76405735 /* [CP] Check Pods Manifest.lock */ = {
+		9530BAF36CCB6629B3EE02C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-STFlightKit_Example/Pods-STFlightKit_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FCADBABB6FAD88BFFF91FC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-STFlightKit_Example/Pods-STFlightKit_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B974B25CD14B82A4B826604E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -688,7 +488,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAC9785396900BFA35856A4D /* Pods-STFlightKit_Example.debug.xcconfig */;
+			baseConfigurationReference = 988F3B3BF05F1169D8A65D59 /* Pods-STFlightKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = STFlightKit/Info.plist;
@@ -704,7 +504,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B88540E0849816DDE7684B15 /* Pods-STFlightKit_Example.release.xcconfig */;
+			baseConfigurationReference = DB6074FF38ED1CE8CA763519 /* Pods-STFlightKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = STFlightKit/Info.plist;
@@ -720,7 +520,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B7EF7960CFAF1055FC2EDA3 /* Pods-STFlightKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = 13A83FC312D73F6498A43759 /* Pods-STFlightKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -743,7 +543,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A45D1F88DAF60E5B685179BA /* Pods-STFlightKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 44F0E662C5D934A679279539 /* Pods-STFlightKit_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
