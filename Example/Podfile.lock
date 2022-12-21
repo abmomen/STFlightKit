@@ -865,7 +865,7 @@ PODS:
     - Socket.IO-Client-Swift
     - SwiftKeychainWrapper
     - SwiftyJSON
-  - STFlightKit (0.1.0):
+  - STFlightKit (1.0.0):
     - Alamofire
     - Base64
     - BlueCryptor
@@ -1022,7 +1022,7 @@ SPEC CHECKSUMS:
   Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
   Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
   STCoreKit: 2c7411e9b45dd8845acb8fadcc0f1caa09f69c96
-  STFlightKit: fa709a72bc35d176db08c987fbc5a5a9e715e927
+  STFlightKit: 9153daf48da4106827e8d56c43398665fecc9d8b
   SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
