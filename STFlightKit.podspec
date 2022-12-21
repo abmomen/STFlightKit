@@ -20,6 +20,8 @@ Pod::Spec.new do |s|
     'STFlightKit' => ['STFlightKit/**/*.{xcassets,xib,storyboard}']
   }
   
+  s.resources = ['STFlightKit/**/*.{xcassets,xib,storyboard}']
+  
   s.dependency 'STCoreKit'
   s.dependency 'JWT'
   s.dependency 'PKHUD'
