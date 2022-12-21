@@ -14,13 +14,13 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
-  s.source_files = 'STFlightKit/**/*.{swift,xcassets,xib,storyboard}'
+  s.source_files = 'Pod/Classes/**/*.{swift}'
   
   s.resource_bundles = {
-    'STFlightKit' => ['STFlightKit/**/*.{swift,xcassets,xib,storyboard}']
+    'STFlightKit' => ['Pod/Classes/**/*.{storyboard,xib,xcassets,json,imageset,png}']
   }
   
-  s.resources = ['STFlightKit/**/*.{swift,xcassets,xib,storyboard}']
+  #s.resources = ['STFlightKit/**/*.{swift,xcassets,xib,storyboard}']
   
   s.dependency 'STCoreKit'
   s.dependency 'JWT'
