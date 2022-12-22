@@ -12,17 +12,12 @@ Pod::Spec.new do |s|
   s.author           = { 'abmomen' => 'abdulmomen130@gmail.com' }
   s.source           = { :git => 'https://github.com/abmomen/STFlightKit.git', :tag => s.version.to_s }
   
-  s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
+  s.ios.deployment_target = '13.0'
   
   s.source_files = 'STFlightKit/Classes/**/*.{swift}'
   s.resources = "STFlightKit/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-  
-  
-  #s.resource_bundles = {
-  #  'STFlightKit' => ['STFlightKit/Classes/**/*.{swift,storyboard,xib,xcassets,json,imageset,png}']
-  #}
-  
+    
   s.dependency 'STCoreKit'
   s.dependency 'JWT'
   s.dependency 'PKHUD'
