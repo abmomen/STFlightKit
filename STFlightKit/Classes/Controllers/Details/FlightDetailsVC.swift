@@ -733,9 +733,9 @@ extension FlightDetailsVC: MainEntryVCDelegate {
     }
     
     private func presentLoginView() {
-        //let mainEntryVC = MainEntryVC.instantiate()
-        //mainEntryVC.delegate = self
-        //self.present(mainEntryVC, animated: true, completion: nil)
+        let mainEntryVC = AuthVC.instantiate()
+        mainEntryVC.delegate = self
+        self.present(mainEntryVC, animated: true, completion: nil)
     }
     
     private func showLoginAlert() {

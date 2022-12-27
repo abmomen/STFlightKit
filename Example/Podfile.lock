@@ -834,7 +834,7 @@ PODS:
   - Socket.IO-Client-Swift (16.0.1):
     - Starscream (~> 4.0)
   - Starscream (4.0.4)
-  - STCoreKit (0.1.0):
+  - STCoreKit (1.0.0):
     - Alamofire
     - Base64
     - BlueCryptor
@@ -967,7 +967,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   STCoreKit:
-    :commit: 9041716be1be71902f50044bb65365c5d0c18288
+    :commit: 2de23b118e0ecd7e807ba46c73e0f852bb2389d6
     :git: https://github.com/abmomen/STCoreKit.git
 
 SPEC CHECKSUMS:
@@ -1021,8 +1021,8 @@ SPEC CHECKSUMS:
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
   Socket.IO-Client-Swift: c116d6dc9fd6be9c259bacfe143f8725bce7d79e
   Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
-  STCoreKit: 2c7411e9b45dd8845acb8fadcc0f1caa09f69c96
-  STFlightKit: 9153daf48da4106827e8d56c43398665fecc9d8b
+  STCoreKit: d11b67942d067428d3d456d682ad123bb84097cb
+  STFlightKit: 8384130db5094acc8b1e225f963d99d3fd52bd6f
   SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
