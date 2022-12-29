@@ -1241,6 +1241,13 @@ public extension FlightPassengerInfoViewModel {
     }
 }
 
+public extension FlightPassengerInfoViewModel {
+    func didSelectDoB(_ dob: Date?) {
+        passengerInfo.dob = dob
+        viewDelegate?.onAddUpdateStatusChanged(viewModel: self)
+    }
+}
+
 //MARK:- GenderSelectionDelegate
 public extension FlightPassengerInfoViewModel {
     func genderSelectionChanged(for indexPath: IndexPath?, selectedGender: GenderType) {
