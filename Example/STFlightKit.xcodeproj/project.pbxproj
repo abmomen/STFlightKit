@@ -14,6 +14,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		CCE5E648295D6DD600DB0AC4 /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = CCE5E647295D6DD600DB0AC4 /* Countries.json */; };
+		CCE8AB67295D670800A965A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCE8AB66295D670800A965A7 /* GoogleService-Info.plist */; };
 		DE97D6747122DED9E8DE15F4 /* Pods_STFlightKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB40045A99A4EA92095D0A3F /* Pods_STFlightKit_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		95329F64103A230A9D3E4EA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CC81125BCC7A95D5AF87BE3D /* STFlightKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = STFlightKit.podspec; path = ../STFlightKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CCE5E647295D6DD600DB0AC4 /* Countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Countries.json; sourceTree = "<group>"; };
+		CCE8AB66295D670800A965A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D0A1127EFA20ED7A8A7A46B4 /* Pods_STFlightKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STFlightKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB40045A99A4EA92095D0A3F /* Pods_STFlightKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STFlightKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -107,6 +111,8 @@
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				CCE5E647295D6DD600DB0AC4 /* Countries.json */,
+				CCE8AB66295D670800A965A7 /* GoogleService-Info.plist */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for STFlightKit";
@@ -248,7 +254,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				CCE8AB67295D670800A965A7 /* GoogleService-Info.plist in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				CCE5E648295D6DD600DB0AC4 /* Countries.json in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,11 +499,13 @@
 			baseConfigurationReference = 32BB5CD80EFE7ADB6141F1C5 /* Pods-STFlightKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = STFlightKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = net.sharetrip.ios.flight.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
@@ -507,11 +517,13 @@
 			baseConfigurationReference = 4D9EBD258A5F3256F68C2084 /* Pods-STFlightKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = STFlightKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = net.sharetrip.ios.flight.example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
