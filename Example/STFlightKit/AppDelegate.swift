@@ -8,16 +8,21 @@
 
 import UIKit
 import FirebaseCore
+import STCoreKit
+import STFlightKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         FirebaseApp.configure()
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = NavigationController(rootViewController: FlightSearchVC.instantiate())
+        
         return true
     }
 
