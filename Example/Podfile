@@ -6,7 +6,7 @@ install! 'cocoapods', :deterministic_uuids => false
 install! 'cocoapods', :disable_input_output_paths => true
 
 target 'STFlightKit_Example' do
-  pod 'STFlightKit', :path => '../'
+  pod 'STFlightKit', :git => 'https://github.com/abmomen/STFlightKit.git'
   pod 'STCoreKit', :git => 'https://github.com/abmomen/STCoreKit.git'
 
   target 'STFlightKit_Tests' do

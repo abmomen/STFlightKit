@@ -17,10 +17,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        var navigationBarAppearace = UINavigationBar.appearance()
-
-        navigationBarAppearace.tintColor = UIColor.appPrimary
-        navigationBarAppearace.barTintColor = UIColor.appPrimary
     }
 
     override func didReceiveMemoryWarning() {

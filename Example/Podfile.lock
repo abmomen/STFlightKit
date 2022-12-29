@@ -902,7 +902,7 @@ PODS:
 
 DEPENDENCIES:
   - STCoreKit (from `https://github.com/abmomen/STCoreKit.git`)
-  - STFlightKit (from `../`)
+  - STFlightKit (from `https://github.com/abmomen/STFlightKit.git`)
 
 SPEC REPOS:
   trunk:
@@ -963,12 +963,15 @@ EXTERNAL SOURCES:
   STCoreKit:
     :git: https://github.com/abmomen/STCoreKit.git
   STFlightKit:
-    :path: "../"
+    :git: https://github.com/abmomen/STFlightKit.git
 
 CHECKOUT OPTIONS:
   STCoreKit:
     :commit: 2de23b118e0ecd7e807ba46c73e0f852bb2389d6
     :git: https://github.com/abmomen/STCoreKit.git
+  STFlightKit:
+    :commit: 18f416e0d07065cfad50358f5680039953693811
+    :git: https://github.com/abmomen/STFlightKit.git
 
 SPEC CHECKSUMS:
   abseil: ebe5b5529fb05d93a8bdb7951607be08b7fa71bc
@@ -1026,6 +1029,6 @@ SPEC CHECKSUMS:
   SwiftKeychainWrapper: 807ba1d63c33a7d0613288512399cd1eda1e470c
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 5d44f0401c5e809b5667b066c95318ca8473711b
+PODFILE CHECKSUM: a84f02283eb51665d5697398c0729cedc62df763
 
 COCOAPODS: 1.11.3
