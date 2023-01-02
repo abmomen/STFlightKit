@@ -16,6 +16,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '13.0'
   
   s.source_files = 'STFlightKit/Classes/**/*.{swift}'
+  s.resource_bundles = {
+   'STFlightKit' => ['STFlightKit/**/*']
+  }
   s.resources = "STFlightKit/**/*.{storyboard,xib,xcassets}"
     
   s.dependency 'STCoreKit'
